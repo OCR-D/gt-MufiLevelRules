@@ -57,7 +57,7 @@
         <xsl:for-each-group select="$MUFIEXPORT//fn:map" group-by="fn:string[@key = 'range']">
             <xsl:sort select="fn:current-grouping-key()"/>
             
-            <xsl:result-document href="rules/precharacters/{fn:current-grouping-key()}.json">
+            <xsl:result-document href="rules/characters/{fn:current-grouping-key()}.json">
                 {"ruleset":[
                 <xsl:variable name="keys"><line>
                     <xsl:for-each-group select="fn:current-group()" group-by="fn:string[@key = 'alpha']">

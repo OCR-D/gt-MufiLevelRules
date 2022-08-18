@@ -1,0 +1,197 @@
+
+                {"ruleset":[
+                
+                            
+                                {"rule": ["A","A","A"], "type": "level"},
+                            
+                                {"rule": ["a","a","a"], "type": "level"},
+                            
+                                {"rule": ["B","B","B"], "type": "level"},
+                            
+                                {"rule": ["b","b","b"], "type": "level"},
+                            
+                                {"rule": ["C","C","C"], "type": "level"},
+                            
+                                {"rule": ["c","c","c"], "type": "level"},
+                            
+                                {"rule": ["D","D","D"], "type": "level"},
+                            
+                                {"rule": ["d","d","d"], "type": "level"},
+                            
+                                {"rule": ["E","E","E"], "type": "level"},
+                            
+                                {"rule": ["e","e","e"], "type": "level"},
+                            
+                                {"rule": ["F","F","F"], "type": "level"},
+                            
+                                {"rule": ["f","f","f"], "type": "level"},
+                            
+                                {"rule": ["G","G","G"], "type": "level"},
+                            
+                                {"rule": ["g","g","g"], "type": "level"},
+                            
+                                {"rule": ["H","H","H"], "type": "level"},
+                            
+                                {"rule": ["h","h","h"], "type": "level"},
+                            
+                                {"rule": ["I","I","I"], "type": "level"},
+                            
+                                {"rule": ["i","i","i"], "type": "level"},
+                            
+                                {"rule": ["J","J","J"], "type": "level"},
+                            
+                                {"rule": ["j","j","j"], "type": "level"},
+                            
+                                {"rule": ["K","K","K"], "type": "level"},
+                            
+                                {"rule": ["k","k","k"], "type": "level"},
+                            
+                                {"rule": ["L","L","L"], "type": "level"},
+                            
+                                {"rule": ["l","l","l"], "type": "level"},
+                            
+                                {"rule": ["M","M","M"], "type": "level"},
+                            
+                                {"rule": ["m","m","m"], "type": "level"},
+                            
+                                {"rule": ["N","N","N"], "type": "level"},
+                            
+                                {"rule": ["n","n","n"], "type": "level"},
+                            
+                                {"rule": ["O","O","O"], "type": "level"},
+                            
+                                {"rule": ["o","o","o"], "type": "level"},
+                            
+                                {"rule": ["P","P","P"], "type": "level"},
+                            
+                                {"rule": ["p","p","p"], "type": "level"},
+                            
+                                {"rule": ["Q","Q","Q"], "type": "level"},
+                            
+                                {"rule": ["q","q","q"], "type": "level"},
+                            
+                                {"rule": ["R","R","R"], "type": "level"},
+                            
+                                {"rule": ["r","r","r"], "type": "level"},
+                            
+                                {"rule": ["S","S","S"], "type": "level"},
+                            
+                                {"rule": ["s","s","s"], "type": "level"},
+                            
+                                {"rule": ["T","T","T"], "type": "level"},
+                            
+                                {"rule": ["t","t","t"], "type": "level"},
+                            
+                                {"rule": ["U","U","U"], "type": "level"},
+                            
+                                {"rule": ["u","u","u"], "type": "level"},
+                            
+                                {"rule": ["V","V","V"], "type": "level"},
+                            
+                                {"rule": ["v","v","v"], "type": "level"},
+                            
+                                {"rule": ["W","W","W"], "type": "level"},
+                            
+                                {"rule": ["w","w","w"], "type": "level"},
+                            
+                                {"rule": ["X","X","X"], "type": "level"},
+                            
+                                {"rule": ["x","x","x"], "type": "level"},
+                            
+                                {"rule": ["Y","Y","Y"], "type": "level"},
+                            
+                                {"rule": ["y","y","y"], "type": "level"},
+                            
+                                {"rule": ["Z","Z","Z"], "type": "level"},
+                            
+                                {"rule": ["z","z","z"], "type": "level"},
+                            
+                                {"rule": [" "," "," "], "type": "level"},
+                            
+                                {"rule": ["","",""], "type": "level"},
+                            
+                                {"rule": ["0","0","0"], "type": "level"},
+                            
+                                {"rule": ["1","1","1"], "type": "level"},
+                            
+                                {"rule": ["2","2","2"], "type": "level"},
+                            
+                                {"rule": ["3","3","3"], "type": "level"},
+                            
+                                {"rule": ["4","4","4"], "type": "level"},
+                            
+                                {"rule": ["5","5","5"], "type": "level"},
+                            
+                                {"rule": ["6","6","6"], "type": "level"},
+                            
+                                {"rule": ["7","7","7"], "type": "level"},
+                            
+                                {"rule": ["8","8","8"], "type": "level"},
+                            
+                                {"rule": ["9","9","9"], "type": "level"},
+                            
+                                {"rule": ["!","!","!"], "type": "level"},
+                            
+                                {"rule": ["\"","\"","\""], "type": "level"},
+                            
+                                {"rule": ["'","'","'"], "type": "level"},
+                            
+                                {"rule": ["(","(","("], "type": "level"},
+                            
+                                {"rule": [")",")",")"], "type": "level"},
+                            
+                                {"rule": [",",",",","], "type": "level"},
+                            
+                                {"rule": ["-","-","-"], "type": "level"},
+                            
+                                {"rule": ["/","/","/"], "type": "level"},
+                            
+                                {"rule": [":",":",":"], "type": "level"},
+                            
+                                {"rule": ["<","<","<"], "type": "level"},
+                            
+                                {"rule": [">",">",">"], "type": "level"},
+                            
+                                {"rule": ["?","?","?"], "type": "level"},
+                            
+                                {"rule": ["[","[","["], "type": "level"},
+                            
+                                {"rule": ["\\","\\","\\"], "type": "level"},
+                            
+                                {"rule": ["]","]","]"], "type": "level"},
+                            
+                                {"rule": ["_","_","_"], "type": "level"},
+                            
+                                {"rule": ["{","{","{"], "type": "level"},
+                            
+                                {"rule": ["|","|","|"], "type": "level"},
+                            
+                                {"rule": ["}","}","}"], "type": "level"},
+                            
+                                {"rule": ["&","&","&"], "type": "level"},
+                            
+                                {"rule": [".",".","."], "type": "level"},
+                            
+                                {"rule": [";",";",";"], "type": "level"},
+                            
+                                {"rule": ["^","^","^"], "type": "level"},
+                            
+                                {"rule": ["`","`","`"], "type": "level"},
+                            
+                                {"rule": ["~","~","~"], "type": "level"},
+                            
+                                {"rule": ["#","#","#"], "type": "level"},
+                            
+                                {"rule": ["$","$","$"], "type": "level"},
+                            
+                                {"rule": ["%","%","%"], "type": "level"},
+                            
+                                {"rule": ["*","*","*"], "type": "level"},
+                            
+                                {"rule": ["+","+","+"], "type": "level"},
+                            
+                                {"rule": ["=","=","="], "type": "level"},
+                            
+                                {"rule": ["@","@","@"], "type": "level"}
+                ]}
+            

@@ -1,0 +1,19 @@
+
+                {"ruleset":[
+                
+                            
+                                {"rule": ["ff","ff","ﬀ"], "type": "level"},
+                            
+                                {"rule": ["fi","fi","ﬁ"], "type": "level"},
+                            
+                                {"rule": ["fl","fl","ﬂ"], "type": "level"},
+                            
+                                {"rule": ["ffi","ffi","ﬃ"], "type": "level"},
+                            
+                                {"rule": ["ffl","ffl","ﬄ"], "type": "level"},
+                            
+                                {"rule": ["ſt","ſt","ﬅ"], "type": "level"},
+                            
+                                {"rule": ["st","st","ﬆ"], "type": "level"}
+                ]}
+            
