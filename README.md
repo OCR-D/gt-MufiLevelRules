@@ -44,4 +44,5 @@ These rules can be found under:
 ## See Also
 - Ground truth level overview https://ocr-d.de/en/gt-guidelines/trans/trLevels.html
 - MUFI: The Medieval Unicode Font Initiative https://mufi.info/
+- MUFI’s data as json https://mufi.info/m.php?p=mufiexport
 - OCR-D-Ground-Truth-Guidelines  https://ocr-d.de/en/gt-guidelines/trans/
