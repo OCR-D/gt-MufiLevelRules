@@ -29,11 +29,11 @@ These rules can be found under:
 ```
 
 - The rule starts with: rule
-- three rules are defined
-- Level 1 is at the first position
-- Level 2 is in the second place
-- Level 3 is in the third place
-- there can be blanks. In this case, there is no level definition. 
+- Three rules are defined:
+  - Level 1 is at the first position
+  - Level 2 is in the second place
+  - Level 3 is in the third place
+- There can be blanks (level). In this case, there is no level definition. 
 
 ## Notes for in-house production:
 - Saxon XSLT Transformer (https://www.saxonica.com/download/download_page.xml) is installed on the computer.
