@@ -35,10 +35,14 @@ These rules can be found under:
 - Level 3 is in the third place
 - there can be blanks. In this case, there is no level definition. 
 
-## To note for in-house production:
-- saxon is installed on the computer
+## Notes for in-house production:
+- Saxon XSLT Transformer (https://www.saxonica.com/download/download_page.xml) is installed on the computer.
 - Since external resources are requested and evaluated with the program, the computer must be connected to the Internet.
   - The external resources can be found at: https://mufi.info/m.php?p=mufiexport
+
+Start the conversion: `java -jar saxon-he.jar -xsl:MufiGTLevelRules.xsl -s:MufiGTLevelRules.xsl`
+
+- The result of the conversion can be found in the directory: [directory]/rules/characters
 
 
 ## See Also
