@@ -14,9 +14,9 @@ Note:
 
 Since external resources are requested and evaluated by the program, the computer must be connected to the Internet.
 
-Install Saxon for XSLT 3.0. Then simply run with `MufiGTLevelRules.xsl`:
+Install [Saxon](https://www.saxonica.com/download/download_page.xml) for XSL Transformations v3.0. Then simply run with `MufiGTLevelRules.xsl`:
 
-    java -jar saxon9he.jar ...
+    java -jar saxon-he.jar -xsl:MufiGTLevelRules.xsl -s:MufiGTLevelRules.xsl
 
 This will:
 
