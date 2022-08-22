@@ -28,7 +28,7 @@
                             
                                 {"rule": ["","",""], "type": "level"},
                             
-                                {"rule": ["q;q;","q;","q;",""], "type": "level"},
+                                {"rule": ["q;","q;",""], "type": "level"},
                             
                                 {"rule": ["","",""], "type": "level"},
                             
