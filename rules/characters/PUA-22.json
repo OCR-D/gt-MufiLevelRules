@@ -1,0 +1,31 @@
+
+                {"ruleset":[
+                
+                            
+                                {"rule": ["","Æ̨",""], "type": "level"},
+                            
+                                {"rule": ["","æ̨",""], "type": "level"},
+                            
+                                {"rule": ["","̨",""], "type": "level"},
+                            
+                                {"rule": ["","̨",""], "type": "level"},
+                            
+                                {"rule": ["","C̨",""], "type": "level"},
+                            
+                                {"rule": ["","c̨",""], "type": "level"},
+                            
+                                {"rule": ["","ı̨",""], "type": "level"},
+                            
+                                {"rule": ["","Ø̨",""], "type": "level"},
+                            
+                                {"rule": ["","Œ̨",""], "type": "level"},
+                            
+                                {"rule": ["","ø̨",""], "type": "level"},
+                            
+                                {"rule": ["","œ̨",""], "type": "level"},
+                            
+                                {"rule": ["","T̨",""], "type": "level"},
+                            
+                                {"rule": ["","t̨",""], "type": "level"}
+                ]}
+            
