@@ -52,6 +52,7 @@ jobs:
     - name: look
       run: |
         cd ghout
+        cd rules
         ls -l
       shell: bash  
 
