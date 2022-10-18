@@ -30,11 +30,11 @@ This will:
 
 1. Extract the [MUFI rules](https://mufi.info/m.php?p=mufiexport) (and place them into `rules/characters/*.json`).
 
-2. Merge with the following **additional rules** (from the OCR-D Ground-Truth Transcription Guide](https://ocr-d.de/en/gt-guidelines/trans/trBeispiele.html), which have priority (take precendence over MUFI rules where applicable):
-- [ruleset_character.json](https://github.com/tboenig/gt-guidelines/blob/gh-pages/rules/ruleset_character.json)
-- [ruleset_hyphenation.json](https://github.com/tboenig/gt-guidelines/blob/gh-pages/rules/ruleset_hyphenation.json)
-- [ruleset_ligature.json](https://github.com/tboenig/gt-guidelines/blob/gh-pages/rules/ruleset_ligature.json)
-- [ruleset_roman_digits.json](https://github.com/tboenig/gt-guidelines/blob/gh-pages/rules/ruleset_roman_digits.json)
+2. Merge with the following **additional rules** (from the [OCR-D Ground-Truth Transcription Guide](https://ocr-d.de/en/gt-guidelines/trans/trBeispiele.html), which have priority (take precendence over MUFI rules where applicable):
+   - [ruleset_character.json](https://github.com/tboenig/gt-guidelines/blob/gh-pages/rules/ruleset_character.json)
+   - [ruleset_hyphenation.json](https://github.com/tboenig/gt-guidelines/blob/gh-pages/rules/ruleset_hyphenation.json)
+   - [ruleset_ligature.json](https://github.com/tboenig/gt-guidelines/blob/gh-pages/rules/ruleset_ligature.json)
+   - [ruleset_roman_digits.json](https://github.com/tboenig/gt-guidelines/blob/gh-pages/rules/ruleset_roman_digits.json)
 
 3. Output to `megarules.json`.
 
