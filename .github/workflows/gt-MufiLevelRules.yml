@@ -20,6 +20,8 @@ jobs:
       run: | 
         git clone https://github.com/tboenig/keyboardGT.git
         mv keyboardGT/metadata/mufi.json metadata/mufi.json
+        mv keyboardGT/scripts/table_hide.css scripts/table_hide.css
+        mv keyboardGT/scripts/_config.yml scripts/_config.yml
         rm -r keyboardGT
    
    
