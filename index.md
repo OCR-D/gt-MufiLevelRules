@@ -1,4 +1,4 @@
-<link href="table_hide.css" rel="stylesheet"></link>
+<link href="table_hide.css" rel="stylesheet"/>
 
 # gt-MufiLevelRules
 
