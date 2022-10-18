@@ -14,8 +14,10 @@ Note:
 
 ## Download the Rules
 
-You can download the set of rules here.
-<!--🚦  https://tboenig.github.io/ 🚦-->
+**🚦 You can download the set of rules here. 🚦**
+- select the corresponding rule file: https://github.com/tboenig/gt-MufiLevelRules/tree/gh-pages/rules/characters
+- as zip release file: https://github.com/tboenig/gt-MufiLevelRules/releases/latest
+
 
 
 ## Recreation of the rules
