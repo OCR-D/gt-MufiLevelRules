@@ -37,7 +37,7 @@ jobs:
         mkdir ghout
         mkdir ghout/rules
         mkdir ghout/rules/characters
-        cp Readme.md ghout/index.md
+        cp README.md ghout/index.md
         
 
    # Transformation and analysis
