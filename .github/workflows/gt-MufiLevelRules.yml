@@ -49,8 +49,8 @@ jobs:
         java -jar saxon-he-11.4.jar -xsl:scripts/MufiGTLevelRules.xsl -s:scripts/MufiGTLevelRules.xsl
       shell: bash
 
-    -name: look
-     run: |
+    - name: look
+      run: |
         ls -l \
         cd ghout/rules/characters \
         ls -l
