@@ -22,7 +22,7 @@ Since external resources are requested and evaluated by the program, the compute
 
 Install [Saxon](https://www.saxonica.com/download/download_page.xml) for XSL Transformations v3.0. Then simply run with `MufiGTLevelRules.xsl`:
 
-    java -jar saxon-he.jar -xsl:MufiGTLevelRules.xsl -s:MufiGTLevelRules.xsl
+    java -jar saxon-he.jar -xsl:MufiGTLevelRules.xsl -s:MufiGTLevelRules.xsl output=characters
  
 The result of the conversion can be found in the directory: ``[directory]/rules/characters``.
 
