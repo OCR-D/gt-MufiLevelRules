@@ -32,7 +32,7 @@ jobs:
 
     - name: Download and install saxon
       run: |
-       wget https://sourceforge.net/projects/saxon/files/Saxon-HE/11/Java/SaxonHE11-4J.zip/download
+       wget https://sourceforge.net/projects/saxon/files/Saxon-HE/10/Java/SaxonHE10-5J.zip/download
        unzip download
 
 
@@ -49,7 +49,7 @@ jobs:
 
     - name: Transform MUFI snapshot to rules 
       run: |
-        java -jar saxon-he-11.4.jar -xsl:scripts/MufiGTLevelRules.xsl -s:scripts/MufiGTLevelRules.xsl
+        java -jar saxon-he-10.5.jar -xsl:scripts/MufiGTLevelRules.xsl -s:scripts/MufiGTLevelRules.xsl
       shell: bash
 
     - name: look
