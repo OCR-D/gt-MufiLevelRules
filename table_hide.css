@@ -47,6 +47,10 @@
              
 /*            Normal Styles*/
             
+            h1.header {
+                font-size: 20px !important;
+            }
+
             header {
             background-color: #c8ab37 !important;
             border-color: #c8ab37 !important;
