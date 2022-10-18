@@ -33,6 +33,7 @@ jobs:
 
     - name: Make gh-pages_out, rules
       run: |
+        ls -l
         mkdir ghout
         mkdir ghout/rules
         mkdir ghout/rules/characters
