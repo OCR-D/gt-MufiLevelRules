@@ -20,25 +20,26 @@ You can download the set of rules here.
 
 ## Recreation of the rules
 
-Since external resources are requested and evaluated by the program, the computer must be connected to the Internet.
+1. copy or clone the repository.
 
-Install [Saxon](https://www.saxonica.com/download/download_page.xml) for XSL Transformations v3.0. Then simply run with `MufiGTLevelRules.xsl`:
+    `git clone https://github.com/tboenig/gt-MufiLevelRules.git`
+2. Install [Saxon](https://www.saxonica.com/download/download_page.xml) for XSL Transformations v3.0. Then simply run with:
 
-    java -jar saxon-he.jar -xsl:MufiGTLevelRules.xsl -s:MufiGTLevelRules.xsl output=characters
+    `java -jar saxon-he.jar -xsl:MufiGTLevelRules.xsl -s:MufiGTLevelRules.xsl output=characters`
  
 The result of the conversion can be found in the directory: ``[directory]/rules/characters``.
 
-This will:
+The script uses:
 
-1. Extract the [MUFI rules](https://mufi.info/m.php?p=mufiexport) (and place them into `rules/characters/*.json`).
+1. the [MUFI rules](https://mufi.info/m.php?p=mufiexport) and 
 
-2. Merge with the following **additional rules** from the [OCR-D Ground-Truth Transcription Guide](https://ocr-d.de/en/gt-guidelines/trans/trBeispiele.html), which have priority (take precendence over MUFI rules where applicable):
+2. a summary of the following [**additional rules**](https://github.com/tboenig/gt-MufiLevelRules/blob/main/metadata/megarules.json) from the [OCR-D Ground-Truth Transcription Guide](https://ocr-d.de/en/gt-guidelines/trans/trBeispiele.html), which have priority (take precendence over MUFI rules where applicable):
    - [ruleset_character.json](https://github.com/tboenig/gt-guidelines/blob/gh-pages/rules/ruleset_character.json)
    - [ruleset_hyphenation.json](https://github.com/tboenig/gt-guidelines/blob/gh-pages/rules/ruleset_hyphenation.json)
    - [ruleset_ligature.json](https://github.com/tboenig/gt-guidelines/blob/gh-pages/rules/ruleset_ligature.json)
    - [ruleset_roman_digits.json](https://github.com/tboenig/gt-guidelines/blob/gh-pages/rules/ruleset_roman_digits.json)
 
-3. Output to `megarules.json`.
+
 
 ## Description of the rules
 All JSON files (both the pure MUFI rules and the final result) follow the same schema.
