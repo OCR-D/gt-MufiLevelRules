@@ -44,7 +44,7 @@ jobs:
 
     - name: Transform MUFI snapshot to rules 
       run: |
-        java -jar -xsl:scripts/MufiGTLevelRules.xsl -s:scripts/MufiGTLevelRules.xsl
+        java -jar saxon-he-11.4.jar -xsl:scripts/MufiGTLevelRules.xsl -s:scripts/MufiGTLevelRules.xsl
       shell: bash
 
     
