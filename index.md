@@ -1,3 +1,5 @@
+<link href="table_hide.css" rel="stylesheet"></link>
+
 # gt-MufiLevelRules
 
 Creates OCR-D Ground-Truth Transcription Level Rules automatically from the encodings published by [MUFI: The Medieval Unicode Font Initiative](https://mufi.info/m.php?p=mufi). 
