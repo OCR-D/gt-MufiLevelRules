@@ -14,12 +14,15 @@
     
     
     <xsl:variable name="MUFIEXPORT">
-        <xsl:copy-of select="json-to-xml(unparsed-text('https://mufi.info/m.php?p=mufiexport'))"/>
+        <!--via mufi page-->
+        <!--<xsl:copy-of select="json-to-xml(unparsed-text('https://mufi.info/m.php?p=mufiexport'))"/>-->
+        <!--via local from GitHub Repo keyboardGT-->
+        <xsl:copy-of select="json-to-xml(unparsed-text('../metadata/mufi.json'))"/>
     </xsl:variable>
     
     
     <xsl:variable name="OCRDrulesIMPORT">
-        <xsl:copy-of select="json-to-xml(unparsed-text('megarules.json'))"/>
+        <xsl:copy-of select="json-to-xml(unparsed-text('../metadata/megarules.json'))"/>
     </xsl:variable>
 
     <!-- hexToDec from https://github.com/dariok/w2tei/blob/master/word-pack.xsl and 
@@ -57,7 +60,7 @@
         <xsl:for-each-group select="$MUFIEXPORT//fn:map" group-by="fn:string[@key = 'range']">
             <xsl:sort select="fn:current-grouping-key()"/>
             
-            <xsl:result-document href="rules/characters/{fn:current-grouping-key()}.json">
+            <xsl:result-document href="ghout/rules/characters/{fn:current-grouping-key()}.json">
                 {"ruleset":[
                 <xsl:variable name="keys"><line>
                     <xsl:for-each-group select="fn:current-group()" group-by="fn:string[@key = 'alpha']">

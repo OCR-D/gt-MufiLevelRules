@@ -10,13 +10,19 @@ Note:
 - For this reason, using the rules for automatic character normalization from level 3 or level 2 to level 1
   is currently not recommended before manually checking and correcting the corresponding rules.
 
+## Download the Rules
+
+You can download the set of rules here.
+<!--🚦  https://tboenig.github.io/ 🚦-->
+
+
 ## Recreation of the rules
 
 Since external resources are requested and evaluated by the program, the computer must be connected to the Internet.
 
 Install [Saxon](https://www.saxonica.com/download/download_page.xml) for XSL Transformations v3.0. Then simply run with `MufiGTLevelRules.xsl`:
 
-    java -jar saxon-he.jar -xsl:MufiGTLevelRules.xsl -s:MufiGTLevelRules.xsl
+    java -jar saxon-he.jar -xsl:MufiGTLevelRules.xsl -s:MufiGTLevelRules.xsl output=characters
  
 The result of the conversion can be found in the directory: ``[directory]/rules/characters``.
 
