@@ -1,0 +1,117 @@
+/*          Video */
+            video {
+                box-shadow: #999999 0.5em 0.5em 0.3em;
+                border-radius: 0.5em;
+                }
+            div.container {
+                display: grid;
+                grid-template-columns: auto auto;
+                
+            }
+            
+            div.column {
+                text-align: left;
+                padding: 1em;
+            }
+            
+/*          Data-Table*/
+            table.dataTable {
+                 margin: 0 !important;
+}
+            .dataTables_wrapper.no-footer .dataTables_scrollBody {
+               border-bottom: 0 !important; 
+}
+            
+            
+            div#table_id_filter {
+                margin-bottom: 0.5cm;
+            }
+            
+            .dataTables_wrapper .dataTables_scroll {
+             
+             width: 1800px !important;
+             }
+             
+             tbody th {
+                position: sticky !important;
+                left: 0;
+    
+             }
+             /*#table_id td {
+                text-align: right !important;
+             }*/
+             
+             table.dataTable thead th, table.dataTable tfoot th {
+             font-weight: normal !important;
+             }
+             
+/*            Normal Styles*/
+            
+            header {
+            background-color: #c8ab37 !important;
+            border-color: #c8ab37 !important;
+            }
+            
+            header li {
+                background: linear-gradient(to top, #c19b01 0%, #8d7102 100%) !important;
+                box-shadow: inset 0px 1px 1px 0 #e2b603 !important;
+            }
+            
+            span.big {
+                font-size: xx-large;
+            }
+            
+            
+            
+            button {
+             font-size: 12px;
+             float: left;
+             cursor: pointer;
+             text-align: left;
+             padding: 4px;
+             
+             }
+             
+             button:hover {
+             background-color: silver;
+             }
+             
+             
+             button i {
+                cursor: pointer;
+                display: inline-block;
+                position: relative;
+                transition: 0.3s;
+             }
+             
+             
+             button i:after {
+             content: 'Hide/Show';
+             position: absolute;
+             opacity: 0;
+             top: 0;
+             right: 20px;
+             transition: 0.3s;
+             }
+
+             button:hover i {
+             padding-right: 75px;
+             }
+             
+
+            button:hover i:after {
+              opacity: 1;
+              right: 0;
+            }
+            
+            table.noStyle {
+                table-layout: auto !important;
+                width: 210% !important;
+                border-style: none !important;
+            }
+            .noStyle td {
+                background-color:transparent !important;
+                
+            }
+            
+            
