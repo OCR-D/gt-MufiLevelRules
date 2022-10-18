@@ -8,8 +8,8 @@ The resulting OCR-D level rules conform to the [OCR-D specification](https://ocr
 These rules can be used for substitutions or level checks, among other things. 
 
 Note:
-- There may not always be a definition for every level, esp. on level 1. OCR-D will try to correct these gaps manually. 
-- For this reason, using the rules for automatic character normalization from level 3 or level 2 to level 1
+- There may not always be a definition for every level, esp. on *level one*. OCR-D will try to correct these gaps manually. 
+- For this reason, using the rules for automatic character normalization from *level three* or *level two* to *level one*
   is currently not recommended before manually checking and correcting the corresponding rules.
 
 ## Download the Rules
