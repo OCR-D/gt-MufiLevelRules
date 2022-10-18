@@ -51,7 +51,9 @@ jobs:
 
     - name: look
       run: |
-        cd scripts
+        cd ghout
+        cd rules
+        cd characters
         ls -l
       shell: bash  
 
