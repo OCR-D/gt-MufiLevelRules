@@ -22,7 +22,7 @@
     
     
     <xsl:variable name="OCRDrulesIMPORT">
-        <xsl:copy-of select="json-to-xml(unparsed-text('megarules.json'))"/>
+        <xsl:copy-of select="json-to-xml(unparsed-text('../metadata/megarules.json'))"/>
     </xsl:variable>
 
     <!-- hexToDec from https://github.com/dariok/w2tei/blob/master/word-pack.xsl and 
