@@ -14,7 +14,10 @@
     
     
     <xsl:variable name="MUFIEXPORT">
-        <xsl:copy-of select="json-to-xml(unparsed-text('https://mufi.info/m.php?p=mufiexport'))"/>
+        <!--via mufi page-->
+        <!--<xsl:copy-of select="json-to-xml(unparsed-text('https://mufi.info/m.php?p=mufiexport'))"/>-->
+        <!--via local from GitHub Repo keyboardGT-->
+        <xsl:copy-of select="json-to-xml(unparsed-text('../metadata/mufi.json'))"/>
     </xsl:variable>
     
     

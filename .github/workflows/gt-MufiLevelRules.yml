@@ -1,0 +1,125 @@
+name: keyboardGT
+'on':
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+jobs:
+  cli:
+    name: keyboardGT
+    runs-on: ubuntu-latest
+    steps:
+
+    - name: Git checkout
+      uses: actions/checkout@v2
+
+
+   # Installation and Directories
+
+    - name: Download and install saxon
+      run: |
+       wget https://sourceforge.net/projects/saxon/files/Saxon-HE/10/Java/SaxonHE10-5J.zip/download
+       unzip download
+
+
+    - name: Make gh-pages_out, keyboards, doc folder
+      run: |
+        mkdir ghout
+        mkdir ghout/keyboards
+        mkdir ghout/keyboards/aletheia
+        mkdir ghout/keyboards/transkribus
+        mkdir ghout/keyboards/LAREX
+        mkdir ghout/keyboards/qurator-neat
+        mkdir ghout/keyboards/escriptorium
+        mkdir ghout/doc
+        mkdir keyboards
+
+   # Transformation and analysis
+
+    - name: Transform MUFI snapshot to Aletheia keyboard
+      run: |
+        java -jar saxon-he-10.5.jar -xsl:scripts/keyboard.xsl output=keyboards \
+        -s:scripts/keyboard.xsl
+      shell: bash
+
+    - name: Transform MUFI snapshot to Transkribus keyboard
+      run: |
+        java -jar saxon-he-10.5.jar -xsl:scripts/keyboard.xsl output=tkeyboards \
+        -s:scripts/keyboard.xsl
+      shell: bash
+
+
+    - name: Transform MUFI snapshot to LAREX keyboard
+      run: |
+        java -jar saxon-he-10.5.jar -xsl:scripts/keyboard.xsl output=lkeyboards \
+        -s:scripts/keyboard.xsl
+      shell: bash
+
+
+    - name: Transform MUFI snapshot to qurator-neat keyboard
+      run: |
+        java -jar saxon-he-10.5.jar -xsl:scripts/keyboard.xsl output=qkeyboards \
+        -s:scripts/keyboard.xsl
+      shell: bash
+
+    - name: Transform MUFI snapshot to eScriptorium keyboard
+      run: |
+        java -jar saxon-he-10.5.jar -xsl:scripts/keyboard.xsl output=ekeyboards \
+        -s:scripts/keyboard.xsl
+      shell: bash
+
+    - name: Make compressed table view
+      run: |
+        java -jar saxon-he-10.5.jar -xsl:scripts/keyboard.xsl output=keytable release=$GITHUB_RUN_NUMBER \
+        -s:scripts/keyboard.xsl -o:ghout/overview.md
+      shell: bash
+
+   # GH-style
+
+    - name: Copy css styles, keyboards, docs and yml files
+      run:  |
+        cp scripts/table_hide.css ghout/
+        cp scripts/_config.yml ghout/
+        cp docu/* ghout/doc/
+        cp -r ghout/keyboards/* keyboards/
+
+
+
+    - name: Archive the keyboard files
+      uses: thedoctor0/zip-release@master
+      with:
+         filename: site.zip
+         path: 'keyboards'
+
+   # GitHub release
+
+    - name: Create GitHub release
+      id: create-new-release
+      uses: actions/create-release@latest
+      env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with:
+          tag_name: v${{ github.run_number }}
+          release_name: Keyboard-zip-package (Release${{ github.run_number }})
+          body_path: CHANGELOG.md
+          draft: false
+          prerelease: false
+
+
+    - name: Upload asset to GitHub release
+      uses: actions/upload-release-asset@latest
+      env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with:
+          upload_url: ${{ steps.create-new-release.outputs.upload_url }}
+          asset_path: ./site.zip
+          asset_name: keyboardGT-v${{ github.run_number }}.zip
+          asset_content_type: application/zip
+
+
+    - name: Deploy GT-Overview to GitHub Pages
+      uses: JamesIves/github-pages-deploy-action@3.7.1
+      with:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          BRANCH: gh-pages # The branch the action should deploy to.
+          FOLDER: ghout # The folder the action should deploy.
