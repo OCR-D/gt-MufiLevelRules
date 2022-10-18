@@ -51,6 +51,10 @@ jobs:
 
     - name: look
       run: |
+        ls -l 
+        cd ghout
+        cd rules
+        cd characters
         ls -l
       shell: bash  
 
