@@ -10,6 +10,12 @@ Note:
 - For this reason, using the rules for automatic character normalization from level 3 or level 2 to level 1
   is currently not recommended before manually checking and correcting the corresponding rules.
 
+## Download the Rules
+
+You can download the set of rules here.
+<!--🚦  https://tboenig.github.io/ 🚦-->
+
+
 ## Recreation of the rules
 
 Since external resources are requested and evaluated by the program, the computer must be connected to the Internet.
