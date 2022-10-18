@@ -46,17 +46,18 @@ jobs:
 
     - name: Transform MUFI snapshot to rules 
       run: |
-        java -jar saxon-he-11.4.jar -xsl:scripts/MufiGTLevelRules.xsl -s:scripts/MufiGTLevelRules.xsl \
+        java -jar saxon-he-11.4.jar -xsl:scripts/MufiGTLevelRules.xsl -s:scripts/MufiGTLevelRules.xsl
+      shell: bash
+
+    -name: look
+     run: |
         ls -l \
         cd ghout/rules/characters \
         ls -l
-      shell: bash
-
-    
 
    # GH-style
 
-    - name: Copy css styles, keyboards, docs and yml files
+    - name: Copy css styles, config files
       run:  |
         cp scripts/table_hide.css ghout/
         cp scripts/_config.yml ghout/
