@@ -51,9 +51,8 @@ jobs:
 
     - name: look
       run: |
-        ls -l \
-        cd ghout/rules/characters \
         ls -l
+      shell: bash  
 
    # GH-style
 
