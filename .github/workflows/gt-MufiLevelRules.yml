@@ -61,7 +61,7 @@ jobs:
 
 
 
-    - name: Archive the keyboard files
+    - name: Archive the rules files
       uses: thedoctor0/zip-release@master
       with:
          filename: rules.zip
