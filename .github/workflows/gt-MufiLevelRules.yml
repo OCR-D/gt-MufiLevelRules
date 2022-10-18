@@ -1,4 +1,4 @@
-name: keyboardGT
+name: gt-MufiLevelRules
 'on':
   push:
     branches:
@@ -6,7 +6,7 @@ name: keyboardGT
   workflow_dispatch:
 jobs:
   cli:
-    name: keyboardGT
+    name: gt-MufiLevelRules
     runs-on: ubuntu-latest
     steps:
 
@@ -14,65 +14,39 @@ jobs:
       uses: actions/checkout@v2
 
 
+    # Instalations Styles
+      
+    - name: install anaylse xsl-styles
+      run: | 
+        git clone https://github.com/tboenig/keyboardGT.git
+        mv keyboardGT/metadata/mufi.json metadata/mufi.json
+        rm -r keyboardGT
+   
+   
    # Installation and Directories
 
     - name: Download and install saxon
       run: |
-       wget https://sourceforge.net/projects/saxon/files/Saxon-HE/10/Java/SaxonHE10-5J.zip/download
+       wget https://sourceforge.net/projects/saxon/files/Saxon-HE/11/Java/SaxonHE11-4J.zip/download
        unzip download
 
 
-    - name: Make gh-pages_out, keyboards, doc folder
+    - name: Make gh-pages_out, rules
       run: |
         mkdir ghout
-        mkdir ghout/keyboards
-        mkdir ghout/keyboards/aletheia
-        mkdir ghout/keyboards/transkribus
-        mkdir ghout/keyboards/LAREX
-        mkdir ghout/keyboards/qurator-neat
-        mkdir ghout/keyboards/escriptorium
-        mkdir ghout/doc
-        mkdir keyboards
+        mkdir ghout/rules
+        mkdir ghout/rules/characters
+        cp Readme.md ghout/index.md
+        
 
    # Transformation and analysis
 
-    - name: Transform MUFI snapshot to Aletheia keyboard
+    - name: Transform MUFI snapshot to rules 
       run: |
-        java -jar saxon-he-10.5.jar -xsl:scripts/keyboard.xsl output=keyboards \
-        -s:scripts/keyboard.xsl
+        java -jar -xsl:scripts/MufiGTLevelRules.xsl -s:scripts/MufiGTLevelRules.xsl
       shell: bash
 
-    - name: Transform MUFI snapshot to Transkribus keyboard
-      run: |
-        java -jar saxon-he-10.5.jar -xsl:scripts/keyboard.xsl output=tkeyboards \
-        -s:scripts/keyboard.xsl
-      shell: bash
-
-
-    - name: Transform MUFI snapshot to LAREX keyboard
-      run: |
-        java -jar saxon-he-10.5.jar -xsl:scripts/keyboard.xsl output=lkeyboards \
-        -s:scripts/keyboard.xsl
-      shell: bash
-
-
-    - name: Transform MUFI snapshot to qurator-neat keyboard
-      run: |
-        java -jar saxon-he-10.5.jar -xsl:scripts/keyboard.xsl output=qkeyboards \
-        -s:scripts/keyboard.xsl
-      shell: bash
-
-    - name: Transform MUFI snapshot to eScriptorium keyboard
-      run: |
-        java -jar saxon-he-10.5.jar -xsl:scripts/keyboard.xsl output=ekeyboards \
-        -s:scripts/keyboard.xsl
-      shell: bash
-
-    - name: Make compressed table view
-      run: |
-        java -jar saxon-he-10.5.jar -xsl:scripts/keyboard.xsl output=keytable release=$GITHUB_RUN_NUMBER \
-        -s:scripts/keyboard.xsl -o:ghout/overview.md
-      shell: bash
+    
 
    # GH-style
 
@@ -80,16 +54,15 @@ jobs:
       run:  |
         cp scripts/table_hide.css ghout/
         cp scripts/_config.yml ghout/
-        cp docu/* ghout/doc/
-        cp -r ghout/keyboards/* keyboards/
+        
 
 
 
     - name: Archive the keyboard files
       uses: thedoctor0/zip-release@master
       with:
-         filename: site.zip
-         path: 'keyboards'
+         filename: rules.zip
+         path: 'ghout/rules/characters'
 
    # GitHub release
 
@@ -100,7 +73,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
           tag_name: v${{ github.run_number }}
-          release_name: Keyboard-zip-package (Release${{ github.run_number }})
+          release_name: OCR-D-Rules-zip-package (Release${{ github.run_number }})
           body_path: CHANGELOG.md
           draft: false
           prerelease: false
@@ -112,8 +85,8 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
           upload_url: ${{ steps.create-new-release.outputs.upload_url }}
-          asset_path: ./site.zip
-          asset_name: keyboardGT-v${{ github.run_number }}.zip
+          asset_path: ./rules.zip
+          asset_name: OCR-D-Rules-v${{ github.run_number }}.zip
           asset_content_type: application/zip
 
 
