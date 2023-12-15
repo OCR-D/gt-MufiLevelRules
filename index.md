@@ -33,7 +33,7 @@ The result of the conversion can be found in the directory: ``[directory]/rules/
 
 The script uses:
 
-1. the [MUFI rules](https://mufi.info/m.php?p=mufiexport) and 
+1. the [MUFI rules](https://gefin.ku.dk/q.php?q=mufiexport) 
 
 2. a summary of the following [**additional rules**](https://github.com/tboenig/gt-MufiLevelRules/blob/main/metadata/megarules.json) from the [OCR-D Ground-Truth Transcription Guide](https://ocr-d.de/en/gt-guidelines/trans/trBeispiele.html), which have priority (take precendence over MUFI rules where applicable):
    - [ruleset_character.json](https://github.com/tboenig/gt-guidelines/blob/gh-pages/rules/ruleset_character.json)
