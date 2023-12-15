@@ -199,7 +199,7 @@
                 </set></line></xsl:variable>
                 
                 <xsl:for-each select="$keys/line">
-                    <xsl:apply-templates/>
+                    <xsl:copy-of select="."/>
                 </xsl:for-each>
             
 
