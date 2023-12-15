@@ -133,9 +133,86 @@
             </xsl:result-document>
         
         <xsl:if test="$format = 'xml'">
-            <xsl:variable name="filename" select="fn:current-grouping-key()"/>
             <xsl:result-document href="ghout/rules/characters/{fn:current-grouping-key()}.xml">
-                <xsl:copy-of select="json-to-xml(unparsed-text('ghout/rules/characters/{$filename}.json'))"/>
+            
+                <ruleset>
+                    <rule>a</rule>
+                    <rule>a</rule>
+                    <rule>a</rule>
+                    <type>level</type>
+                </ruleset>
+
+
+
+            
+                <xsl:variable name="keys"><line><set>
+                    <xsl:for-each-group select="fn:current-group()" group-by="fn:string[@key = 'alpha']">
+                        <xsl:sort order="ascending" select="fn:string[@key = 'alpha']"/>
+                        <xsl:for-each select="fn:current-group()">
+                            <xsl:variable name="mufi">
+                                <xsl:choose>
+                                    <xsl:when test="fn:string[@key = 'mufichar'] = '&quot;'"><![CDATA[\"]]></xsl:when>
+                                    <xsl:when test="fn:string[@key = 'mufichar'] = '\'"><![CDATA[\\]]></xsl:when>
+                                    <xsl:when test="contains(fn:string[@key = 'mufichar'], '◌')"><xsl:value-of select="replace(fn:string[@key = 'mufichar'], '◌','')"/></xsl:when>
+                                    <xsl:otherwise><xsl:value-of select="fn:string[@key = 'mufichar']"/></xsl:otherwise>
+                                </xsl:choose>
+                            </xsl:variable>
+                            
+                            
+                            <xsl:variable name="c1">
+                                <xsl:for-each select="$OCRDrulesIMPORT//fn:array">
+                                    <xsl:choose><xsl:when test="fn:string[1] = $mufi"><xsl:value-of select="$mufi"/></xsl:when><xsl:otherwise><xsl:choose><xsl:when test="fn:string[2] = $mufi"><xsl:value-of select="fn:string[1]"/></xsl:when><xsl:otherwise><xsl:choose><xsl:when test="fn:string[3] = $mufi"><xsl:value-of select="fn:string[1]"/></xsl:when></xsl:choose></xsl:otherwise></xsl:choose></xsl:otherwise></xsl:choose>
+                                </xsl:for-each>
+                            </xsl:variable>
+                            
+                            <xsl:variable name="c2">
+                                <xsl:for-each select="$OCRDrulesIMPORT//fn:array"><xsl:if test="fn:string[3] = $mufi"><xsl:choose><xsl:when test="fn:string[2] = $mufi">"<xsl:value-of select="$mufi"/>",</xsl:when><xsl:otherwise>"<xsl:value-of select="fn:string[2]"/>",</xsl:otherwise></xsl:choose></xsl:if></xsl:for-each>
+                            </xsl:variable>
+                            
+                            <xsl:variable name="mufic2">
+                                <xsl:choose>
+                                    <xsl:when test="contains(fn:string[@key = 'range'], 'PUA')">
+                                        <xsl:choose>
+                                            <xsl:when test="contains(fn:string[@key = 'codepointalt'], '+')">"<xsl:for-each select="fn:tokenize(fn:string[@key = 'codepointalt'], ' \+ ')">
+                                                <xsl:value-of select="codepoints-to-string(wt:hexToDec(.))"/></xsl:for-each>",</xsl:when>
+                                            <xsl:otherwise></xsl:otherwise>
+                                        </xsl:choose></xsl:when>
+                                    <xsl:otherwise>"<xsl:value-of select="$mufi"/>",</xsl:otherwise>
+                                </xsl:choose></xsl:variable>
+                            
+                            <xsl:variable name="c3">
+                                <xsl:for-each select="$OCRDrulesIMPORT//fn:array">
+                                    <xsl:choose><xsl:when test="fn:string[3] = $mufi"><xsl:value-of select="$mufi"/></xsl:when><xsl:otherwise><xsl:choose><xsl:when test="fn:string[2] = $mufi"><xsl:value-of select="fn:string[3]"/></xsl:when></xsl:choose></xsl:otherwise></xsl:choose>
+                                </xsl:for-each>
+                            </xsl:variable>
+                            <!-- level1 -->
+                            <xsl:choose>
+                                <xsl:when test="fn:string[@key = 'range'] ='BasLat'">&#x003C;ruleset><rule><xsl:value-of select="$mufi"/></rule></xsl:when><xsl:otherwise><xsl:choose>
+                                    <xsl:when test="$c1 !=''">&#x003C;ruleset><rule><xsl:value-of select="$c1"/></rule></xsl:when><xsl:otherwise>&#x003C;ruleset><rule/></xsl:otherwise>
+                                </xsl:choose></xsl:otherwise>
+                            </xsl:choose>
+                            <!-- level2 -->
+                            <xsl:choose>
+                                <xsl:when test="$c2 = $mufic2"><xsl:choose>
+                                    <xsl:when test="$mufic2 !=''"><rule><xsl:value-of select="$mufic2"/></rule></xsl:when><xsl:otherwise><rule><xsl:value-of select="$mufi"/></rule></xsl:otherwise>
+                                </xsl:choose></xsl:when><xsl:otherwise><xsl:choose>
+                                    <xsl:when test="$c2 !=''"><rule><xsl:value-of select="$c2"/></rule></xsl:when><xsl:otherwise><rule><xsl:value-of select="$mufic2"/></rule></xsl:otherwise>
+                                </xsl:choose></xsl:otherwise>
+                            </xsl:choose>
+                            <!-- level3 -->
+                            <xsl:choose>
+                                <xsl:when test="fn:string[@key = 'range'] ='BasLat'"><rule><xsl:value-of select="$mufi"/></rule><type>level</type><xkomma/></xsl:when><xsl:otherwise><xsl:choose>
+                                    <xsl:when test="$c3 !=''"><rule><xsl:value-of select="$c3"/></rule><type>level</type><xkomma/></xsl:when><xsl:otherwise><rule><xsl:value-of select="$mufi"/></rule><type>level</type><xkomma/></xsl:otherwise>
+                                </xsl:choose></xsl:otherwise></xsl:choose>
+                        </xsl:for-each>
+                    </xsl:for-each-group>
+                </set></line></xsl:variable>
+                
+                <xsl:for-each select="$keys/line">
+                    <xsl:apply-templates/>
+                </xsl:for-each>
+            
+
             </xsl:result-document>
         </xsl:if>
         </xsl:for-each-group>
@@ -152,6 +229,7 @@
     
     
     <xsl:template match="komma[fn:position() &lt; last()]">,</xsl:template>
-
+    <xsl:template match="xkomma">&#x003C;/ruleset></xsl:template>
+    
 
 </xsl:stylesheet>
