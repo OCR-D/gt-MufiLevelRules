@@ -91,15 +91,15 @@ jobs:
    #       prerelease: false
 
 
-    - name: Upload asset to GitHub release
-      uses: actions/upload-release-asset@v1
-      env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      with:
-          upload_url: ${{ steps.create-new-release.outputs.upload_url }}
-          asset_path: ./rules.zip
-          asset_name: OCR-D-Rules-v${{ github.run_number }}.zip
-          asset_content_type: application/zip
+   # - name: Upload asset to GitHub release
+   #   uses: actions/upload-release-asset@v1
+   #   env:
+   #       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+   #   with:
+   #       upload_url: ${{ steps.create-new-release.outputs.upload_url }}
+   #       asset_path: ./rules.zip
+   #       asset_name: OCR-D-Rules-v${{ github.run_number }}.zip
+   #       asset_content_type: application/zip
 
 
     - name: Deploy GT-Overview to GitHub Pages
