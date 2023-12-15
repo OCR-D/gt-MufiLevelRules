@@ -2,7 +2,7 @@
 
 # gt-MufiLevelRules
 
-Creates OCR-D Ground-Truth Transcription Level Rules automatically from the encodings published by [MUFI: The Medieval Unicode Font Initiative](https://mufi.info/m.php?p=mufi). 
+Creates OCR-D Ground-Truth Transcription Level Rules automatically from the encodings published by [MUFI: The Medieval Unicode Font Initiative](https://mufi.info).
 
 The resulting OCR-D level rules conform to the [OCR-D specification](https://ocr-d.de/en/gt-guidelines/trans/transkription.html). 
 These rules can be used for substitutions or level checks, among other things. 
