@@ -2,7 +2,7 @@ name: gt-MufiLevelRules
 on:
   push:
     tags:
-      - 'v[0-9]+.[0-9]+.[0-9]+'
+      - 'x[0-9]+.[0-9]+.[0-9]+'
   workflow_dispatch:
 jobs:
   cli:
@@ -49,7 +49,7 @@ jobs:
 
     - name: Transform MUFI snapshot to rules 
       run: |
-        java -jar saxon-he-11.4.jar -xsl:scripts/MufiGTLevelRules.xsl -s:scripts/MufiGTLevelRules.xsl output=characters
+        java -jar saxon-he-11.4.jar -xsl:scripts/MufiGTLevelRules2.xsl -s:scripts/MufiGTLevelRules.xsl output=characters format=xml
       shell: bash
 
     - name: look
