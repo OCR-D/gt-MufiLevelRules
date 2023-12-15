@@ -135,7 +135,7 @@
 
         <xsl:if test="$format = 'xml'">
             <xsl:result-document href="ghout/rules/characters/{fn:current-grouping-key()}.xml">
-                <xsl:variable name="keys"><line><set>
+                <xsl:variable name="keys"><line>
                     <xsl:for-each-group select="fn:current-group()" group-by="fn:string[@key = 'alpha']">
                         <xsl:sort order="ascending" select="fn:string[@key = 'alpha']"/>
                         <xsl:for-each select="fn:current-group()">
@@ -196,7 +196,7 @@
                                 </xsl:choose></xsl:otherwise></xsl:choose>
                         </xsl:for-each>
                     </xsl:for-each-group>
-                </set></line></xsl:variable>
+                </line></xsl:variable>
                 
                 <xsl:for-each select="$keys/line">
                     <xsl:copy-of select="."/>
