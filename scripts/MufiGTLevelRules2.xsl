@@ -60,7 +60,7 @@
         
         <xsl:for-each-group select="$MUFIEXPORT//fn:map" group-by="fn:string[@key = 'range']">
             <xsl:sort select="fn:current-grouping-key()"/>
-            
+            <xsl:if test="$format = 'json'">
             <xsl:result-document href="ghout/rules/characters/{fn:current-grouping-key()}.json">
                 {"ruleset":[
                 <xsl:variable name="keys"><line>
@@ -131,20 +131,10 @@
                 </xsl:for-each>
                 ]}
             </xsl:result-document>
-        
+            </xsl:if>
+
         <xsl:if test="$format = 'xml'">
             <xsl:result-document href="ghout/rules/characters/{fn:current-grouping-key()}.xml">
-            
-                <ruleset>
-                    <rule>a</rule>
-                    <rule>a</rule>
-                    <rule>a</rule>
-                    <type>level</type>
-                </ruleset>
-
-
-
-            
                 <xsl:variable name="keys"><line><set>
                     <xsl:for-each-group select="fn:current-group()" group-by="fn:string[@key = 'alpha']">
                         <xsl:sort order="ascending" select="fn:string[@key = 'alpha']"/>
