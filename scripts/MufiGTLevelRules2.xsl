@@ -191,8 +191,8 @@
                             </xsl:choose>
                             <!-- level3 -->
                             <xsl:choose>
-                                <xsl:when test="fn:string[@key = 'range'] ='BasLat'"><rule><xsl:value-of select="$mufi"/></rule><type>level</type><xkomma/></xsl:when><xsl:otherwise><xsl:choose>
-                                    <xsl:when test="$c3 !=''"><rule><xsl:value-of select="$c3"/></rule><type>level</type><xkomma/></xsl:when><xsl:otherwise><rule><xsl:value-of select="$mufi"/></rule><type>level</type><xkomma/></xsl:otherwise>
+                                <xsl:when test="fn:string[@key = 'range'] ='BasLat'"><rule><xsl:value-of select="$mufi"/></rule><type>leve</type><xkomma/></xsl:when><xsl:otherwise><xsl:choose>
+                                    <xsl:when test="$c3 !=''"><rule><xsl:value-of select="$c3"/></rule><type>leve</type><xkomma/></xsl:when><xsl:otherwise><rule><xsl:value-of select="$mufi"/></rule><type>leve</type><xkomma/></xsl:otherwise>
                                 </xsl:choose></xsl:otherwise></xsl:choose>
                         </xsl:for-each>
                     </xsl:for-each-group>
