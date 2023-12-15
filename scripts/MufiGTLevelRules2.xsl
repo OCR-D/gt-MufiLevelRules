@@ -133,7 +133,8 @@
             </xsl:result-document>
         
         <xsl:if test="$format = 'xml'">
-            <xsl:result-document href="ghout/rules/characters/{fn:current-grouping-key()}.xml">
+            <xsl:variable name="filename" select="fn:current-grouping-key()"/>
+            <xsl:result-document href="ghout/rules/characters/{$filename}.xml">
                 <xsl:copy-of select="json-to-xml(unparsed-text('ghout/rules/characters/{fn:current-grouping-key()}.json'))"/>
             </xsl:result-document>
         </xsl:if>
