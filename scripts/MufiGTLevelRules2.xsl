@@ -12,6 +12,7 @@
 
     
     <xsl:param name="output"/>
+    <xsl:param name="format"/>
     <xsl:param name="release"/>
     <xsl:param name="merge"/>
     
@@ -67,14 +68,7 @@
                         <xsl:apply-templates select="current-merge-group()" />
                     </xsl:merge-action>
                 </xsl:merge>-->
-                <xsl:merge>
-                    <xsl:merge-source for-each-item="collection('../ghout/rules/characters/?select=*.xml')" select="levelrules">
-                    <xsl:merge-key select="range" order="ascending"/>
-                    </xsl:merge-source>
-                    <xsl:merge-action>
-                        <xsl:sequence select="current-merge-group()"/>
-                    </xsl:merge-action>
-                </xsl:merge>
+
             </xsl:result-document>
         </xsl:if>
     </xsl:template>
@@ -84,6 +78,7 @@
         
         <xsl:for-each-group select="$MUFIEXPORT//fn:map" group-by="fn:string[@key = 'range']">
             <xsl:sort select="fn:current-grouping-key()"/>
+            <xsl:if test="$format = 'xml'">
             <xsl:result-document format="txt_out" href="ghout/rules/characters/{fn:current-grouping-key()}.json">
                 {"ruleset":[
                 <xsl:variable name="keys"><line>
@@ -202,10 +197,20 @@
                                     <xsl:choose><xsl:when test="fn:string[3] = $mufi"><xsl:value-of select="$mufi"/></xsl:when><xsl:otherwise><xsl:choose><xsl:when test="fn:string[2] = $mufi"><xsl:value-of select="fn:string[3]"/></xsl:when></xsl:choose></xsl:otherwise></xsl:choose>
                                 </xsl:for-each>
                             </xsl:variable>
+
+                           <!-- <!-\- level1 -\->
+                            <xsl:when test="fn:string[@key = 'range'] ='BasLat'">"<xsl:value-of select="$mufi"/>",</xsl:when><xsl:otherwise><xsl:choose>
+                                <xsl:when test="$c1 !=''">"<xsl:value-of select="$c1"/>",</xsl:when><xsl:otherwise>"",</xsl:otherwise>
+                            </xsl:choose></xsl:otherwise>
+                            </xsl:choose>
+-->
+
+
+
                             <!-- level1 -->
                             <xsl:choose>
                                 <xsl:when test="fn:string[@key = 'range'] ='BasLat'"><olevel/><orange/><xsl:value-of select="fn:string[@key = 'range']"/><crange/><orule/><xsl:value-of select="$mufi"/><crule/></xsl:when><xsl:otherwise><xsl:choose>
-                                    <xsl:when test="$c1 !=''"><olevel/><orange/><xsl:value-of select="fn:string[@key = 'range']"/><crange/><orule/><xsl:value-of select="$c1"/><crule/></xsl:when><xsl:otherwise><olevel/><orange/><xsl:value-of select="fn:string[@key = 'range']"/><crange/><rule/></xsl:otherwise>
+                                    <xsl:when test="$c1 !=''"><olevel/><orange/><xsl:value-of select="fn:string[@key = 'range']"/><crange/><orule/><xsl:value-of select="$c1"/><crule/></xsl:when><xsl:otherwise><orange/><xsl:value-of select="fn:string[@key = 'range']"/><crange/><orule/><orule/><crule/></xsl:otherwise>
                                 </xsl:choose></xsl:otherwise>
                             </xsl:choose>
                             <!-- level2 -->
@@ -229,6 +234,7 @@
                     <xsl:apply-templates/>
                 </xsl:for-each>
             </xsl:result-document>
+            </xsl:if>
         </xsl:for-each-group>
     </xsl:template>
 
