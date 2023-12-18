@@ -148,8 +148,8 @@
                         <xsl:for-each select="fn:current-group()">
                             <xsl:variable name="mufi">
                                 <xsl:choose>
-                                    <xsl:when test="fn:string[@key = 'mufichar'] = '&quot;'"><![CDATA[\"]]></xsl:when>
-                                    <xsl:when test="fn:string[@key = 'mufichar'] = '\'"><![CDATA[\\]]></xsl:when>
+                                    <!--<xsl:when test="fn:string[@key = 'mufichar'] = '&quot;'"><![CDATA[\"]]></xsl:when>
+                                    <xsl:when test="fn:string[@key = 'mufichar'] = '\'"><![CDATA[\\]]></xsl:when>-->
                                     <xsl:when test="contains(fn:string[@key = 'mufichar'], '◌')"><xsl:value-of select="replace(fn:string[@key = 'mufichar'], '◌','')"/></xsl:when>
                                     <xsl:otherwise><xsl:value-of select="fn:string[@key = 'mufichar']"/></xsl:otherwise>
                                 </xsl:choose>
