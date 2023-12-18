@@ -6,7 +6,7 @@
     xmlns:pc="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15"
     xmlns:wt="https://github.com/dariok/w2tei"
      exclude-result-prefixes="#all" version="3.0">
-    <xsl:output indent="yes" omit-xml-declaration="yes" method="text"/>
+    <xsl:output indent="yes" omit-xml-declaration="yes" method="xml"/>
     
     <xsl:param name="output"/>
     <xsl:param name="format"/>
