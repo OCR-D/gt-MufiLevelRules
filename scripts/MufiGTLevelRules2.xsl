@@ -180,7 +180,7 @@
                             </xsl:variable>
                             <!-- level1 -->
                             <xsl:choose>
-                                <xsl:when test="fn:string[@key = 'range'] ='BasLat'"><![CDATA[\<]]>&#x003C;ruleset><rule><xsl:value-of select="$mufi"/></rule></xsl:when><xsl:otherwise><xsl:choose>
+                                <xsl:when test="fn:string[@key = 'range'] ='BasLat'"><![CDATA[<]]>&#x003C;ruleset><rule><xsl:value-of select="$mufi"/></rule></xsl:when><xsl:otherwise><xsl:choose>
                                     <xsl:when test="$c1 !=''">&#x003C;ruleset><rule><xsl:value-of select="$c1"/></rule></xsl:when><xsl:otherwise>&#x003C;ruleset><rule/></xsl:otherwise>
                                 </xsl:choose></xsl:otherwise>
                             </xsl:choose>
