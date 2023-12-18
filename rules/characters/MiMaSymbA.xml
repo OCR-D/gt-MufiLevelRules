@@ -1,0 +1,18 @@
+<line>&lt;ruleset&gt;<rule/>
+   <rule>"⟦",</rule>
+   <rule>⟦</rule>
+   <type>leve</type>
+   <xkomma/>&lt;ruleset&gt;<rule/>
+   <rule>"⟧",</rule>
+   <rule>⟧</rule>
+   <type>leve</type>
+   <xkomma/>&lt;ruleset&gt;<rule/>
+   <rule>"⟨",</rule>
+   <rule>⟨</rule>
+   <type>leve</type>
+   <xkomma/>&lt;ruleset&gt;<rule/>
+   <rule>"⟩",</rule>
+   <rule>⟩</rule>
+   <type>leve</type>
+   <xkomma/>
+</line>

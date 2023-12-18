@@ -1,0 +1,30 @@
+<line>&lt;ruleset&gt;<rule>ff</rule>
+   <rule>"ff",</rule>
+   <rule>ﬀ</rule>
+   <type>leve</type>
+   <xkomma/>&lt;ruleset&gt;<rule>fi</rule>
+   <rule>"fi",</rule>
+   <rule>ﬁ</rule>
+   <type>leve</type>
+   <xkomma/>&lt;ruleset&gt;<rule>fl</rule>
+   <rule>"fl",</rule>
+   <rule>ﬂ</rule>
+   <type>leve</type>
+   <xkomma/>&lt;ruleset&gt;<rule>ffi</rule>
+   <rule>"ffi",</rule>
+   <rule>ﬃ</rule>
+   <type>leve</type>
+   <xkomma/>&lt;ruleset&gt;<rule>ffl</rule>
+   <rule>"ffl",</rule>
+   <rule>ﬄ</rule>
+   <type>leve</type>
+   <xkomma/>&lt;ruleset&gt;<rule>ſt</rule>
+   <rule>"ſt",</rule>
+   <rule>ﬅ</rule>
+   <type>leve</type>
+   <xkomma/>&lt;ruleset&gt;<rule>st</rule>
+   <rule>"st",</rule>
+   <rule>ﬆ</rule>
+   <type>leve</type>
+   <xkomma/>
+</line>
