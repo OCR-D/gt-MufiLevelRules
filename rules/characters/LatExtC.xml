@@ -1,3 +1,3 @@
 
-                    P1:&lt;![CDATA[&lt;ruleset&gt;"Ⱶ",Ⱶleve<![CDATA[</ruleset>&lt;![CDATA[&lt;ruleset&gt;"ⱶ",ⱶleve<![CDATA[</ruleset>&lt;![CDATA[&lt;ruleset&gt;"ⱽ",ⱽleve<![CDATA[</ruleset>
-                    P2:<line>&lt;![CDATA[&lt;ruleset&gt;<rule/><rule>"Ⱶ",</rule><rule>Ⱶ</rule><type>leve</type><xkomma/>&lt;![CDATA[&lt;ruleset&gt;<rule/><rule>"ⱶ",</rule><rule>ⱶ</rule><type>leve</type><xkomma/>&lt;![CDATA[&lt;ruleset&gt;<rule/><rule>"ⱽ",</rule><rule>ⱽ</rule><type>leve</type><xkomma/></line>
+                    P1:&lt;ruleset&gt;"Ⱶ",Ⱶleve</ruleset>&lt;ruleset&gt;"ⱶ",ⱶleve</ruleset>&lt;ruleset&gt;"ⱽ",ⱽleve</ruleset>
+                    P2:<line>&lt;ruleset&gt;<rule/><rule>"Ⱶ",</rule><rule>Ⱶ</rule><type>leve</type><xkomma/>&lt;ruleset&gt;<rule/><rule>"ⱶ",</rule><rule>ⱶ</rule><type>leve</type><xkomma/>&lt;ruleset&gt;<rule/><rule>"ⱽ",</rule><rule>ⱽ</rule><type>leve</type><xkomma/></line>
