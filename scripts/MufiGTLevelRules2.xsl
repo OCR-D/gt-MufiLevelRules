@@ -12,7 +12,6 @@
 
     
     <xsl:param name="output"/>
-    <xsl:param name="format"/>
     <xsl:param name="release"/>
     <xsl:param name="merge"/>
     
@@ -59,15 +58,15 @@
                 <xsl:call-template name="char"/>
         </xsl:if>
         <xsl:if test="$merge = 'yes'">
-            <xsl:result-document format="xml_out" href="ghout/rules/characters/megalevelrules.ml">
-            <!--<xsl:merge>
-                <xsl:merge-source for-each-item="uri-collection('ghout/rules/characters/?select=*.xml')" streamable="yes" select="levelrules">
-                <xsl:merge-key select="range" />
+            <xsl:result-document format="xml_out" href="ghout/rules/megalevelrules.xml">
+            <xsl:merge>
+                <xsl:merge-source for-each-item="collection('../ghout/rules/characters/?select=*.xml')" select="levelrules">
+                <xsl:merge-key select="range" order="ascending"/>
                 </xsl:merge-source>
                     <xsl:merge-action>
                         <xsl:apply-templates select="current-merge-group()" />
                     </xsl:merge-action>
-                </xsl:merge>-->
+                </xsl:merge>
 
             </xsl:result-document>
         </xsl:if>
@@ -78,7 +77,6 @@
         
         <xsl:for-each-group select="$MUFIEXPORT//fn:map" group-by="fn:string[@key = 'range']">
             <xsl:sort select="fn:current-grouping-key()"/>
-            <xsl:if test="$format = 'xml'">
             <xsl:result-document format="txt_out" href="ghout/rules/characters/{fn:current-grouping-key()}.json">
                 {"ruleset":[
                 <xsl:variable name="keys"><line>
@@ -198,13 +196,7 @@
                                 </xsl:for-each>
                             </xsl:variable>
 
-                           <!-- <!-\- level1 -\->
-                            <xsl:when test="fn:string[@key = 'range'] ='BasLat'">"<xsl:value-of select="$mufi"/>",</xsl:when><xsl:otherwise><xsl:choose>
-                                <xsl:when test="$c1 !=''">"<xsl:value-of select="$c1"/>",</xsl:when><xsl:otherwise>"",</xsl:otherwise>
-                            </xsl:choose></xsl:otherwise>
-                            </xsl:choose>
--->
-
+                           
 
 
                             <!-- level1 -->
@@ -234,7 +226,6 @@
                     <xsl:apply-templates/>
                 </xsl:for-each>
             </xsl:result-document>
-            </xsl:if>
         </xsl:for-each-group>
     </xsl:template>
 
