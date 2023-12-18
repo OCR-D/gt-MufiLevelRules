@@ -1,3 +1,1 @@
-
-                    P1:<ruleset>"Ę̣",level</ruleset><ruleset>"ę̣",level</ruleset><ruleset>"Ǫ̣",level</ruleset><ruleset>"ǫ̣",level</ruleset>
-                    P2:<line><olevel/><rule/><rule>"Ę̣",</rule><rule></rule><type>level</type><clevel/><olevel/><rule/><rule>"ę̣",</rule><rule></rule><type>level</type><clevel/><olevel/><rule/><rule>"Ǫ̣",</rule><rule></rule><type>level</type><clevel/><olevel/><rule/><rule>"ǫ̣",</rule><rule></rule><type>level</type><clevel/></line>
+<ruleset>"Ę̣",level</ruleset><ruleset>"ę̣",level</ruleset><ruleset>"Ǫ̣",level</ruleset><ruleset>"ǫ̣",level</ruleset>

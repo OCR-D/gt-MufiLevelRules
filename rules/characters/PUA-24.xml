@@ -1,3 +1,1 @@
-
-                    P1:<ruleset>"i̯",level</ruleset><ruleset>"u̯",level</ruleset>
-                    P2:<line><olevel/><rule/><rule>"i̯",</rule><rule></rule><type>level</type><clevel/><olevel/><rule/><rule>"u̯",</rule><rule></rule><type>level</type><clevel/></line>
+<ruleset>"i̯",level</ruleset><ruleset>"u̯",level</ruleset>

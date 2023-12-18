@@ -1,3 +1,1 @@
-
-                    P1:<ruleset>"u",level</ruleset>
-                    P2:<line><olevel/><rule/><rule>"u",</rule><rule></rule><type>level</type><clevel/></line>
+<ruleset>"u",level</ruleset>

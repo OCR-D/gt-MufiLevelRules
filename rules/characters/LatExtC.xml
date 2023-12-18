@@ -1,3 +1,1 @@
-
-                    P1:<ruleset>"Ⱶ",Ⱶlevel</ruleset><ruleset>"ⱶ",ⱶlevel</ruleset><ruleset>"ⱽ",ⱽlevel</ruleset>
-                    P2:<line><olevel/><rule/><rule>"Ⱶ",</rule><rule>Ⱶ</rule><type>level</type><clevel/><olevel/><rule/><rule>"ⱶ",</rule><rule>ⱶ</rule><type>level</type><clevel/><olevel/><rule/><rule>"ⱽ",</rule><rule>ⱽ</rule><type>level</type><clevel/></line>
+<ruleset>"Ⱶ",Ⱶlevel</ruleset><ruleset>"ⱶ",ⱶlevel</ruleset><ruleset>"ⱽ",ⱽlevel</ruleset>

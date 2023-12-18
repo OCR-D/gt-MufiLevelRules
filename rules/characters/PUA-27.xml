@@ -1,3 +1,1 @@
-
-                    P1:<ruleset>"l̥",level</ruleset><ruleset>"m̥",level</ruleset><ruleset>"n̥",level</ruleset><ruleset>"r̥",level</ruleset>
-                    P2:<line><olevel/><rule/><rule>"l̥",</rule><rule></rule><type>level</type><clevel/><olevel/><rule/><rule>"m̥",</rule><rule></rule><type>level</type><clevel/><olevel/><rule/><rule>"n̥",</rule><rule></rule><type>level</type><clevel/><olevel/><rule/><rule>"r̥",</rule><rule></rule><type>level</type><clevel/></line>
+<ruleset>"l̥",level</ruleset><ruleset>"m̥",level</ruleset><ruleset>"n̥",level</ruleset><ruleset>"r̥",level</ruleset>
