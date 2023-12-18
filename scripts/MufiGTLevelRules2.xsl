@@ -68,7 +68,7 @@
                     </xsl:merge-action>
                 </xsl:merge>-->
                 <xsl:merge>
-                    <xsl:merge-source for-each-item="collection('ghout/rules/characters/?select=*.xml')" select="levelrules">
+                    <xsl:merge-source for-each-item="collection('../ghout/rules/characters/?select=*.xml')" select="levelrules">
                     <xsl:merge-key select="range" order="ascending"/>
                     </xsl:merge-source>
                     <xsl:merge-action>
