@@ -7,7 +7,7 @@
     xmlns:wt="https://github.com/dariok/w2tei"
      exclude-result-prefixes="#all" version="3.0">
     <xsl:output name="txt_out" indent="yes" omit-xml-declaration="yes" method="text" normalization-form="none"/>
-    <xsl:output name="xml_out" omit-xml-declaration="yes" method="xml" normalization-form="none"/>
+    <xsl:output name="xml_out" omit-xml-declaration="yes" method="xml" normalization-form="none" cdata-section-elements="ocr-d"/>
     
 
     
@@ -138,7 +138,8 @@
 
         <xsl:if test="$format = 'xml'">
             <xsl:result-document format="xml_out" href="ghout/rules/characters/{fn:current-grouping-key()}.xml">
-                <xsl:variable name="keys"><line>
+                <xsl:variable name="keys">
+                <xsl:element name="line">
                     <xsl:for-each-group select="fn:current-group()" group-by="fn:string[@key = 'alpha']">
                         <xsl:sort order="ascending" select="fn:string[@key = 'alpha']"/>
                         <xsl:for-each select="fn:current-group()">
@@ -178,10 +179,9 @@
                                     <xsl:choose><xsl:when test="fn:string[3] = $mufi"><xsl:value-of select="$mufi"/></xsl:when><xsl:otherwise><xsl:choose><xsl:when test="fn:string[2] = $mufi"><xsl:value-of select="fn:string[3]"/></xsl:when></xsl:choose></xsl:otherwise></xsl:choose>
                                 </xsl:for-each>
                             </xsl:variable>
-                            <xsl:variable name="gt"><![CDATA[<]]></xsl:variable>
                             <!-- level1 -->
                             <xsl:choose>
-                                <xsl:when test="fn:string[@key = 'range'] ='BasLat'"><xsl:value-of select="$gt"/>hallo<xsl:text disable-output-escaping="yes">&lt;![CDATA[&lt;ruleset&gt;</xsl:text><rule><xsl:value-of select="$mufi"/></rule></xsl:when><xsl:otherwise><xsl:choose>
+                                <xsl:when test="fn:string[@key = 'range'] ='BasLat'"><xsl:text disable-output-escaping="yes">&lt;![CDATA[&lt;ruleset&gt;</xsl:text><rule><xsl:value-of select="$mufi"/></rule></xsl:when><xsl:otherwise><xsl:choose>
                                     <xsl:when test="$c1 !=''"><xsl:text disable-output-escaping="yes">&lt;![CDATA[&lt;ruleset&gt;</xsl:text><rule><xsl:value-of select="$c1"/></rule></xsl:when><xsl:otherwise><xsl:text disable-output-escaping="yes">&lt;![CDATA[&lt;ruleset&gt;</xsl:text><rule/></xsl:otherwise>
                                 </xsl:choose></xsl:otherwise>
                             </xsl:choose>
@@ -200,10 +200,11 @@
                                 </xsl:choose></xsl:otherwise></xsl:choose>
                         </xsl:for-each>
                     </xsl:for-each-group>
-                </line></xsl:variable>
+                </xsl:element></xsl:variable>
                 
-                <xsl:for-each select="$keys/line">
-                    <xsl:copy-of select="."/>
+                <xsl:for-each select="$keys">
+                    P1:<xsl:apply-templates/>
+                    P2:<xsl:copy-of select="."/>
                 </xsl:for-each>
             
 
