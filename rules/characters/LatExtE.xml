@@ -1,6 +1,1 @@
-<line>&lt;ruleset&gt;<rule/>
-   <rule>"ꭗ",</rule>
-   <rule>ꭗ</rule>
-   <type>leve</type>
-   <xkomma/>
-</line>
+<line>&lt;ruleset&gt;<rule/><rule>"ꭗ",</rule><rule>ꭗ</rule><type>leve</type><xkomma/></line>

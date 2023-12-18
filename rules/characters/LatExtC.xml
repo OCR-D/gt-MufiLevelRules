@@ -1,14 +1,1 @@
-<line>&lt;ruleset&gt;<rule/>
-   <rule>"Ⱶ",</rule>
-   <rule>Ⱶ</rule>
-   <type>leve</type>
-   <xkomma/>&lt;ruleset&gt;<rule/>
-   <rule>"ⱶ",</rule>
-   <rule>ⱶ</rule>
-   <type>leve</type>
-   <xkomma/>&lt;ruleset&gt;<rule/>
-   <rule>"ⱽ",</rule>
-   <rule>ⱽ</rule>
-   <type>leve</type>
-   <xkomma/>
-</line>
+<line>&lt;ruleset&gt;<rule/><rule>"Ⱶ",</rule><rule>Ⱶ</rule><type>leve</type><xkomma/>&lt;ruleset&gt;<rule/><rule>"ⱶ",</rule><rule>ⱶ</rule><type>leve</type><xkomma/>&lt;ruleset&gt;<rule/><rule>"ⱽ",</rule><rule>ⱽ</rule><type>leve</type><xkomma/></line>
