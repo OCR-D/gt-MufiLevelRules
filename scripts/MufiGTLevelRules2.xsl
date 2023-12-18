@@ -14,6 +14,7 @@
     <xsl:param name="output"/>
     <xsl:param name="format"/>
     <xsl:param name="release"/>
+    <xsl:param name="merge"/>
     
     
     
@@ -52,9 +53,30 @@
     </xsl:function>
 
 
+
     <xsl:template match="/">
         <xsl:if test="$output = 'characters'">
                 <xsl:call-template name="char"/>
+        </xsl:if>
+        <xsl:if test="$merge = 'yes'">
+            <xsl:result-document format="xml_out" href="ghout/rules/characters/megalevelrules.ml">
+            <!--<xsl:merge>
+                <xsl:merge-source for-each-item="uri-collection('ghout/rules/characters/?select=*.xml')" streamable="yes" select="levelrules">
+                <xsl:merge-key select="range" />
+                </xsl:merge-source>
+                    <xsl:merge-action>
+                        <xsl:apply-templates select="current-merge-group()" />
+                    </xsl:merge-action>
+                </xsl:merge>-->
+                <xsl:merge>
+                    <xsl:merge-source for-each-item="collection('ghout/rules/characters/?select=*.xml')" select="levelrules">
+                    <xsl:merge-key select="range" order="ascending"/>
+                    </xsl:merge-source>
+                    <xsl:merge-action>
+                        <xsl:sequence select="current-merge-group()"/>
+                    </xsl:merge-action>
+                </xsl:merge>
+            </xsl:result-document>
         </xsl:if>
     </xsl:template>
 
@@ -184,8 +206,8 @@
                             </xsl:variable>
                             <!-- level1 -->
                             <xsl:choose>
-                                <xsl:when test="fn:string[@key = 'range'] ='BasLat'"><olevel/><orule/><xsl:value-of select="$mufi"/><crule/></xsl:when><xsl:otherwise><xsl:choose>
-                                    <xsl:when test="$c1 !=''"><olevel/><orule/><xsl:value-of select="$c1"/><crule/></xsl:when><xsl:otherwise><olevel/><rule/></xsl:otherwise>
+                                <xsl:when test="fn:string[@key = 'range'] ='BasLat'"><olevel/><orange/><xsl:value-of select="fn:string[@key = 'range']"/><crange/><orule/><xsl:value-of select="$mufi"/><crule/></xsl:when><xsl:otherwise><xsl:choose>
+                                    <xsl:when test="$c1 !=''"><olevel/><orange/><xsl:value-of select="fn:string[@key = 'range']"/><crange/><orule/><xsl:value-of select="$c1"/><crule/></xsl:when><xsl:otherwise><olevel/><orange/><xsl:value-of select="fn:string[@key = 'range']"/><crange/><rule/></xsl:otherwise>
                                 </xsl:choose></xsl:otherwise>
                             </xsl:choose>
                             <!-- level2 -->
@@ -208,12 +230,12 @@
                 <xsl:for-each select="$keys">
                     <xsl:apply-templates/>
                 </xsl:for-each>
-            
-
             </xsl:result-document>
             </xsl:if>
         </xsl:for-each-group>
     </xsl:template>
+
+   
 
     <xsl:template match="sp">
         <xsl:choose>
@@ -234,5 +256,10 @@
     <xsl:template match="ctype"><xsl:text disable-output-escaping="yes">&lt;/type&gt;</xsl:text></xsl:template>
     <xsl:template match="olevelrules"><xsl:text disable-output-escaping="yes">&lt;levelrules&gt;</xsl:text></xsl:template>
     <xsl:template match="clevelrules"><xsl:text disable-output-escaping="yes">&lt;/levelrules&gt;</xsl:text></xsl:template>
+    <xsl:template match="orange"><xsl:text disable-output-escaping="yes">&lt;range&gt;</xsl:text></xsl:template>
+    <xsl:template match="crange"><xsl:text disable-output-escaping="yes">&lt;/range&gt;</xsl:text></xsl:template>
+
+
+
 
 </xsl:stylesheet>
