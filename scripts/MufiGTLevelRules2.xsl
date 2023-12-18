@@ -7,7 +7,7 @@
     xmlns:wt="https://github.com/dariok/w2tei"
      exclude-result-prefixes="#all" version="3.0">
     <xsl:output name="txt_out" indent="yes" omit-xml-declaration="yes" method="text" normalization-form="none"/>
-    <xsl:output name="xml_out" omit-xml-declaration="yes" method="xml" normalization-form="none" cdata-section-elements="ocr-d"/>
+    <xsl:output name="xml_out" indent="yes" omit-xml-declaration="no" method="xml" normalization-form="none" cdata-section-elements="ocr-d"/>
     
 
     
@@ -139,7 +139,7 @@
         <xsl:if test="$format = 'xml'">
             <xsl:result-document format="xml_out" href="ghout/rules/characters/{fn:current-grouping-key()}.xml">
                 <xsl:variable name="keys">
-                <xsl:element name="line">
+                <olevelrules/>
                     <xsl:for-each-group select="fn:current-group()" group-by="fn:string[@key = 'alpha']">
                         <xsl:sort order="ascending" select="fn:string[@key = 'alpha']"/>
                         <xsl:for-each select="fn:current-group()">
@@ -160,7 +160,7 @@
                             </xsl:variable>
                             
                             <xsl:variable name="c2">
-                                <xsl:for-each select="$OCRDrulesIMPORT//fn:array"><xsl:if test="fn:string[3] = $mufi"><xsl:choose><xsl:when test="fn:string[2] = $mufi">"<xsl:value-of select="$mufi"/>",</xsl:when><xsl:otherwise>"<xsl:value-of select="fn:string[2]"/>",</xsl:otherwise></xsl:choose></xsl:if></xsl:for-each>
+                                <xsl:for-each select="$OCRDrulesIMPORT//fn:array"><xsl:if test="fn:string[3] = $mufi"><xsl:choose><xsl:when test="fn:string[2] = $mufi">"<xsl:value-of select="$mufi"/></xsl:when><xsl:otherwise>"<xsl:value-of select="fn:string[2]"/></xsl:otherwise></xsl:choose></xsl:if></xsl:for-each>
                             </xsl:variable>
                             
                             <xsl:variable name="mufic2">
@@ -171,7 +171,7 @@
                                                 <xsl:value-of select="codepoints-to-string(wt:hexToDec(.))"/></xsl:for-each>",</xsl:when>
                                             <xsl:otherwise></xsl:otherwise>
                                         </xsl:choose></xsl:when>
-                                    <xsl:otherwise>"<xsl:value-of select="$mufi"/>",</xsl:otherwise>
+                                    <xsl:otherwise><xsl:value-of select="$mufi"/></xsl:otherwise>
                                 </xsl:choose></xsl:variable>
                             
                             <xsl:variable name="c3">
@@ -200,7 +200,7 @@
                                 </xsl:choose></xsl:otherwise></xsl:choose>
                         </xsl:for-each>
                     </xsl:for-each-group>
-                </xsl:element></xsl:variable>
+                <clevelrules/></xsl:variable>
                 
                 <xsl:for-each select="$keys">
                     <xsl:apply-templates/>
@@ -229,6 +229,7 @@
     <xsl:template match="crule"><xsl:text disable-output-escaping="yes">&lt;/rule&gt;</xsl:text></xsl:template>
     <xsl:template match="otype"><xsl:text disable-output-escaping="yes">&lt;type&gt;</xsl:text></xsl:template>
     <xsl:template match="ctype"><xsl:text disable-output-escaping="yes">&lt;/type&gt;</xsl:text></xsl:template>
-    
+    <xsl:template match="olevelrules"><xsl:text disable-output-escaping="yes">&lt;levelrules&gt;</xsl:text></xsl:template>
+    <xsl:template match="clevelrules"><xsl:text disable-output-escaping="yes">&lt;/levelrules&gt;</xsl:text></xsl:template>
 
 </xsl:stylesheet>
