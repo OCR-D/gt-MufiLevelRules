@@ -160,7 +160,7 @@
                             </xsl:variable>
                             
                             <xsl:variable name="c2">
-                                <xsl:for-each select="$OCRDrulesIMPORT//fn:array"><xsl:if test="fn:string[3] = $mufi"><xsl:choose><xsl:when test="fn:string[2] = $mufi">"<xsl:value-of select="$mufi"/></xsl:when><xsl:otherwise>"<xsl:value-of select="fn:string[2]"/></xsl:otherwise></xsl:choose></xsl:if></xsl:for-each>
+                                <xsl:for-each select="$OCRDrulesIMPORT//fn:array"><xsl:if test="fn:string[3] = $mufi"><xsl:choose><xsl:when test="fn:string[2] = $mufi"><xsl:value-of select="$mufi"/></xsl:when><xsl:otherwise><xsl:value-of select="fn:string[2]"/></xsl:otherwise></xsl:choose></xsl:if></xsl:for-each>
                             </xsl:variable>
                             
                             <xsl:variable name="mufic2">
