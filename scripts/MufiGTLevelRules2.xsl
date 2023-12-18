@@ -181,8 +181,8 @@
                             </xsl:variable>
                             <!-- level1 -->
                             <xsl:choose>
-                                <xsl:when test="fn:string[@key = 'range'] ='BasLat'"><xsl:text disable-output-escaping="yes">&lt;ruleset&gt;</xsl:text><rule><xsl:value-of select="$mufi"/></rule></xsl:when><xsl:otherwise><xsl:choose>
-                                    <xsl:when test="$c1 !=''"><xsl:text disable-output-escaping="yes">&lt;ruleset&gt;</xsl:text><rule><xsl:value-of select="$c1"/></rule></xsl:when><xsl:otherwise><xsl:text disable-output-escaping="yes">&lt;ruleset&gt;</xsl:text><rule/></xsl:otherwise>
+                                <xsl:when test="fn:string[@key = 'range'] ='BasLat'"><olevel/><rule><xsl:value-of select="$mufi"/></rule></xsl:when><xsl:otherwise><xsl:choose>
+                                    <xsl:when test="$c1 !=''"><olevel/><rule><xsl:value-of select="$c1"/></rule></xsl:when><xsl:otherwise><olevel/><rule/></xsl:otherwise>
                                 </xsl:choose></xsl:otherwise>
                             </xsl:choose>
                             <!-- level2 -->
@@ -195,8 +195,8 @@
                             </xsl:choose>
                             <!-- level3 -->
                             <xsl:choose>
-                                <xsl:when test="fn:string[@key = 'range'] ='BasLat'"><rule><xsl:value-of select="$mufi"/></rule><type>leve</type><xkomma/></xsl:when><xsl:otherwise><xsl:choose>
-                                    <xsl:when test="$c3 !=''"><rule><xsl:value-of select="$c3"/></rule><type>leve</type><xkomma/></xsl:when><xsl:otherwise><rule><xsl:value-of select="$mufi"/></rule><type>leve</type><xkomma/></xsl:otherwise>
+                                <xsl:when test="fn:string[@key = 'range'] ='BasLat'"><rule><xsl:value-of select="$mufi"/></rule><type>level</type><clevel/></xsl:when><xsl:otherwise><xsl:choose>
+                                    <xsl:when test="$c3 !=''"><rule><xsl:value-of select="$c3"/></rule><type>level</type><clevel/></xsl:when><xsl:otherwise><rule><xsl:value-of select="$mufi"/></rule><type>level</type><clevel/></xsl:otherwise>
                                 </xsl:choose></xsl:otherwise></xsl:choose>
                         </xsl:for-each>
                     </xsl:for-each-group>
@@ -224,7 +224,8 @@
     
     
     <xsl:template match="komma[fn:position() &lt; last()]">,</xsl:template>
-    <xsl:template match="xkomma"><xsl:text disable-output-escaping="yes">&lt;/ruleset&gt;</xsl:text></xsl:template>
+    <xsl:template match="olevel"><xsl:text disable-output-escaping="yes">&lt;ruleset&gt;</xsl:text></xsl:template>
+    <xsl:template match="clevel"><xsl:text disable-output-escaping="yes">&lt;/ruleset&gt;</xsl:text></xsl:template>
     
 
 </xsl:stylesheet>
