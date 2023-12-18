@@ -1,3 +1,3 @@
 
-                    P1:&lt;ruleset&gt;"l̥",leve</ruleset>&lt;ruleset&gt;"m̥",leve</ruleset>&lt;ruleset&gt;"n̥",leve</ruleset>&lt;ruleset&gt;"r̥",leve</ruleset>
-                    P2:<line>&lt;ruleset&gt;<rule/><rule>"l̥",</rule><rule></rule><type>leve</type><xkomma/>&lt;ruleset&gt;<rule/><rule>"m̥",</rule><rule></rule><type>leve</type><xkomma/>&lt;ruleset&gt;<rule/><rule>"n̥",</rule><rule></rule><type>leve</type><xkomma/>&lt;ruleset&gt;<rule/><rule>"r̥",</rule><rule></rule><type>leve</type><xkomma/></line>
+                    P1:<ruleset>"l̥",level</ruleset><ruleset>"m̥",level</ruleset><ruleset>"n̥",level</ruleset><ruleset>"r̥",level</ruleset>
+                    P2:<line><olevel/><rule/><rule>"l̥",</rule><rule></rule><type>level</type><clevel/><olevel/><rule/><rule>"m̥",</rule><rule></rule><type>level</type><clevel/><olevel/><rule/><rule>"n̥",</rule><rule></rule><type>level</type><clevel/><olevel/><rule/><rule>"r̥",</rule><rule></rule><type>level</type><clevel/></line>

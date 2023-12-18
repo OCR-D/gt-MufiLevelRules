@@ -1,3 +1,3 @@
 
-                    P1:&lt;ruleset&gt;"ꝗ̃",leve</ruleset>
-                    P2:<line>&lt;ruleset&gt;<rule/><rule>"ꝗ̃",</rule><rule></rule><type>leve</type><xkomma/></line>
+                    P1:<ruleset>"ꝗ̃",level</ruleset>
+                    P2:<line><olevel/><rule/><rule>"ꝗ̃",</rule><rule></rule><type>level</type><clevel/></line>
