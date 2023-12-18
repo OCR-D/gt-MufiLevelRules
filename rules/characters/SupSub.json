@@ -1,0 +1,41 @@
+
+                {"ruleset":[
+                
+                            
+                                {"rule": ["","⁰","⁰"], "type": "level"},
+                            
+                                {"rule": ["","⁴","⁴"], "type": "level"},
+                            
+                                {"rule": ["","⁵","⁵"], "type": "level"},
+                            
+                                {"rule": ["","⁶","⁶"], "type": "level"},
+                            
+                                {"rule": ["","⁷","⁷"], "type": "level"},
+                            
+                                {"rule": ["","⁸","⁸"], "type": "level"},
+                            
+                                {"rule": ["","⁹","⁹"], "type": "level"},
+                            
+                                {"rule": ["","₀","₀"], "type": "level"},
+                            
+                                {"rule": ["","₁","₁"], "type": "level"},
+                            
+                                {"rule": ["","₂","₂"], "type": "level"},
+                            
+                                {"rule": ["","₃","₃"], "type": "level"},
+                            
+                                {"rule": ["","₄","₄"], "type": "level"},
+                            
+                                {"rule": ["","₅","₅"], "type": "level"},
+                            
+                                {"rule": ["","₆","₆"], "type": "level"},
+                            
+                                {"rule": ["","₇","₇"], "type": "level"},
+                            
+                                {"rule": ["","₈","₈"], "type": "level"},
+                            
+                                {"rule": ["","₉","₉"], "type": "level"},
+                            
+                                {"rule": ["","⁻","⁻"], "type": "level"}
+                ]}
+            

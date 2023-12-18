@@ -1,0 +1,147 @@
+
+                {"ruleset":[
+                
+                            
+                                {"rule": ["","Ā","Ā"], "type": "level"},
+                            
+                                {"rule": ["","ā","ā"], "type": "level"},
+                            
+                                {"rule": ["","Ă","Ă"], "type": "level"},
+                            
+                                {"rule": ["","ă","ă"], "type": "level"},
+                            
+                                {"rule": ["","Ą","Ą"], "type": "level"},
+                            
+                                {"rule": ["","ą","ą"], "type": "level"},
+                            
+                                {"rule": ["","Ć","Ć"], "type": "level"},
+                            
+                                {"rule": ["","ć","ć"], "type": "level"},
+                            
+                                {"rule": ["","Ċ","Ċ"], "type": "level"},
+                            
+                                {"rule": ["","ċ","ċ"], "type": "level"},
+                            
+                                {"rule": ["","Đ","Đ"], "type": "level"},
+                            
+                                {"rule": ["","đ","đ"], "type": "level"},
+                            
+                                {"rule": ["","Ē","Ē"], "type": "level"},
+                            
+                                {"rule": ["","ē","ē"], "type": "level"},
+                            
+                                {"rule": ["","Ĕ","Ĕ"], "type": "level"},
+                            
+                                {"rule": ["","ĕ","ĕ"], "type": "level"},
+                            
+                                {"rule": ["","Ė","Ė"], "type": "level"},
+                            
+                                {"rule": ["","ė","ė"], "type": "level"},
+                            
+                                {"rule": ["","Ę","Ę"], "type": "level"},
+                            
+                                {"rule": ["ę","ę","ę"], "type": "level"},
+                            
+                                {"rule": ["","Ġ","Ġ"], "type": "level"},
+                            
+                                {"rule": ["","ġ","ġ"], "type": "level"},
+                            
+                                {"rule": ["","ħ","ħ"], "type": "level"},
+                            
+                                {"rule": ["","Ī","Ī"], "type": "level"},
+                            
+                                {"rule": ["","ī","ī"], "type": "level"},
+                            
+                                {"rule": ["","Ĭ","Ĭ"], "type": "level"},
+                            
+                                {"rule": ["","ĭ","ĭ"], "type": "level"},
+                            
+                                {"rule": ["","Į","Į"], "type": "level"},
+                            
+                                {"rule": ["","į","į"], "type": "level"},
+                            
+                                {"rule": ["","İ","İ"], "type": "level"},
+                            
+                                {"rule": ["","ı","ı"], "type": "level"},
+                            
+                                {"rule": ["IJ","IJ","Ĳ"], "type": "level"},
+                            
+                                {"rule": ["ij","ij","ĳ"], "type": "level"},
+                            
+                                {"rule": ["","Ĺ","Ĺ"], "type": "level"},
+                            
+                                {"rule": ["","ĺ","ĺ"], "type": "level"},
+                            
+                                {"rule": ["","Ł","Ł"], "type": "level"},
+                            
+                                {"rule": ["","ł","ł"], "type": "level"},
+                            
+                                {"rule": ["","Ń","Ń"], "type": "level"},
+                            
+                                {"rule": ["","ń","ń"], "type": "level"},
+                            
+                                {"rule": ["","Ŋ","Ŋ"], "type": "level"},
+                            
+                                {"rule": ["","ŋ","ŋ"], "type": "level"},
+                            
+                                {"rule": ["","Ō","Ō"], "type": "level"},
+                            
+                                {"rule": ["","ō","ō"], "type": "level"},
+                            
+                                {"rule": ["","Ŏ","Ŏ"], "type": "level"},
+                            
+                                {"rule": ["","ŏ","ŏ"], "type": "level"},
+                            
+                                {"rule": ["","Ő","Ő"], "type": "level"},
+                            
+                                {"rule": ["","ő","ő"], "type": "level"},
+                            
+                                {"rule": ["Œ","Œ","Œ"], "type": "level"},
+                            
+                                {"rule": ["œ","œ","œ"], "type": "level"},
+                            
+                                {"rule": ["","Ŕ","Ŕ"], "type": "level"},
+                            
+                                {"rule": ["","ŕ","ŕ"], "type": "level"},
+                            
+                                {"rule": ["","Ś","Ś"], "type": "level"},
+                            
+                                {"rule": ["","ś","ś"], "type": "level"},
+                            
+                                {"rule": ["s","ſ","ſ"], "type": "level"},
+                            
+                                {"rule": ["","Ū","Ū"], "type": "level"},
+                            
+                                {"rule": ["","ū","ū"], "type": "level"},
+                            
+                                {"rule": ["","Ŭ","Ŭ"], "type": "level"},
+                            
+                                {"rule": ["","ŭ","ŭ"], "type": "level"},
+                            
+                                {"rule": ["","Ů","Ů"], "type": "level"},
+                            
+                                {"rule": ["","ů","ů"], "type": "level"},
+                            
+                                {"rule": ["","Ű","Ű"], "type": "level"},
+                            
+                                {"rule": ["","ű","ű"], "type": "level"},
+                            
+                                {"rule": ["","Ų","Ų"], "type": "level"},
+                            
+                                {"rule": ["","ų","ų"], "type": "level"},
+                            
+                                {"rule": ["","Ŵ","Ŵ"], "type": "level"},
+                            
+                                {"rule": ["","ŵ","ŵ"], "type": "level"},
+                            
+                                {"rule": ["","Ŷ","Ŷ"], "type": "level"},
+                            
+                                {"rule": ["","ŷ","ŷ"], "type": "level"},
+                            
+                                {"rule": ["","Ÿ","Ÿ"], "type": "level"},
+                            
+                                {"rule": ["","Ż","Ż"], "type": "level"},
+                            
+                                {"rule": ["","ż","ż"], "type": "level"}
+                ]}
+            
