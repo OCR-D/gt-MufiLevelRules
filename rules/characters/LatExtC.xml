@@ -1,1 +1,1 @@
-<ruleset>"Ⱶ",Ⱶlevel</ruleset><ruleset>"ⱶ",ⱶlevel</ruleset><ruleset>"ⱽ",ⱽlevel</ruleset>
+<ruleset><rule>"Ⱶ",</rule><rule>Ⱶ</rule><type>level</type></ruleset><ruleset><rule>"ⱶ",</rule><rule>ⱶ</rule><type>level</type></ruleset><ruleset><rule>"ⱽ",</rule><rule>ⱽ</rule><type>level</type></ruleset>

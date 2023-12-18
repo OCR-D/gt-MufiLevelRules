@@ -1,1 +1,1 @@
-<ruleset>"æ̊",level</ruleset><ruleset>"e̊",level</ruleset><ruleset>"o̊",level</ruleset><ruleset>"v̊",level</ruleset>
+<ruleset><rule>"æ̊",</rule><rule></rule><type>level</type></ruleset><ruleset><rule>"e̊",</rule><rule></rule><type>level</type></ruleset><ruleset><rule>"o̊",</rule><rule></rule><type>level</type></ruleset><ruleset><rule>"v̊",</rule><rule></rule><type>level</type></ruleset>

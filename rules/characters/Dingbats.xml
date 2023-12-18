@@ -1,1 +1,1 @@
-<ruleset>"✝",✝level</ruleset><ruleset>"❦",❦level</ruleset><ruleset>"❧",❧level</ruleset>
+<ruleset><rule>"✝",</rule><rule>✝</rule><type>level</type></ruleset><ruleset><rule>"❦",</rule><rule>❦</rule><type>level</type></ruleset><ruleset><rule>"❧",</rule><rule>❧</rule><type>level</type></ruleset>
