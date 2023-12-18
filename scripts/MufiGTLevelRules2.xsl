@@ -6,7 +6,10 @@
     xmlns:pc="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15"
     xmlns:wt="https://github.com/dariok/w2tei"
      exclude-result-prefixes="#all" version="3.0">
-    <xsl:output indent="yes" omit-xml-declaration="yes" method="xml"/>
+    <xsl:output name="txt_out" indent="yes" omit-xml-declaration="yes" method="text" normalization-form="none"/>
+    <xsl:output name="xml_out" omit-xml-declaration="yes" method="xml" normalization-form="none"/>
+    
+
     
     <xsl:param name="output"/>
     <xsl:param name="format"/>
@@ -61,7 +64,7 @@
         <xsl:for-each-group select="$MUFIEXPORT//fn:map" group-by="fn:string[@key = 'range']">
             <xsl:sort select="fn:current-grouping-key()"/>
             <xsl:if test="$format = 'json'">
-            <xsl:result-document href="ghout/rules/characters/{fn:current-grouping-key()}.json">
+            <xsl:result-document format="txt_out" href="ghout/rules/characters/{fn:current-grouping-key()}.json">
                 {"ruleset":[
                 <xsl:variable name="keys"><line>
                     <xsl:for-each-group select="fn:current-group()" group-by="fn:string[@key = 'alpha']">
@@ -134,7 +137,7 @@
             </xsl:if>
 
         <xsl:if test="$format = 'xml'">
-            <xsl:result-document href="ghout/rules/characters/{fn:current-grouping-key()}.xml">
+            <xsl:result-document format="xml_out" href="ghout/rules/characters/{fn:current-grouping-key()}.xml">
                 <xsl:variable name="keys"><line>
                     <xsl:for-each-group select="fn:current-group()" group-by="fn:string[@key = 'alpha']">
                         <xsl:sort order="ascending" select="fn:string[@key = 'alpha']"/>
@@ -177,7 +180,7 @@
                             </xsl:variable>
                             <!-- level1 -->
                             <xsl:choose>
-                                <xsl:when test="fn:string[@key = 'range'] ='BasLat'">&#x003C;ruleset><rule><xsl:value-of select="$mufi"/></rule></xsl:when><xsl:otherwise><xsl:choose>
+                                <xsl:when test="fn:string[@key = 'range'] ='BasLat'"><![CDATA[\<]]>&#x003C;ruleset><rule><xsl:value-of select="$mufi"/></rule></xsl:when><xsl:otherwise><xsl:choose>
                                     <xsl:when test="$c1 !=''">&#x003C;ruleset><rule><xsl:value-of select="$c1"/></rule></xsl:when><xsl:otherwise>&#x003C;ruleset><rule/></xsl:otherwise>
                                 </xsl:choose></xsl:otherwise>
                             </xsl:choose>
