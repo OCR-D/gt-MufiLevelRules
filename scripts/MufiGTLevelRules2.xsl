@@ -181,22 +181,22 @@
                             </xsl:variable>
                             <!-- level1 -->
                             <xsl:choose>
-                                <xsl:when test="fn:string[@key = 'range'] ='BasLat'"><olevel/><xsl:element name="rule"><xsl:value-of select="$mufi"/></xsl:element></xsl:when><xsl:otherwise><xsl:choose>
-                                    <xsl:when test="$c1 !=''"><olevel/><xsl:element name="rule"><xsl:value-of select="$c1"/></xsl:element></xsl:when><xsl:otherwise><olevel/><rule/></xsl:otherwise>
+                                <xsl:when test="fn:string[@key = 'range'] ='BasLat'"><olevel/><orule/><xsl:value-of select="$mufi"/><crule/></xsl:when><xsl:otherwise><xsl:choose>
+                                    <xsl:when test="$c1 !=''"><olevel/><orule/><xsl:value-of select="$c1"/><crule/></xsl:when><xsl:otherwise><olevel/><rule/></xsl:otherwise>
                                 </xsl:choose></xsl:otherwise>
                             </xsl:choose>
                             <!-- level2 -->
                             <xsl:choose>
                                 <xsl:when test="$c2 = $mufic2"><xsl:choose>
-                                    <xsl:when test="$mufic2 !=''"><xsl:element name="rule"><xsl:value-of select="$mufic2"/></xsl:element></xsl:when><xsl:otherwise><xsl:element name="rule"><xsl:value-of select="$mufi"/></xsl:element></xsl:otherwise>
+                                    <xsl:when test="$mufic2 !=''"><orule/><xsl:value-of select="$mufic2"/><crule/></xsl:when><xsl:otherwise><orule/><xsl:value-of select="$mufi"/><crule/></xsl:otherwise>
                                 </xsl:choose></xsl:when><xsl:otherwise><xsl:choose>
-                                    <xsl:when test="$c2 !=''"><xsl:element name="rule"><xsl:value-of select="$c2"/></xsl:element></xsl:when><xsl:otherwise><xsl:element name="rule"><xsl:value-of select="$mufic2"/></xsl:element></xsl:otherwise>
+                                    <xsl:when test="$c2 !=''"><orule/><xsl:value-of select="$c2"/><crule/></xsl:when><xsl:otherwise><orule/><xsl:value-of select="$mufic2"/><crule/></xsl:otherwise>
                                 </xsl:choose></xsl:otherwise>
                             </xsl:choose>
                             <!-- level3 -->
                             <xsl:choose>
-                                <xsl:when test="fn:string[@key = 'range'] ='BasLat'"><xsl:element name="rule"><xsl:value-of select="$mufi"/></xsl:element><xsl:element name="type">level</xsl:element><clevel/></xsl:when><xsl:otherwise><xsl:choose>
-                                    <xsl:when test="$c3 !=''"><xsl:element name="rule"><xsl:value-of select="$c3"/></xsl:element><xsl:element name="type">level</xsl:element><clevel/></xsl:when><xsl:otherwise><xsl:element name="rule"><xsl:value-of select="$mufi"/></xsl:element><xsl:element name="type">level</xsl:element><clevel/></xsl:otherwise>
+                                <xsl:when test="fn:string[@key = 'range'] ='BasLat'"><orule/><xsl:value-of select="$mufi"/><crule/><otype/>level<ctype/><clevel/></xsl:when><xsl:otherwise><xsl:choose>
+                                    <xsl:when test="$c3 !=''"><orule/><xsl:value-of select="$c3"/><crule/><otype/>level<ctype/><clevel/></xsl:when><xsl:otherwise><orule/><xsl:value-of select="$mufi"/><crule/><otype/>level<ctype/><clevel/></xsl:otherwise>
                                 </xsl:choose></xsl:otherwise></xsl:choose>
                         </xsl:for-each>
                     </xsl:for-each-group>
@@ -225,7 +225,10 @@
     <xsl:template match="komma[fn:position() &lt; last()]">,</xsl:template>
     <xsl:template match="olevel"><xsl:text disable-output-escaping="yes">&lt;ruleset&gt;</xsl:text></xsl:template>
     <xsl:template match="clevel"><xsl:text disable-output-escaping="yes">&lt;/ruleset&gt;</xsl:text></xsl:template>
-    
+    <xsl:template match="orule"><xsl:text disable-output-escaping="yes">&lt;rule&gt;</xsl:text></xsl:template>
+    <xsl:template match="crule"><xsl:text disable-output-escaping="yes">&lt;/rule&gt;</xsl:text></xsl:template>
+    <xsl:template match="otype"><xsl:text disable-output-escaping="yes">&lt;type&gt;</xsl:text></xsl:template>
+    <xsl:template match="ctype"><xsl:text disable-output-escaping="yes">&lt;/type&gt;</xsl:text></xsl:template>
     
 
 </xsl:stylesheet>
