@@ -27,9 +27,18 @@ Note:
     `git clone https://github.com/tboenig/gt-MufiLevelRules.git`
 2. Install [Saxon](https://www.saxonica.com/download/download_page.xml) for XSL Transformations v3.0. Then simply run with:
 
-    `java -jar saxon-he.jar -xsl:MufiGTLevelRules.xsl -s:MufiGTLevelRules.xsl output=characters`
+    
+    `java -jar saxon-he-XX.jar -xsl:scripts/MufiGTLevelRules2.xsl -s:scripts/MufiGTLevelRules.xsl output=characters merge=yes`
+
+Parameters:
+- **output** ``characters`` -> create the rules, all rules are saved under directory: ``[directory]/rules/characters``
+- **merge** ``yes`` -> create the megarules, all rules in one file. Megarules saved under directoy ``[directory]/rules``
  
 The result of the conversion can be found in the directory: ``[directory]/rules/characters``.
+- Output Format:
+  - xml
+  - json
+
 
 The script uses:
 
