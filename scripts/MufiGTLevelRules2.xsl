@@ -154,7 +154,7 @@
         
             <xsl:result-document format="xml_out" href="ghout/rules/characters/{fn:current-grouping-key()}.xml">
                 <xsl:variable name="keys">
-                <olevelrules/>
+                <xsl:element name="levelrules">
                     <xsl:for-each-group select="fn:current-group()" group-by="fn:string[@key = 'alpha']">
                         <xsl:sort order="ascending" select="fn:string[@key = 'alpha']"/>
                         <xsl:for-each select="fn:current-group()">
@@ -219,7 +219,7 @@
                                 </xsl:choose></xsl:otherwise></xsl:choose>
                         </xsl:for-each>
                     </xsl:for-each-group>
-                <clevelrules/></xsl:variable>
+                </xsl:element></xsl:variable>
                 
                 <xsl:for-each select="$keys">
                     <xsl:apply-templates/>
