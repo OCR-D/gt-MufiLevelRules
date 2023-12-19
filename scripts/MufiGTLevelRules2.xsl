@@ -182,8 +182,8 @@
                                 <xsl:choose>
                                     <xsl:when test="contains(fn:string[@key = 'range'], 'PUA')">
                                         <xsl:choose>
-                                            <xsl:when test="contains(fn:string[@key = 'codepointalt'], '+')">"<xsl:for-each select="fn:tokenize(fn:string[@key = 'codepointalt'], ' \+ ')">
-                                                <xsl:value-of select="codepoints-to-string(wt:hexToDec(.))"/></xsl:for-each>",</xsl:when>
+                                            <xsl:when test="contains(fn:string[@key = 'codepointalt'], '+')"><xsl:for-each select="fn:tokenize(fn:string[@key = 'codepointalt'], ' \+ ')">
+                                                <xsl:value-of select="codepoints-to-string(wt:hexToDec(.))"/></xsl:for-each></xsl:when>
                                             <xsl:otherwise></xsl:otherwise>
                                         </xsl:choose></xsl:when>
                                     <xsl:otherwise><xsl:value-of select="$mufi"/></xsl:otherwise>
