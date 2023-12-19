@@ -59,6 +59,7 @@
         </xsl:if>
         <xsl:if test="$merge = 'yes'">
             <xsl:result-document format="xml_out" href="ghout/rules/megalevelrules.xml">
+                <xsl:element name="levelrules">
                 <xsl:merge>
                     <xsl:merge-source for-each-item="collection('../ghout/rules/characters/?select=*.xml')" select="levelrules/ruleset">
                         <xsl:merge-key select="range"/>
@@ -67,6 +68,7 @@
                         <xsl:sequence select="current-merge-group()"/>
                     </xsl:merge-action>
                 </xsl:merge>
+                </xsl:element>
             </xsl:result-document>
         </xsl:if>
     </xsl:template>
