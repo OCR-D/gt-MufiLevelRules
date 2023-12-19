@@ -60,7 +60,7 @@
         <xsl:if test="$merge = 'yes'">
             <xsl:result-document format="xml_out" href="ghout/rules/megalevelrules.xml">
                 <xsl:merge>
-                    <xsl:merge-source for-each-item="collection('../ghout/rules/characters/?select=*.xml')" select="levelrules">
+                    <xsl:merge-source for-each-item="collection('../ghout/rules/characters/?select=*.xml')" select="levelrules/ruleset">
                         <xsl:merge-key select="range"/>
                     </xsl:merge-source>
                     <xsl:merge-action>
