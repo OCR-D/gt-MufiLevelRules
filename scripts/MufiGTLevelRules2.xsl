@@ -58,10 +58,10 @@
                 <xsl:call-template name="char"/>
         </xsl:if>
         <xsl:if test="$merge = 'yes'">
-           <xsl:result-document format="xml_out" href="ghout/rules/megalevelrules.xml">
+            <xsl:result-document format="xml_out" href="ghout/rules/characters/megalevelrules.ml">
                 <xsl:merge>
-                    <xsl:merge-source for-each-item="collection('../ghout/rules/characters/?select=*.xml')" select=".">
-                        <xsl:merge-key select="range" order="ascending"/>
+                    <xsl:merge-source for-each-item="collection('../ghout/rules/characters/?select=*.xml')" select="levelrules">
+                        <xsl:merge-key select="range"/>
                     </xsl:merge-source>
                     <xsl:merge-action>
                         <xsl:sequence select="current-merge-group()"/>
