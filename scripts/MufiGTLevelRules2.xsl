@@ -202,8 +202,8 @@
 
                             <!-- level1 -->
                             <xsl:choose>
-                                <xsl:when test="fn:string[@key = 'range'] ='BasLat'"><olevel/><orange/><xsl:value-of select="fn:string[@key = 'range']"/><crange/><!--<odesc/><xsl:value-of select="fn:string[@key='description']"/><cdesc/>--><orule/><xsl:value-of select="$mufi"/><crule/></xsl:when><xsl:otherwise><xsl:choose>
-                                    <xsl:when test="$c1 !=''"><olevel/><orange/><xsl:value-of select="fn:string[@key = 'range']"/><crange/><!--<odesc/><xsl:value-of select="fn:string[@key='description']"/><cdesc/>--><orule/><xsl:value-of select="$c1"/><crule/></xsl:when><xsl:otherwise><olevel/><orange/><xsl:value-of select="fn:string[@key = 'range']"/><crange/><!--<odesc/><xsl:value-of select="fn:string[@key='description']"/><cdesc/>--><orule/><crule/></xsl:otherwise>
+                                <xsl:when test="fn:string[@key = 'range'] ='BasLat'"><olevel/><orange/><xsl:value-of select="fn:string[@key = 'range']"/><crange/><odesc/><xsl:value-of select="fn:string[@key='description']"/><cdesc/><orule/><xsl:value-of select="$mufi"/><crule/></xsl:when><xsl:otherwise><xsl:choose>
+                                    <xsl:when test="$c1 !=''"><olevel/><orange/><xsl:value-of select="fn:string[@key = 'range']"/><crange/><odesc/><xsl:value-of select="fn:string[@key='description']"/><cdesc/><orule/><xsl:value-of select="$c1"/><crule/></xsl:when><xsl:otherwise><olevel/><orange/><xsl:value-of select="fn:string[@key = 'range']"/><crange/><odesc/><xsl:value-of select="fn:string[@key='description']"/><cdesc/><orule/><crule/></xsl:otherwise>
                                 </xsl:choose></xsl:otherwise>
                             </xsl:choose>
                             <!-- level2 -->
@@ -254,7 +254,7 @@
     <xsl:template match="orange"><xsl:text disable-output-escaping="yes">&lt;range&gt;</xsl:text></xsl:template>
     <xsl:template match="crange"><xsl:text disable-output-escaping="yes">&lt;/range&gt;</xsl:text></xsl:template>
     <xsl:template match="odesc"><xsl:text disable-output-escaping="yes">&lt;desc&gt;</xsl:text></xsl:template>
-    <xsl:template match="cdescs"><xsl:text disable-output-escaping="yes">&lt;/desc&gt;</xsl:text></xsl:template>
+    <xsl:template match="cdesc"><xsl:text disable-output-escaping="yes">&lt;/desc&gt;</xsl:text></xsl:template>
 
 
 
