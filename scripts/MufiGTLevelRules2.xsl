@@ -7,7 +7,7 @@
     <xsl:output name="txt_out" indent="yes" omit-xml-declaration="yes" method="text"
         normalization-form="none"/>
     <xsl:output name="xml_out" indent="yes" omit-xml-declaration="no" method="xml"
-        normalization-form="none" cdata-section-elements="ocr-d"/>
+         cdata-section-elements="ocr-d"/>
 
 
 
