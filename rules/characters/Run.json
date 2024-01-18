@@ -1,25 +1,12 @@
-
-                {"ruleset":[
-                
-                            
-                                {"rule": ["","ᚨ","ᚨ"], "type": "level"},
-                            
-                                {"rule": ["","ᚧ","ᚧ"], "type": "level"},
-                            
-                                {"rule": ["","ᚠ","ᚠ"], "type": "level"},
-                            
-                                {"rule": ["","ᚢ","ᚢ"], "type": "level"},
-                            
-                                {"rule": ["","ᚡ","ᚡ"], "type": "level"},
-                            
-                                {"rule": ["","ᚥ","ᚥ"], "type": "level"},
-                            
-                                {"rule": ["","ᚣ","ᚣ"], "type": "level"},
-                            
-                                {"rule": ["","ᚤ","ᚤ"], "type": "level"},
-                            
-                                {"rule": ["","ᛘ","ᛘ"], "type": "level"},
-                            
-                                {"rule": ["","ᚦ","ᚦ"], "type": "level"}
-                ]}
-            
+ {"ruleset":[
+                     {"rule": ["","ᚨ","ᚨ"], "type":
+                                                "level"}, {"rule": ["","ᚧ","ᚧ"], "type":
+                                                "level"}, {"rule": ["","ᚠ","ᚠ"], "type":
+                                                "level"}, {"rule": ["","ᚢ","ᚢ"], "type":
+                                                "level"}, {"rule": ["","ᚡ","ᚡ"], "type":
+                                                "level"}, {"rule": ["","ᚥ","ᚥ"], "type":
+                                                "level"}, {"rule": ["","ᚣ","ᚣ"], "type":
+                                                "level"}, {"rule": ["","ᚤ","ᚤ"], "type":
+                                                "level"}, {"rule": ["","ᛘ","ᛘ"], "type":
+                                                "level"}, {"rule": ["","ᚦ","ᚦ"], "type":
+                                                "level"} ]} 

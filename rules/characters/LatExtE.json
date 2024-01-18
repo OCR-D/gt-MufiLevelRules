@@ -1,7 +1,3 @@
-
-                {"ruleset":[
-                
-                            
-                                {"rule": ["","ꭗ","ꭗ"], "type": "level"}
-                ]}
-            
+ {"ruleset":[
+                     {"rule": ["","ꭗ","ꭗ"], "type":
+                                                "level"} ]} 

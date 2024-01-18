@@ -1,61 +1,30 @@
-
-                {"ruleset":[
-                
-                            
-                                {"rule": ["","",""], "type": "level"},
-                            
-                                {"rule": ["","",""], "type": "level"},
-                            
-                                {"rule": ["","",""], "type": "level"},
-                            
-                                {"rule": ["","",""], "type": "level"},
-                            
-                                {"rule": ["","",""], "type": "level"},
-                            
-                                {"rule": ["","ı̨",""], "type": "level"},
-                            
-                                {"rule": ["","",""], "type": "level"},
-                            
-                                {"rule": ["","",""], "type": "level"},
-                            
-                                {"rule": ["","",""], "type": "level"},
-                            
-                                {"rule": ["","",""], "type": "level"},
-                            
-                                {"rule": ["","",""], "type": "level"},
-                            
-                                {"rule": ["","",""], "type": "level"},
-                            
-                                {"rule": ["","",""], "type": "level"},
-                            
-                                {"rule": ["q;","q;",""], "type": "level"},
-                            
-                                {"rule": ["","",""], "type": "level"},
-                            
-                                {"rule": ["","",""], "type": "level"},
-                            
-                                {"rule": ["","",""], "type": "level"},
-                            
-                                {"rule": ["","",""], "type": "level"},
-                            
-                                {"rule": ["","",""], "type": "level"},
-                            
-                                {"rule": ["","",""], "type": "level"},
-                            
-                                {"rule": ["","",""], "type": "level"},
-                            
-                                {"rule": ["","",""], "type": "level"},
-                            
-                                {"rule": ["","",""], "type": "level"},
-                            
-                                {"rule": ["","",""], "type": "level"},
-                            
-                                {"rule": ["","",""], "type": "level"},
-                            
-                                {"rule": ["","",""], "type": "level"},
-                            
-                                {"rule": ["","",""], "type": "level"},
-                            
-                                {"rule": ["","",""], "type": "level"}
-                ]}
-            
+ {"ruleset":[
+                     {"rule": ["","",""], "type":
+                                                "level"}, {"rule": ["","",""], "type":
+                                                "level"}, {"rule": ["","",""], "type":
+                                                "level"}, {"rule": ["","",""], "type":
+                                                "level"}, {"rule": ["","",""], "type":
+                                                "level"}, {"rule": ["","ı̨",""], "type":
+                                                "level"}, {"rule": ["","",""], "type":
+                                                "level"}, {"rule": ["","",""], "type":
+                                                "level"}, {"rule": ["","",""], "type":
+                                                "level"}, {"rule": ["","",""], "type":
+                                                "level"}, {"rule": ["","",""], "type":
+                                                "level"}, {"rule": ["","",""], "type":
+                                                "level"}, {"rule": ["","",""], "type":
+                                                "level"}, {"rule": ["q;","q;",""], "type":
+                                                  "level"}, {"rule": ["","",""], "type":
+                                                "level"}, {"rule": ["","",""], "type":
+                                                "level"}, {"rule": ["","",""], "type":
+                                                "level"}, {"rule": ["","",""], "type":
+                                                "level"}, {"rule": ["","",""], "type":
+                                                "level"}, {"rule": ["","",""], "type":
+                                                "level"}, {"rule": ["","",""], "type":
+                                                "level"}, {"rule": ["","",""], "type":
+                                                "level"}, {"rule": ["","",""], "type":
+                                                "level"}, {"rule": ["","",""], "type":
+                                                "level"}, {"rule": ["","",""], "type":
+                                                "level"}, {"rule": ["","",""], "type":
+                                                "level"}, {"rule": ["","",""], "type":
+                                                "level"}, {"rule": ["","",""], "type":
+                                                "level"} ]} 

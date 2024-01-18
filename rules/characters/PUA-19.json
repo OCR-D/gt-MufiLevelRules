@@ -1,99 +1,49 @@
-
-                {"ruleset":[
-                
-                            
-                                {"rule": ["","Æ̣",""], "type": "level"},
-                            
-                                {"rule": ["","æ̣",""], "type": "level"},
-                            
-                                {"rule": ["","̣",""], "type": "level"},
-                            
-                                {"rule": ["","̣",""], "type": "level"},
-                            
-                                {"rule": ["","̣",""], "type": "level"},
-                            
-                                {"rule": ["","̣",""], "type": "level"},
-                            
-                                {"rule": ["","̣",""], "type": "level"},
-                            
-                                {"rule": ["","̣",""], "type": "level"},
-                            
-                                {"rule": ["","̣",""], "type": "level"},
-                            
-                                {"rule": ["","̣",""], "type": "level"},
-                            
-                                {"rule": ["","̣",""], "type": "level"},
-                            
-                                {"rule": ["","̣",""], "type": "level"},
-                            
-                                {"rule": ["","ʙ̣",""], "type": "level"},
-                            
-                                {"rule": ["","C̣",""], "type": "level"},
-                            
-                                {"rule": ["","c̣",""], "type": "level"},
-                            
-                                {"rule": ["","Ð̣",""], "type": "level"},
-                            
-                                {"rule": ["","ð̣",""], "type": "level"},
-                            
-                                {"rule": ["","ᴅ̣",""], "type": "level"},
-                            
-                                {"rule": ["","F̣",""], "type": "level"},
-                            
-                                {"rule": ["","̣",""], "type": "level"},
-                            
-                                {"rule": ["","f̣",""], "type": "level"},
-                            
-                                {"rule": ["","̣",""], "type": "level"},
-                            
-                                {"rule": ["","G̣",""], "type": "level"},
-                            
-                                {"rule": ["","g̣",""], "type": "level"},
-                            
-                                {"rule": ["","ɢ̣",""], "type": "level"},
-                            
-                                {"rule": ["","J̣",""], "type": "level"},
-                            
-                                {"rule": ["","j̣",""], "type": "level"},
-                            
-                                {"rule": ["","ʟ̣",""], "type": "level"},
-                            
-                                {"rule": ["","ᴍ̣",""], "type": "level"},
-                            
-                                {"rule": ["","ɴ̣",""], "type": "level"},
-                            
-                                {"rule": ["","Ø̣",""], "type": "level"},
-                            
-                                {"rule": ["","ø̣",""], "type": "level"},
-                            
-                                {"rule": ["","̣",""], "type": "level"},
-                            
-                                {"rule": ["","̣",""], "type": "level"},
-                            
-                                {"rule": ["","P̣",""], "type": "level"},
-                            
-                                {"rule": ["","p̣",""], "type": "level"},
-                            
-                                {"rule": ["","Q̣",""], "type": "level"},
-                            
-                                {"rule": ["","q̣",""], "type": "level"},
-                            
-                                {"rule": ["","̣",""], "type": "level"},
-                            
-                                {"rule": ["","ʀ̣",""], "type": "level"},
-                            
-                                {"rule": ["","ſ̣",""], "type": "level"},
-                            
-                                {"rule": ["","̣",""], "type": "level"},
-                            
-                                {"rule": ["","ᴛ̣",""], "type": "level"},
-                            
-                                {"rule": ["","̣",""], "type": "level"},
-                            
-                                {"rule": ["","̣",""], "type": "level"},
-                            
-                                {"rule": ["","Þ̣",""], "type": "level"},
-                            
-                                {"rule": ["","þ̣",""], "type": "level"}
-                ]}
-            
+ {"ruleset":[
+                     {"rule": ["","Æ̣",""], "type":
+                                                "level"}, {"rule": ["","æ̣",""], "type":
+                                                "level"}, {"rule": ["","̣",""], "type":
+                                                "level"}, {"rule": ["","̣",""], "type":
+                                                "level"}, {"rule": ["","̣",""], "type":
+                                                "level"}, {"rule": ["","̣",""], "type":
+                                                "level"}, {"rule": ["","̣",""], "type":
+                                                "level"}, {"rule": ["","̣",""], "type":
+                                                "level"}, {"rule": ["","̣",""], "type":
+                                                "level"}, {"rule": ["","̣",""], "type":
+                                                "level"}, {"rule": ["","̣",""], "type":
+                                                "level"}, {"rule": ["","̣",""], "type":
+                                                "level"}, {"rule": ["","ʙ̣",""], "type":
+                                                "level"}, {"rule": ["","C̣",""], "type":
+                                                "level"}, {"rule": ["","c̣",""], "type":
+                                                "level"}, {"rule": ["","Ð̣",""], "type":
+                                                "level"}, {"rule": ["","ð̣",""], "type":
+                                                "level"}, {"rule": ["","ᴅ̣",""], "type":
+                                                "level"}, {"rule": ["","F̣",""], "type":
+                                                "level"}, {"rule": ["","̣",""], "type":
+                                                "level"}, {"rule": ["","f̣",""], "type":
+                                                "level"}, {"rule": ["","̣",""], "type":
+                                                "level"}, {"rule": ["","G̣",""], "type":
+                                                "level"}, {"rule": ["","g̣",""], "type":
+                                                "level"}, {"rule": ["","ɢ̣",""], "type":
+                                                "level"}, {"rule": ["","J̣",""], "type":
+                                                "level"}, {"rule": ["","j̣",""], "type":
+                                                "level"}, {"rule": ["","ʟ̣",""], "type":
+                                                "level"}, {"rule": ["","ᴍ̣",""], "type":
+                                                "level"}, {"rule": ["","ɴ̣",""], "type":
+                                                "level"}, {"rule": ["","Ø̣",""], "type":
+                                                "level"}, {"rule": ["","ø̣",""], "type":
+                                                "level"}, {"rule": ["","̣",""], "type":
+                                                "level"}, {"rule": ["","̣",""], "type":
+                                                "level"}, {"rule": ["","P̣",""], "type":
+                                                "level"}, {"rule": ["","p̣",""], "type":
+                                                "level"}, {"rule": ["","Q̣",""], "type":
+                                                "level"}, {"rule": ["","q̣",""], "type":
+                                                "level"}, {"rule": ["","̣",""], "type":
+                                                "level"}, {"rule": ["","ʀ̣",""], "type":
+                                                "level"}, {"rule": ["","ſ̣",""], "type":
+                                                "level"}, {"rule": ["","̣",""], "type":
+                                                "level"}, {"rule": ["","ᴛ̣",""], "type":
+                                                "level"}, {"rule": ["","̣",""], "type":
+                                                "level"}, {"rule": ["","̣",""], "type":
+                                                "level"}, {"rule": ["","Þ̣",""], "type":
+                                                "level"}, {"rule": ["","þ̣",""], "type":
+                                                "level"} ]} 

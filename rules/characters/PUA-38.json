@@ -1,13 +1,6 @@
-
-                {"ruleset":[
-                
-                            
-                                {"rule": ["","Ę̇",""], "type": "level"},
-                            
-                                {"rule": ["","ę̇",""], "type": "level"},
-                            
-                                {"rule": ["","Ǫ̇",""], "type": "level"},
-                            
-                                {"rule": ["","ǫ̇",""], "type": "level"}
-                ]}
-            
+ {"ruleset":[
+                     {"rule": ["","Ę̇",""], "type":
+                                                "level"}, {"rule": ["","ę̇",""], "type":
+                                                "level"}, {"rule": ["","Ǫ̇",""], "type":
+                                                "level"}, {"rule": ["","ǫ̇",""], "type":
+                                                "level"} ]} 

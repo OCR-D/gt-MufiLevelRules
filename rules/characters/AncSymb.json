@@ -1,27 +1,13 @@
-
-                {"ruleset":[
-                
-                            
-                                {"rule": ["","𐆐","𐆐"], "type": "level"},
-                            
-                                {"rule": ["","𐆑","𐆑"], "type": "level"},
-                            
-                                {"rule": ["","𐆒","𐆒"], "type": "level"},
-                            
-                                {"rule": ["","𐆓","𐆓"], "type": "level"},
-                            
-                                {"rule": ["","𐆔","𐆔"], "type": "level"},
-                            
-                                {"rule": ["","𐆕","𐆕"], "type": "level"},
-                            
-                                {"rule": ["","𐆖","𐆖"], "type": "level"},
-                            
-                                {"rule": ["","𐆗","𐆗"], "type": "level"},
-                            
-                                {"rule": ["","𐆘","𐆘"], "type": "level"},
-                            
-                                {"rule": ["","𐆙","𐆙"], "type": "level"},
-                            
-                                {"rule": ["","𐆚","𐆚"], "type": "level"}
-                ]}
-            
+ {"ruleset":[
+                     {"rule": ["","𐆐","𐆐"], "type":
+                                                "level"}, {"rule": ["","𐆑","𐆑"], "type":
+                                                "level"}, {"rule": ["","𐆒","𐆒"], "type":
+                                                "level"}, {"rule": ["","𐆓","𐆓"], "type":
+                                                "level"}, {"rule": ["","𐆔","𐆔"], "type":
+                                                "level"}, {"rule": ["","𐆕","𐆕"], "type":
+                                                "level"}, {"rule": ["","𐆖","𐆖"], "type":
+                                                "level"}, {"rule": ["","𐆗","𐆗"], "type":
+                                                "level"}, {"rule": ["","𐆘","𐆘"], "type":
+                                                "level"}, {"rule": ["","𐆙","𐆙"], "type":
+                                                "level"}, {"rule": ["","𐆚","𐆚"], "type":
+                                                "level"} ]} 

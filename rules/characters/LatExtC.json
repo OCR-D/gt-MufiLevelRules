@@ -1,11 +1,5 @@
-
-                {"ruleset":[
-                
-                            
-                                {"rule": ["","Ⱶ","Ⱶ"], "type": "level"},
-                            
-                                {"rule": ["","ⱶ","ⱶ"], "type": "level"},
-                            
-                                {"rule": ["","ⱽ","ⱽ"], "type": "level"}
-                ]}
-            
+ {"ruleset":[
+                     {"rule": ["","Ⱶ","Ⱶ"], "type":
+                                                "level"}, {"rule": ["","ⱶ","ⱶ"], "type":
+                                                "level"}, {"rule": ["","ⱽ","ⱽ"], "type":
+                                                "level"} ]} 

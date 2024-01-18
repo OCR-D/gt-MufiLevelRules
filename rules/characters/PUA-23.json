@@ -1,17 +1,8 @@
-
-                {"ruleset":[
-                
-                            
-                                {"rule": ["","Æ̆",""], "type": "level"},
-                            
-                                {"rule": ["","æ̆",""], "type": "level"},
-                            
-                                {"rule": ["","Ø̆",""], "type": "level"},
-                            
-                                {"rule": ["","ø̆",""], "type": "level"},
-                            
-                                {"rule": ["","T̆",""], "type": "level"},
-                            
-                                {"rule": ["","y̆",""], "type": "level"}
-                ]}
-            
+ {"ruleset":[
+                     {"rule": ["","Æ̆",""], "type":
+                                                "level"}, {"rule": ["","æ̆",""], "type":
+                                                "level"}, {"rule": ["","Ø̆",""], "type":
+                                                "level"}, {"rule": ["","ø̆",""], "type":
+                                                "level"}, {"rule": ["","T̆",""], "type":
+                                                "level"}, {"rule": ["","y̆",""], "type":
+                                                "level"} ]} 

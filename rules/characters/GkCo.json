@@ -1,37 +1,18 @@
-
-                {"ruleset":[
-                
-                            
-                                {"rule": ["","α","α"], "type": "level"},
-                            
-                                {"rule": ["","β","β"], "type": "level"},
-                            
-                                {"rule": ["","γ","γ"], "type": "level"},
-                            
-                                {"rule": ["","δ","δ"], "type": "level"},
-                            
-                                {"rule": ["","ε","ε"], "type": "level"},
-                            
-                                {"rule": ["","ζ","ζ"], "type": "level"},
-                            
-                                {"rule": ["","η","η"], "type": "level"},
-                            
-                                {"rule": ["","ι","ι"], "type": "level"},
-                            
-                                {"rule": ["","κ","κ"], "type": "level"},
-                            
-                                {"rule": ["","λ","λ"], "type": "level"},
-                            
-                                {"rule": ["","μ","μ"], "type": "level"},
-                            
-                                {"rule": ["","ν","ν"], "type": "level"},
-                            
-                                {"rule": ["","ξ","ξ"], "type": "level"},
-                            
-                                {"rule": ["","σ","σ"], "type": "level"},
-                            
-                                {"rule": ["","Θ","Θ"], "type": "level"},
-                            
-                                {"rule": ["","θ","θ"], "type": "level"}
-                ]}
-            
+ {"ruleset":[
+                     {"rule": ["","α","α"], "type":
+                                                "level"}, {"rule": ["","β","β"], "type":
+                                                "level"}, {"rule": ["","γ","γ"], "type":
+                                                "level"}, {"rule": ["","δ","δ"], "type":
+                                                "level"}, {"rule": ["","ε","ε"], "type":
+                                                "level"}, {"rule": ["","ζ","ζ"], "type":
+                                                "level"}, {"rule": ["","η","η"], "type":
+                                                "level"}, {"rule": ["","ι","ι"], "type":
+                                                "level"}, {"rule": ["","κ","κ"], "type":
+                                                "level"}, {"rule": ["","λ","λ"], "type":
+                                                "level"}, {"rule": ["","μ","μ"], "type":
+                                                "level"}, {"rule": ["","ν","ν"], "type":
+                                                "level"}, {"rule": ["","ξ","ξ"], "type":
+                                                "level"}, {"rule": ["","σ","σ"], "type":
+                                                "level"}, {"rule": ["","Θ","Θ"], "type":
+                                                "level"}, {"rule": ["","θ","θ"], "type":
+                                                "level"} ]} 
