@@ -7,7 +7,7 @@
     <xsl:output name="txt_out" indent="yes" omit-xml-declaration="yes" method="text"
         normalization-form="none"/>
     <xsl:output name="xml_out" indent="yes" omit-xml-declaration="no" method="xml"
-         cdata-section-elements="ocr-d"/>
+        normalization-form="none" cdata-section-elements="ocr-d"/>
 
 
 
@@ -335,9 +335,39 @@
                                             <odesc/>
                                             <xsl:value-of select="fn:string[@key = 'description']"/>
                                             <cdesc/>
-                                            <orule/>
-                                            <xsl:value-of select="normalize-unicode($c2, 'NFKD')"/>
-                                            <crule/>
+
+                                  <!-- normalized NFKD level 2 to level 1 -->
+
+                                            <xsl:choose>
+                                                <xsl:when test="$c2 = $mufic2">
+                                                    <xsl:choose>
+                                                        <xsl:when test="$mufic2 != ''">
+                                                            <orule/>
+                                                            <xsl:value-of select="normalize-unicode($mufic2, 'NFKD')"/>
+                                                            <crule/>
+                                                        </xsl:when>
+                                                        <xsl:otherwise>
+                                                            <orule/>
+                                                            <xsl:value-of select="normalize-unicode($mufi, 'NFKD')"/>
+                                                            <crule/>
+                                                        </xsl:otherwise>
+                                                    </xsl:choose>
+                                                </xsl:when>
+                                                <xsl:otherwise>
+                                                    <xsl:choose>
+                                                        <xsl:when test="$c2 != ''">
+                                                            <orule/>
+                                                            <xsl:value-of select="normalize-unicode($c2, 'NFKD')"/>
+                                                            <crule/>
+                                                        </xsl:when>
+                                                        <xsl:otherwise>
+                                                            <orule/>
+                                                            <xsl:value-of select="normalize-unicode($mufic2, 'NFKD')"/>
+                                                            <crule/>
+                                                        </xsl:otherwise>
+                                                    </xsl:choose>
+                                                </xsl:otherwise>
+                                            </xsl:choose>
                                         </xsl:otherwise>
                                     </xsl:choose>
                                 </xsl:otherwise>
