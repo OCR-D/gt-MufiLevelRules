@@ -1507,7 +1507,7 @@
    <ruleset>
       <range>GenPunct</range>
       <desc>EN QUAD</desc>
-      <rule> </rule>
+      <rule> </rule>
       <rule> </rule>
       <rule> </rule>
       <type>level</type>
@@ -1515,7 +1515,7 @@
    <ruleset>
       <range>GenPunct</range>
       <desc>EM QUAD</desc>
-      <rule> </rule>
+      <rule> </rule>
       <rule> </rule>
       <rule> </rule>
       <type>level</type>
@@ -1523,7 +1523,7 @@
    <ruleset>
       <range>GenPunct</range>
       <desc>EN SPACE</desc>
-      <rule> </rule>
+      <rule> </rule>
       <rule> </rule>
       <rule> </rule>
       <type>level</type>
@@ -1531,7 +1531,7 @@
    <ruleset>
       <range>GenPunct</range>
       <desc>EM SPACE</desc>
-      <rule> </rule>
+      <rule> </rule>
       <rule> </rule>
       <rule> </rule>
       <type>level</type>
@@ -1539,7 +1539,7 @@
    <ruleset>
       <range>GenPunct</range>
       <desc>THREE-PER-EM SPACE</desc>
-      <rule> </rule>
+      <rule> </rule>
       <rule> </rule>
       <rule> </rule>
       <type>level</type>
@@ -1547,7 +1547,7 @@
    <ruleset>
       <range>GenPunct</range>
       <desc>FOUR-PER-EM SPACE</desc>
-      <rule> </rule>
+      <rule> </rule>
       <rule> </rule>
       <rule> </rule>
       <type>level</type>
@@ -1555,7 +1555,7 @@
    <ruleset>
       <range>GenPunct</range>
       <desc>SIX-PER-EM SPACE</desc>
-      <rule> </rule>
+      <rule> </rule>
       <rule> </rule>
       <rule> </rule>
       <type>level</type>
@@ -1563,7 +1563,7 @@
    <ruleset>
       <range>GenPunct</range>
       <desc>FIGURE SPACE</desc>
-      <rule> </rule>
+      <rule> </rule>
       <rule> </rule>
       <rule> </rule>
       <type>level</type>
@@ -1571,7 +1571,7 @@
    <ruleset>
       <range>GenPunct</range>
       <desc>PUNCTUATION SPACE</desc>
-      <rule> </rule>
+      <rule> </rule>
       <rule> </rule>
       <rule> </rule>
       <type>level</type>
@@ -1579,7 +1579,7 @@
    <ruleset>
       <range>GenPunct</range>
       <desc>THIN SPACE</desc>
-      <rule> </rule>
+      <rule> </rule>
       <rule> </rule>
       <rule> </rule>
       <type>level</type>
@@ -1587,7 +1587,7 @@
    <ruleset>
       <range>GenPunct</range>
       <desc>HAIR SPACE</desc>
-      <rule> </rule>
+      <rule> </rule>
       <rule> </rule>
       <rule> </rule>
       <type>level</type>
@@ -1603,7 +1603,7 @@
    <ruleset>
       <range>GenPunct</range>
       <desc>NARROW NO-BREAK SPACE</desc>
-      <rule> </rule>
+      <rule> </rule>
       <rule> </rule>
       <rule> </rule>
       <type>level</type>
@@ -1635,7 +1635,7 @@
    <ruleset>
       <range>GenPunct</range>
       <desc>NON-BREAKING HYPHEN</desc>
-      <rule>‐</rule>
+      <rule>‑</rule>
       <rule>‑</rule>
       <rule>‑</rule>
       <type>level</type>
@@ -1747,7 +1747,7 @@
    <ruleset>
       <range>GenPunct</range>
       <desc>ONE DOT LEADER</desc>
-      <rule>.</rule>
+      <rule>․</rule>
       <rule>․</rule>
       <rule>․</rule>
       <type>level</type>
@@ -1755,7 +1755,7 @@
    <ruleset>
       <range>GenPunct</range>
       <desc>TWO DOT LEADER</desc>
-      <rule>..</rule>
+      <rule>‥</rule>
       <rule>‥</rule>
       <rule>‥</rule>
       <type>level</type>
@@ -1763,7 +1763,7 @@
    <ruleset>
       <range>GenPunct</range>
       <desc>HORIZONTAL ELLIPSIS</desc>
-      <rule>...</rule>
+      <rule>…</rule>
       <rule>…</rule>
       <rule>…</rule>
       <type>level</type>
@@ -1787,7 +1787,7 @@
    <ruleset>
       <range>GenPunct</range>
       <desc>DOUBLE PRIME</desc>
-      <rule>′′</rule>
+      <rule>″</rule>
       <rule>″</rule>
       <rule>″</rule>
       <type>level</type>
@@ -2099,7 +2099,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK SMALL LETTER ALPHA WITH PSILI</desc>
-      <rule>ἀ</rule>
+      <rule>ἀ</rule>
       <rule>ἀ</rule>
       <rule>ἀ</rule>
       <type>level</type>
@@ -2107,7 +2107,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK SMALL LETTER ALPHA WITH DASIA</desc>
-      <rule>ἁ</rule>
+      <rule>ἁ</rule>
       <rule>ἁ</rule>
       <rule>ἁ</rule>
       <type>level</type>
@@ -2115,7 +2115,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK SMALL LETTER ALPHA WITH PSILI AND VARIA</desc>
-      <rule>ἂ</rule>
+      <rule>ἂ</rule>
       <rule>ἂ</rule>
       <rule>ἂ</rule>
       <type>level</type>
@@ -2123,7 +2123,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK SMALL LETTER ALPHA WITH DASIA AND VARIA</desc>
-      <rule>ἃ</rule>
+      <rule>ἃ</rule>
       <rule>ἃ</rule>
       <rule>ἃ</rule>
       <type>level</type>
@@ -2131,7 +2131,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK SMALL LETTER ALPHA WITH PSILI AND OXIA</desc>
-      <rule>ἄ</rule>
+      <rule>ἄ</rule>
       <rule>ἄ</rule>
       <rule>ἄ</rule>
       <type>level</type>
@@ -2139,7 +2139,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK SMALL LETTER ALPHA WITH DASIA AND OXIA</desc>
-      <rule>ἅ</rule>
+      <rule>ἅ</rule>
       <rule>ἅ</rule>
       <rule>ἅ</rule>
       <type>level</type>
@@ -2147,7 +2147,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK SMALL LETTER ALPHA WITH PSILI AND PERISPOMENI</desc>
-      <rule>ἆ</rule>
+      <rule>ἆ</rule>
       <rule>ἆ</rule>
       <rule>ἆ</rule>
       <type>level</type>
@@ -2155,7 +2155,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK SMALL LETTER ALPHA WITH DASIA AND PERISPOMENI</desc>
-      <rule>ἇ</rule>
+      <rule>ἇ</rule>
       <rule>ἇ</rule>
       <rule>ἇ</rule>
       <type>level</type>
@@ -2163,7 +2163,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK CAPITAL LETTER ALPHA WITH PSILI</desc>
-      <rule>Ἀ</rule>
+      <rule>Ἀ</rule>
       <rule>Ἀ</rule>
       <rule>Ἀ</rule>
       <type>level</type>
@@ -2171,7 +2171,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK CAPITAL LETTER ALPHA WITH DASIA</desc>
-      <rule>Ἁ</rule>
+      <rule>Ἁ</rule>
       <rule>Ἁ</rule>
       <rule>Ἁ</rule>
       <type>level</type>
@@ -2179,7 +2179,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK CAPITAL LETTER ALPHA WITH PSILI AND VARIA</desc>
-      <rule>Ἂ</rule>
+      <rule>Ἂ</rule>
       <rule>Ἂ</rule>
       <rule>Ἂ</rule>
       <type>level</type>
@@ -2187,7 +2187,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK CAPITAL LETTER ALPHA WITH DASIA AND VARIA</desc>
-      <rule>Ἃ</rule>
+      <rule>Ἃ</rule>
       <rule>Ἃ</rule>
       <rule>Ἃ</rule>
       <type>level</type>
@@ -2195,7 +2195,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK CAPITAL LETTER ALPHA WITH PSILI AND OXIA</desc>
-      <rule>Ἄ</rule>
+      <rule>Ἄ</rule>
       <rule>Ἄ</rule>
       <rule>Ἄ</rule>
       <type>level</type>
@@ -2203,7 +2203,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK CAPITAL LETTER ALPHA WITH DASIA AND OXIA</desc>
-      <rule>Ἅ</rule>
+      <rule>Ἅ</rule>
       <rule>Ἅ</rule>
       <rule>Ἅ</rule>
       <type>level</type>
@@ -2211,7 +2211,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK CAPITAL LETTER ALPHA WITH PSILI AND PERISPOMENI</desc>
-      <rule>Ἆ</rule>
+      <rule>Ἆ</rule>
       <rule>Ἆ</rule>
       <rule>Ἆ</rule>
       <type>level</type>
@@ -2219,7 +2219,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK CAPITAL LETTER ALPHA WITH DASIA AND PERISPOMENI</desc>
-      <rule>Ἇ</rule>
+      <rule>Ἇ</rule>
       <rule>Ἇ</rule>
       <rule>Ἇ</rule>
       <type>level</type>
@@ -2227,7 +2227,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK SMALL LETTER EPSILON WITH PSILI</desc>
-      <rule>ἐ</rule>
+      <rule>ἐ</rule>
       <rule>ἐ</rule>
       <rule>ἐ</rule>
       <type>level</type>
@@ -2235,7 +2235,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK SMALL LETTER EPSILON WITH DASIA</desc>
-      <rule>ἑ</rule>
+      <rule>ἑ</rule>
       <rule>ἑ</rule>
       <rule>ἑ</rule>
       <type>level</type>
@@ -2243,7 +2243,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK SMALL LETTER EPSILON WITH PSILI AND VARIA</desc>
-      <rule>ἒ</rule>
+      <rule>ἒ</rule>
       <rule>ἒ</rule>
       <rule>ἒ</rule>
       <type>level</type>
@@ -2251,7 +2251,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK SMALL LETTER EPSILON WITH DASIA AND VARIA</desc>
-      <rule>ἓ</rule>
+      <rule>ἓ</rule>
       <rule>ἓ</rule>
       <rule>ἓ</rule>
       <type>level</type>
@@ -2259,7 +2259,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK SMALL LETTER EPSILON WITH PSILI AND OXIA</desc>
-      <rule>ἔ</rule>
+      <rule>ἔ</rule>
       <rule>ἔ</rule>
       <rule>ἔ</rule>
       <type>level</type>
@@ -2267,7 +2267,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK SMALL LETTER EPSILON WITH DASIA AND OXIA</desc>
-      <rule>ἕ</rule>
+      <rule>ἕ</rule>
       <rule>ἕ</rule>
       <rule>ἕ</rule>
       <type>level</type>
@@ -2275,7 +2275,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK CAPITAL LETTER EPSILON WITH PSILI</desc>
-      <rule>Ἐ</rule>
+      <rule>Ἐ</rule>
       <rule>Ἐ</rule>
       <rule>Ἐ</rule>
       <type>level</type>
@@ -2283,7 +2283,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK CAPITAL LETTER EPSILON WITH DASIA</desc>
-      <rule>Ἑ</rule>
+      <rule>Ἑ</rule>
       <rule>Ἑ</rule>
       <rule>Ἑ</rule>
       <type>level</type>
@@ -2291,7 +2291,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK CAPITAL LETTER EPSILON WITH PSILI AND VARIA</desc>
-      <rule>Ἒ</rule>
+      <rule>Ἒ</rule>
       <rule>Ἒ</rule>
       <rule>Ἒ</rule>
       <type>level</type>
@@ -2299,7 +2299,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK CAPITAL LETTER EPSILON WITH DASIA AND VARIA</desc>
-      <rule>Ἓ</rule>
+      <rule>Ἓ</rule>
       <rule>Ἓ</rule>
       <rule>Ἓ</rule>
       <type>level</type>
@@ -2307,7 +2307,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK CAPITAL LETTER EPSILON WITH PSILI AND OXIA</desc>
-      <rule>Ἔ</rule>
+      <rule>Ἔ</rule>
       <rule>Ἔ</rule>
       <rule>Ἔ</rule>
       <type>level</type>
@@ -2315,7 +2315,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK CAPITAL LETTER EPSILON WITH DASIA AND OXIA</desc>
-      <rule>Ἕ</rule>
+      <rule>Ἕ</rule>
       <rule>Ἕ</rule>
       <rule>Ἕ</rule>
       <type>level</type>
@@ -2323,7 +2323,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK SMALL LETTER ETA WITH PSILI</desc>
-      <rule>ἠ</rule>
+      <rule>ἠ</rule>
       <rule>ἠ</rule>
       <rule>ἠ</rule>
       <type>level</type>
@@ -2331,7 +2331,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK SMALL LETTER ETA WITH DASIA</desc>
-      <rule>ἡ</rule>
+      <rule>ἡ</rule>
       <rule>ἡ</rule>
       <rule>ἡ</rule>
       <type>level</type>
@@ -2339,7 +2339,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK SMALL LETTER ETA WITH PSILI AND VARIA</desc>
-      <rule>ἢ</rule>
+      <rule>ἢ</rule>
       <rule>ἢ</rule>
       <rule>ἢ</rule>
       <type>level</type>
@@ -2347,7 +2347,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK SMALL LETTER ETA WITH DASIA AND VARIA</desc>
-      <rule>ἣ</rule>
+      <rule>ἣ</rule>
       <rule>ἣ</rule>
       <rule>ἣ</rule>
       <type>level</type>
@@ -2355,7 +2355,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK SMALL LETTER ETA WITH PSILI AND OXIA</desc>
-      <rule>ἤ</rule>
+      <rule>ἤ</rule>
       <rule>ἤ</rule>
       <rule>ἤ</rule>
       <type>level</type>
@@ -2363,7 +2363,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK SMALL LETTER ETA WITH DASIA AND OXIA</desc>
-      <rule>ἥ</rule>
+      <rule>ἥ</rule>
       <rule>ἥ</rule>
       <rule>ἥ</rule>
       <type>level</type>
@@ -2371,7 +2371,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK SMALL LETTER ETA WITH PSILI AND PERISPOMENI</desc>
-      <rule>ἦ</rule>
+      <rule>ἦ</rule>
       <rule>ἦ</rule>
       <rule>ἦ</rule>
       <type>level</type>
@@ -2379,7 +2379,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK SMALL LETTER ETA WITH DASIA AND PERISPOMENI</desc>
-      <rule>ἧ</rule>
+      <rule>ἧ</rule>
       <rule>ἧ</rule>
       <rule>ἧ</rule>
       <type>level</type>
@@ -2387,7 +2387,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK CAPITAL LETTER ETA WITH PSILI</desc>
-      <rule>Ἠ</rule>
+      <rule>Ἠ</rule>
       <rule>Ἠ</rule>
       <rule>Ἠ</rule>
       <type>level</type>
@@ -2395,7 +2395,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK CAPITAL LETTER ETA WITH DASIA</desc>
-      <rule>Ἡ</rule>
+      <rule>Ἡ</rule>
       <rule>Ἡ</rule>
       <rule>Ἡ</rule>
       <type>level</type>
@@ -2403,7 +2403,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK CAPITAL LETTER ETA WITH PSILI AND VARIA</desc>
-      <rule>Ἢ</rule>
+      <rule>Ἢ</rule>
       <rule>Ἢ</rule>
       <rule>Ἢ</rule>
       <type>level</type>
@@ -2411,7 +2411,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK CAPITAL LETTER ETA WITH DASIA AND VARIA</desc>
-      <rule>Ἣ</rule>
+      <rule>Ἣ</rule>
       <rule>Ἣ</rule>
       <rule>Ἣ</rule>
       <type>level</type>
@@ -2419,7 +2419,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK CAPITAL LETTER ETA WITH PSILI AND OXIA</desc>
-      <rule>Ἤ</rule>
+      <rule>Ἤ</rule>
       <rule>Ἤ</rule>
       <rule>Ἤ</rule>
       <type>level</type>
@@ -2427,7 +2427,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK CAPITAL LETTER ETA WITH DASIA AND OXIA</desc>
-      <rule>Ἥ</rule>
+      <rule>Ἥ</rule>
       <rule>Ἥ</rule>
       <rule>Ἥ</rule>
       <type>level</type>
@@ -2435,7 +2435,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK CAPITAL LETTER ETA WITH PSILI AND PERISPOMENI</desc>
-      <rule>Ἦ</rule>
+      <rule>Ἦ</rule>
       <rule>Ἦ</rule>
       <rule>Ἦ</rule>
       <type>level</type>
@@ -2443,7 +2443,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK CAPITAL LETTER ETA WITH DASIA AND PERISPOMENI</desc>
-      <rule>Ἧ</rule>
+      <rule>Ἧ</rule>
       <rule>Ἧ</rule>
       <rule>Ἧ</rule>
       <type>level</type>
@@ -2451,7 +2451,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK SMALL LETTER IOTA WITH PSILI</desc>
-      <rule>ἰ</rule>
+      <rule>ἰ</rule>
       <rule>ἰ</rule>
       <rule>ἰ</rule>
       <type>level</type>
@@ -2459,7 +2459,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK SMALL LETTER IOTA WITH DASIA</desc>
-      <rule>ἱ</rule>
+      <rule>ἱ</rule>
       <rule>ἱ</rule>
       <rule>ἱ</rule>
       <type>level</type>
@@ -2467,7 +2467,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK SMALL LETTER IOTA WITH PSILI AND VARIA</desc>
-      <rule>ἲ</rule>
+      <rule>ἲ</rule>
       <rule>ἲ</rule>
       <rule>ἲ</rule>
       <type>level</type>
@@ -2475,7 +2475,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK SMALL LETTER IOTA WITH DASIA AND VARIA</desc>
-      <rule>ἳ</rule>
+      <rule>ἳ</rule>
       <rule>ἳ</rule>
       <rule>ἳ</rule>
       <type>level</type>
@@ -2483,7 +2483,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK SMALL LETTER IOTA WITH PSILI AND OXIA</desc>
-      <rule>ἴ</rule>
+      <rule>ἴ</rule>
       <rule>ἴ</rule>
       <rule>ἴ</rule>
       <type>level</type>
@@ -2491,7 +2491,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK SMALL LETTER IOTA WITH DASIA AND OXIA</desc>
-      <rule>ἵ</rule>
+      <rule>ἵ</rule>
       <rule>ἵ</rule>
       <rule>ἵ</rule>
       <type>level</type>
@@ -2499,7 +2499,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK SMALL LETTER IOTA WITH PSILI AND PERISPOMENI</desc>
-      <rule>ἶ</rule>
+      <rule>ἶ</rule>
       <rule>ἶ</rule>
       <rule>ἶ</rule>
       <type>level</type>
@@ -2507,7 +2507,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK SMALL LETTER IOTA WITH DASIA AND PERISPOMENI</desc>
-      <rule>ἷ</rule>
+      <rule>ἷ</rule>
       <rule>ἷ</rule>
       <rule>ἷ</rule>
       <type>level</type>
@@ -2515,7 +2515,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK CAPITAL LETTER IOTA WITH PSILI</desc>
-      <rule>Ἰ</rule>
+      <rule>Ἰ</rule>
       <rule>Ἰ</rule>
       <rule>Ἰ</rule>
       <type>level</type>
@@ -2523,7 +2523,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK CAPITAL LETTER IOTA WITH DASIA</desc>
-      <rule>Ἱ</rule>
+      <rule>Ἱ</rule>
       <rule>Ἱ</rule>
       <rule>Ἱ</rule>
       <type>level</type>
@@ -2531,7 +2531,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK CAPITAL LETTER IOTA WITH PSILI AND VARIA</desc>
-      <rule>Ἲ</rule>
+      <rule>Ἲ</rule>
       <rule>Ἲ</rule>
       <rule>Ἲ</rule>
       <type>level</type>
@@ -2539,7 +2539,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK CAPITAL LETTER IOTA WITH DASIA AND VARIA</desc>
-      <rule>Ἳ</rule>
+      <rule>Ἳ</rule>
       <rule>Ἳ</rule>
       <rule>Ἳ</rule>
       <type>level</type>
@@ -2547,7 +2547,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK CAPITAL LETTER IOTA WITH PSILI AND OXIA</desc>
-      <rule>Ἴ</rule>
+      <rule>Ἴ</rule>
       <rule>Ἴ</rule>
       <rule>Ἴ</rule>
       <type>level</type>
@@ -2555,7 +2555,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK CAPITAL LETTER IOTA WITH DASIA AND OXIA</desc>
-      <rule>Ἵ</rule>
+      <rule>Ἵ</rule>
       <rule>Ἵ</rule>
       <rule>Ἵ</rule>
       <type>level</type>
@@ -2563,7 +2563,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK CAPITAL LETTER IOTA WITH PSILI AND PERISPOMENI</desc>
-      <rule>Ἶ</rule>
+      <rule>Ἶ</rule>
       <rule>Ἶ</rule>
       <rule>Ἶ</rule>
       <type>level</type>
@@ -2571,7 +2571,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK CAPITAL LETTER IOTA WITH DASIA AND PERISPOMENI</desc>
-      <rule>Ἷ</rule>
+      <rule>Ἷ</rule>
       <rule>Ἷ</rule>
       <rule>Ἷ</rule>
       <type>level</type>
@@ -2579,7 +2579,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK SMALL LETTER OMICRON WITH PSILI</desc>
-      <rule>ὀ</rule>
+      <rule>ὀ</rule>
       <rule>ὀ</rule>
       <rule>ὀ</rule>
       <type>level</type>
@@ -2587,7 +2587,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK SMALL LETTER OMICRON WITH DASIA</desc>
-      <rule>ὁ</rule>
+      <rule>ὁ</rule>
       <rule>ὁ</rule>
       <rule>ὁ</rule>
       <type>level</type>
@@ -2595,7 +2595,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK SMALL LETTER OMICRON WITH PSILI AND VARIA</desc>
-      <rule>ὂ</rule>
+      <rule>ὂ</rule>
       <rule>ὂ</rule>
       <rule>ὂ</rule>
       <type>level</type>
@@ -2603,7 +2603,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK SMALL LETTER OMICRON WITH DASIA AND VARIA</desc>
-      <rule>ὃ</rule>
+      <rule>ὃ</rule>
       <rule>ὃ</rule>
       <rule>ὃ</rule>
       <type>level</type>
@@ -2611,7 +2611,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK SMALL LETTER OMICRON WITH PSILI AND OXIA</desc>
-      <rule>ὄ</rule>
+      <rule>ὄ</rule>
       <rule>ὄ</rule>
       <rule>ὄ</rule>
       <type>level</type>
@@ -2619,7 +2619,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK SMALL LETTER OMICRON WITH DASIA AND OXIA</desc>
-      <rule>ὅ</rule>
+      <rule>ὅ</rule>
       <rule>ὅ</rule>
       <rule>ὅ</rule>
       <type>level</type>
@@ -2627,7 +2627,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK CAPITAL LETTER OMICRON WITH PSILI</desc>
-      <rule>Ὀ</rule>
+      <rule>Ὀ</rule>
       <rule>Ὀ</rule>
       <rule>Ὀ</rule>
       <type>level</type>
@@ -2635,7 +2635,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK CAPITAL LETTER OMICRON WITH DASIA</desc>
-      <rule>Ὁ</rule>
+      <rule>Ὁ</rule>
       <rule>Ὁ</rule>
       <rule>Ὁ</rule>
       <type>level</type>
@@ -2643,7 +2643,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK SMALL LETTER UPSILON WITH DASIA AND VARIA</desc>
-      <rule>ὓ</rule>
+      <rule>ὓ</rule>
       <rule>ὓ</rule>
       <rule>ὓ</rule>
       <type>level</type>
@@ -2651,7 +2651,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK SMALL LETTER UPSILON WITH PSILI AND OXIA</desc>
-      <rule>ὔ</rule>
+      <rule>ὔ</rule>
       <rule>ὔ</rule>
       <rule>ὔ</rule>
       <type>level</type>
@@ -2659,7 +2659,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK SMALL LETTER UPSILON WITH DASIA AND OXIA</desc>
-      <rule>ὕ</rule>
+      <rule>ὕ</rule>
       <rule>ὕ</rule>
       <rule>ὕ</rule>
       <type>level</type>
@@ -2667,7 +2667,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK SMALL LETTER UPSILON WITH PSILI AND PERISPOMENI</desc>
-      <rule>ὖ</rule>
+      <rule>ὖ</rule>
       <rule>ὖ</rule>
       <rule>ὖ</rule>
       <type>level</type>
@@ -2675,7 +2675,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK SMALL LETTER UPSILON WITH DASIA AND PERISPOMENI</desc>
-      <rule>ὗ</rule>
+      <rule>ὗ</rule>
       <rule>ὗ</rule>
       <rule>ὗ</rule>
       <type>level</type>
@@ -2683,7 +2683,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK CAPITAL LETTER UPSILON WITH DASIA</desc>
-      <rule>Ὑ</rule>
+      <rule>Ὑ</rule>
       <rule>Ὑ</rule>
       <rule>Ὑ</rule>
       <type>level</type>
@@ -2691,7 +2691,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK CAPITAL LETTER UPSILON WITH DASIA AND VARIA</desc>
-      <rule>Ὓ</rule>
+      <rule>Ὓ</rule>
       <rule>Ὓ</rule>
       <rule>Ὓ</rule>
       <type>level</type>
@@ -2699,7 +2699,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK CAPITAL LETTER UPSILON WITH DASIA AND OXIA</desc>
-      <rule>Ὕ</rule>
+      <rule>Ὕ</rule>
       <rule>Ὕ</rule>
       <rule>Ὕ</rule>
       <type>level</type>
@@ -2707,7 +2707,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK CAPITAL LETTER UPSILON WITH DASIA AND PERISPOMENI</desc>
-      <rule>Ὗ</rule>
+      <rule>Ὗ</rule>
       <rule>Ὗ</rule>
       <rule>Ὗ</rule>
       <type>level</type>
@@ -2715,7 +2715,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK SMALL LETTER OMEGA WITH PSILI</desc>
-      <rule>ὠ</rule>
+      <rule>ὠ</rule>
       <rule>ὠ</rule>
       <rule>ὠ</rule>
       <type>level</type>
@@ -2723,7 +2723,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK SMALL LETTER OMEGA WITH DASIA</desc>
-      <rule>ὡ</rule>
+      <rule>ὡ</rule>
       <rule>ὡ</rule>
       <rule>ὡ</rule>
       <type>level</type>
@@ -2731,7 +2731,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK SMALL LETTER OMEGA WITH PSILI AND VARIA</desc>
-      <rule>ὢ</rule>
+      <rule>ὢ</rule>
       <rule>ὢ</rule>
       <rule>ὢ</rule>
       <type>level</type>
@@ -2739,7 +2739,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK SMALL LETTER OMEGA WITH DASIA AND VARIA</desc>
-      <rule>ὣ</rule>
+      <rule>ὣ</rule>
       <rule>ὣ</rule>
       <rule>ὣ</rule>
       <type>level</type>
@@ -2747,7 +2747,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK SMALL LETTER OMEGA WITH PSILI AND OXIA</desc>
-      <rule>ὤ</rule>
+      <rule>ὤ</rule>
       <rule>ὤ</rule>
       <rule>ὤ</rule>
       <type>level</type>
@@ -2755,7 +2755,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK SMALL LETTER OMEGA WITH DASIA AND OXIA</desc>
-      <rule>ὥ</rule>
+      <rule>ὥ</rule>
       <rule>ὥ</rule>
       <rule>ὥ</rule>
       <type>level</type>
@@ -2763,7 +2763,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK SMALL LETTER OMEGA WITH PSILI AND PERISPOMENI</desc>
-      <rule>ὦ</rule>
+      <rule>ὦ</rule>
       <rule>ὦ</rule>
       <rule>ὦ</rule>
       <type>level</type>
@@ -2771,7 +2771,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK SMALL LETTER OMEGA WITH DASIA AND PERISPOMENI</desc>
-      <rule>ὧ</rule>
+      <rule>ὧ</rule>
       <rule>ὧ</rule>
       <rule>ὧ</rule>
       <type>level</type>
@@ -2779,7 +2779,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK CAPITAL LETTER OMEGA WITH PSILI</desc>
-      <rule>Ὠ</rule>
+      <rule>Ὠ</rule>
       <rule>Ὠ</rule>
       <rule>Ὠ</rule>
       <type>level</type>
@@ -2787,7 +2787,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK CAPITAL LETTER OMEGA WITH DASIA</desc>
-      <rule>Ὡ</rule>
+      <rule>Ὡ</rule>
       <rule>Ὡ</rule>
       <rule>Ὡ</rule>
       <type>level</type>
@@ -2795,7 +2795,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK CAPITAL LETTER OMEGA WITH PSILI AND VARIA</desc>
-      <rule>Ὢ</rule>
+      <rule>Ὢ</rule>
       <rule>Ὢ</rule>
       <rule>Ὢ</rule>
       <type>level</type>
@@ -2803,7 +2803,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK CAPITAL LETTER OMEGA WITH DASIA AND VARIA</desc>
-      <rule>Ὣ</rule>
+      <rule>Ὣ</rule>
       <rule>Ὣ</rule>
       <rule>Ὣ</rule>
       <type>level</type>
@@ -2811,7 +2811,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK CAPITAL LETTER OMEGA WITH PSILI AND OXIA</desc>
-      <rule>Ὤ</rule>
+      <rule>Ὤ</rule>
       <rule>Ὤ</rule>
       <rule>Ὤ</rule>
       <type>level</type>
@@ -2819,7 +2819,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK CAPITAL LETTER OMEGA WITH DASIA AND OXIA</desc>
-      <rule>Ὥ</rule>
+      <rule>Ὥ</rule>
       <rule>Ὥ</rule>
       <rule>Ὥ</rule>
       <type>level</type>
@@ -2827,7 +2827,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK CAPITAL LETTER OMEGA WITH PSILI AND PERISPOMENI</desc>
-      <rule>Ὦ</rule>
+      <rule>Ὦ</rule>
       <rule>Ὦ</rule>
       <rule>Ὦ</rule>
       <type>level</type>
@@ -2835,7 +2835,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK CAPITAL LETTER OMEGA WITH DASIA AND PERISPOMENI</desc>
-      <rule>Ὧ</rule>
+      <rule>Ὧ</rule>
       <rule>Ὧ</rule>
       <rule>Ὧ</rule>
       <type>level</type>
@@ -2843,7 +2843,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK SMALL LETTER ALPHA WITH VARIA</desc>
-      <rule>ὰ</rule>
+      <rule>ὰ</rule>
       <rule>ὰ</rule>
       <rule>ὰ</rule>
       <type>level</type>
@@ -2851,7 +2851,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK SMALL LETTER ALPHA WITH OXIA</desc>
-      <rule>ά</rule>
+      <rule>ά</rule>
       <rule>ά</rule>
       <rule>ά</rule>
       <type>level</type>
@@ -2859,7 +2859,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK SMALL LETTER EPSILON WITH VARIA</desc>
-      <rule>ὲ</rule>
+      <rule>ὲ</rule>
       <rule>ὲ</rule>
       <rule>ὲ</rule>
       <type>level</type>
@@ -2867,7 +2867,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK SMALL LETTER EPSILON WITH OXIA</desc>
-      <rule>έ</rule>
+      <rule>έ</rule>
       <rule>έ</rule>
       <rule>έ</rule>
       <type>level</type>
@@ -2875,7 +2875,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK SMALL LETTER ETA WITH VARIA</desc>
-      <rule>ὴ</rule>
+      <rule>ὴ</rule>
       <rule>ὴ</rule>
       <rule>ὴ</rule>
       <type>level</type>
@@ -2883,7 +2883,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK SMALL LETTER ETA WITH OXIA</desc>
-      <rule>ή</rule>
+      <rule>ή</rule>
       <rule>ή</rule>
       <rule>ή</rule>
       <type>level</type>
@@ -2891,7 +2891,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK SMALL LETTER IOTA WITH VARIA</desc>
-      <rule>ὶ</rule>
+      <rule>ὶ</rule>
       <rule>ὶ</rule>
       <rule>ὶ</rule>
       <type>level</type>
@@ -2899,7 +2899,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK SMALL LETTER IOTA WITH OXIA</desc>
-      <rule>ί</rule>
+      <rule>ί</rule>
       <rule>ί</rule>
       <rule>ί</rule>
       <type>level</type>
@@ -2907,7 +2907,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK SMALL LETTER OMICRON WITH VARIA</desc>
-      <rule>ὸ</rule>
+      <rule>ὸ</rule>
       <rule>ὸ</rule>
       <rule>ὸ</rule>
       <type>level</type>
@@ -2915,7 +2915,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK SMALL LETTER OMICRON WITH OXIA</desc>
-      <rule>ό</rule>
+      <rule>ό</rule>
       <rule>ό</rule>
       <rule>ό</rule>
       <type>level</type>
@@ -2923,7 +2923,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK SMALL LETTER UPSILON WITH VARIA</desc>
-      <rule>ὺ</rule>
+      <rule>ὺ</rule>
       <rule>ὺ</rule>
       <rule>ὺ</rule>
       <type>level</type>
@@ -2931,7 +2931,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK SMALL LETTER UPSILON WITH OXIA</desc>
-      <rule>ύ</rule>
+      <rule>ύ</rule>
       <rule>ύ</rule>
       <rule>ύ</rule>
       <type>level</type>
@@ -2939,7 +2939,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK SMALL LETTER OMEGA WITH VARIA</desc>
-      <rule>ὼ</rule>
+      <rule>ὼ</rule>
       <rule>ὼ</rule>
       <rule>ὼ</rule>
       <type>level</type>
@@ -2947,7 +2947,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK SMALL LETTER OMEGA WITH OXIA</desc>
-      <rule>ώ</rule>
+      <rule>ώ</rule>
       <rule>ώ</rule>
       <rule>ώ</rule>
       <type>level</type>
@@ -2955,7 +2955,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK SMALL LETTER ALPHA WITH PSILI AND YPOGEGRAMMENI</desc>
-      <rule>ᾀ</rule>
+      <rule>ᾀ</rule>
       <rule>ᾀ</rule>
       <rule>ᾀ</rule>
       <type>level</type>
@@ -2963,7 +2963,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK SMALL LETTER ALPHA WITH DASIA AND YPOGEGRAMMENI</desc>
-      <rule>ᾁ</rule>
+      <rule>ᾁ</rule>
       <rule>ᾁ</rule>
       <rule>ᾁ</rule>
       <type>level</type>
@@ -2971,7 +2971,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK SMALL LETTER ALPHA WITH PSILI AND VARIA AND YPOGEGRAMMENI</desc>
-      <rule>ᾂ</rule>
+      <rule>ᾂ</rule>
       <rule>ᾂ</rule>
       <rule>ᾂ</rule>
       <type>level</type>
@@ -2979,7 +2979,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK SMALL LETTER ALPHA WITH DASIA AND VARIA AND YPOGEGRAMMENI</desc>
-      <rule>ᾃ</rule>
+      <rule>ᾃ</rule>
       <rule>ᾃ</rule>
       <rule>ᾃ</rule>
       <type>level</type>
@@ -2987,7 +2987,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK SMALL LETTER ALPHA WITH PSILI AND OXIA AND YPOGEGRAMMENI</desc>
-      <rule>ᾄ</rule>
+      <rule>ᾄ</rule>
       <rule>ᾄ</rule>
       <rule>ᾄ</rule>
       <type>level</type>
@@ -2995,7 +2995,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK SMALL LETTER ALPHA WITH DASIA AND OXIA AND YPOGEGRAMMENI</desc>
-      <rule>ᾅ</rule>
+      <rule>ᾅ</rule>
       <rule>ᾅ</rule>
       <rule>ᾅ</rule>
       <type>level</type>
@@ -3003,7 +3003,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK SMALL LETTER ALPHA WITH PSILI AND PERISPOMENI AND YPOGEGRAMMENI</desc>
-      <rule>ᾆ</rule>
+      <rule>ᾆ</rule>
       <rule>ᾆ</rule>
       <rule>ᾆ</rule>
       <type>level</type>
@@ -3011,7 +3011,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK SMALL LETTER ALPHA WITH DASIA AND PERISPOMENI AND YPOGEGRAMMENI</desc>
-      <rule>ᾇ</rule>
+      <rule>ᾇ</rule>
       <rule>ᾇ</rule>
       <rule>ᾇ</rule>
       <type>level</type>
@@ -3019,7 +3019,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK CAPITAL LETTER ALPHA WITH PSILI AND PROSGEGRAMMENI</desc>
-      <rule>ᾈ</rule>
+      <rule>ᾈ</rule>
       <rule>ᾈ</rule>
       <rule>ᾈ</rule>
       <type>level</type>
@@ -3027,7 +3027,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK CAPITAL LETTER ALPHA WITH DASIA AND PROSGEGRAMMENI</desc>
-      <rule>ᾉ</rule>
+      <rule>ᾉ</rule>
       <rule>ᾉ</rule>
       <rule>ᾉ</rule>
       <type>level</type>
@@ -3035,7 +3035,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK CAPITAL LETTER ALPHA WITH PSILI AND VARIA AND PROSGEGRAMMENI</desc>
-      <rule>ᾊ</rule>
+      <rule>ᾊ</rule>
       <rule>ᾊ</rule>
       <rule>ᾊ</rule>
       <type>level</type>
@@ -3043,7 +3043,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK CAPITAL LETTER ALPHA WITH DASIA AND VARIA AND PROSGEGRAMMENI</desc>
-      <rule>ᾋ</rule>
+      <rule>ᾋ</rule>
       <rule>ᾋ</rule>
       <rule>ᾋ</rule>
       <type>level</type>
@@ -3051,7 +3051,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK CAPITAL LETTER ALPHA WITH PSILI AND OXIA AND PROSGEGRAMMENI</desc>
-      <rule>ᾌ</rule>
+      <rule>ᾌ</rule>
       <rule>ᾌ</rule>
       <rule>ᾌ</rule>
       <type>level</type>
@@ -3059,7 +3059,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK CAPITAL LETTER ALPHA WITH DASIA AND OXIA AND PROSGEGRAMMENI</desc>
-      <rule>ᾍ</rule>
+      <rule>ᾍ</rule>
       <rule>ᾍ</rule>
       <rule>ᾍ</rule>
       <type>level</type>
@@ -3067,7 +3067,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK CAPITAL LETTER ALPHA WITH PSILI AND PERISPOMENI AND PROSGEGRAMMENI</desc>
-      <rule>ᾎ</rule>
+      <rule>ᾎ</rule>
       <rule>ᾎ</rule>
       <rule>ᾎ</rule>
       <type>level</type>
@@ -3075,7 +3075,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK CAPITAL LETTER ALPHA WITH DASIA AND PERISPOMENI AND PROSGEGRAMMENI</desc>
-      <rule>ᾏ</rule>
+      <rule>ᾏ</rule>
       <rule>ᾏ</rule>
       <rule>ᾏ</rule>
       <type>level</type>
@@ -3083,7 +3083,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK SMALL LETTER ETA WITH PSILI AND YPOGEGRAMMENI</desc>
-      <rule>ᾐ</rule>
+      <rule>ᾐ</rule>
       <rule>ᾐ</rule>
       <rule>ᾐ</rule>
       <type>level</type>
@@ -3091,7 +3091,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK SMALL LETTER ETA WITH DASIA AND YPOGEGRAMMENI</desc>
-      <rule>ᾑ</rule>
+      <rule>ᾑ</rule>
       <rule>ᾑ</rule>
       <rule>ᾑ</rule>
       <type>level</type>
@@ -3099,7 +3099,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK SMALL LETTER ETA WITH PSILI AND VARIA AND YPOGEGRAMMENI</desc>
-      <rule>ᾒ</rule>
+      <rule>ᾒ</rule>
       <rule>ᾒ</rule>
       <rule>ᾒ</rule>
       <type>level</type>
@@ -3107,7 +3107,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK SMALL LETTER ETA WITH DASIA AND VARIA AND YPOGEGRAMMENI</desc>
-      <rule>ᾓ</rule>
+      <rule>ᾓ</rule>
       <rule>ᾓ</rule>
       <rule>ᾓ</rule>
       <type>level</type>
@@ -3115,7 +3115,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK SMALL LETTER ETA WITH PSILI AND OXIA AND YPOGEGRAMMENI</desc>
-      <rule>ᾔ</rule>
+      <rule>ᾔ</rule>
       <rule>ᾔ</rule>
       <rule>ᾔ</rule>
       <type>level</type>
@@ -3123,7 +3123,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK SMALL LETTER ETA WITH DASIA AND OXIA AND YPOGEGRAMMENI</desc>
-      <rule>ᾕ</rule>
+      <rule>ᾕ</rule>
       <rule>ᾕ</rule>
       <rule>ᾕ</rule>
       <type>level</type>
@@ -3131,7 +3131,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK SMALL LETTER ETA WITH PSILI AND PERISPOMENI AND YPOGEGRAMMENI</desc>
-      <rule>ᾖ</rule>
+      <rule>ᾖ</rule>
       <rule>ᾖ</rule>
       <rule>ᾖ</rule>
       <type>level</type>
@@ -3139,7 +3139,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK SMALL LETTER ETA WITH DASIA AND PERISPOMENI AND YPOGEGRAMMENI</desc>
-      <rule>ᾗ</rule>
+      <rule>ᾗ</rule>
       <rule>ᾗ</rule>
       <rule>ᾗ</rule>
       <type>level</type>
@@ -3147,7 +3147,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK CAPITAL LETTER ETA WITH PSILI AND PROSGEGRAMMENI</desc>
-      <rule>ᾘ</rule>
+      <rule>ᾘ</rule>
       <rule>ᾘ</rule>
       <rule>ᾘ</rule>
       <type>level</type>
@@ -3155,7 +3155,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK CAPITAL LETTER ETA WITH DASIA AND PROSGEGRAMMENI</desc>
-      <rule>ᾙ</rule>
+      <rule>ᾙ</rule>
       <rule>ᾙ</rule>
       <rule>ᾙ</rule>
       <type>level</type>
@@ -3163,7 +3163,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK CAPITAL LETTER ETA WITH PSILI AND VARIA AND PROSGEGRAMMENI</desc>
-      <rule>ᾚ</rule>
+      <rule>ᾚ</rule>
       <rule>ᾚ</rule>
       <rule>ᾚ</rule>
       <type>level</type>
@@ -3171,7 +3171,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK CAPITAL LETTER ETA WITH DASIA AND VARIA AND PROSGEGRAMMENI</desc>
-      <rule>ᾛ</rule>
+      <rule>ᾛ</rule>
       <rule>ᾛ</rule>
       <rule>ᾛ</rule>
       <type>level</type>
@@ -3179,7 +3179,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK CAPITAL LETTER ETA WITH PSILI AND OXIA AND PROSGEGRAMMENI</desc>
-      <rule>ᾜ</rule>
+      <rule>ᾜ</rule>
       <rule>ᾜ</rule>
       <rule>ᾜ</rule>
       <type>level</type>
@@ -3187,7 +3187,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK CAPITAL LETTER ETA WITH DASIA AND OXIA AND PROSGEGRAMMENI</desc>
-      <rule>ᾝ</rule>
+      <rule>ᾝ</rule>
       <rule>ᾝ</rule>
       <rule>ᾝ</rule>
       <type>level</type>
@@ -3195,7 +3195,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK CAPITAL LETTER ETA WITH PSILI AND PERISPOMENI AND PROSGEGRAMMENI</desc>
-      <rule>ᾞ</rule>
+      <rule>ᾞ</rule>
       <rule>ᾞ</rule>
       <rule>ᾞ</rule>
       <type>level</type>
@@ -3203,7 +3203,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK CAPITAL LETTER ETA WITH DASIA AND PERISPOMENI AND PROSGEGRAMMENI</desc>
-      <rule>ᾟ</rule>
+      <rule>ᾟ</rule>
       <rule>ᾟ</rule>
       <rule>ᾟ</rule>
       <type>level</type>
@@ -3211,7 +3211,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK SMALL LETTER OMEGA WITH PSILI AND YPOGEGRAMMENI</desc>
-      <rule>ᾠ</rule>
+      <rule>ᾠ</rule>
       <rule>ᾠ</rule>
       <rule>ᾠ</rule>
       <type>level</type>
@@ -3219,7 +3219,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK SMALL LETTER OMEGA WITH DASIA AND YPOGEGRAMMENI</desc>
-      <rule>ᾡ</rule>
+      <rule>ᾡ</rule>
       <rule>ᾡ</rule>
       <rule>ᾡ</rule>
       <type>level</type>
@@ -3227,7 +3227,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK SMALL LETTER OMEGA WITH PSILI AND VARIA AND YPOGEGRAMMENI</desc>
-      <rule>ᾢ</rule>
+      <rule>ᾢ</rule>
       <rule>ᾢ</rule>
       <rule>ᾢ</rule>
       <type>level</type>
@@ -3235,7 +3235,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK SMALL LETTER OMEGA WITH DASIA AND VARIA AND YPOGEGRAMMENI</desc>
-      <rule>ᾣ</rule>
+      <rule>ᾣ</rule>
       <rule>ᾣ</rule>
       <rule>ᾣ</rule>
       <type>level</type>
@@ -3243,7 +3243,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK SMALL LETTER OMEGA WITH PSILI AND OXIA AND YPOGEGRAMMENI</desc>
-      <rule>ᾤ</rule>
+      <rule>ᾤ</rule>
       <rule>ᾤ</rule>
       <rule>ᾤ</rule>
       <type>level</type>
@@ -3251,7 +3251,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK SMALL LETTER OMEGA WITH DASIA AND OXIA AND YPOGEGRAMMENI</desc>
-      <rule>ᾥ</rule>
+      <rule>ᾥ</rule>
       <rule>ᾥ</rule>
       <rule>ᾥ</rule>
       <type>level</type>
@@ -3259,7 +3259,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK SMALL LETTER OMEGA WITH PSILI AND PERISPOMENI AND YPOGEGRAMMENI</desc>
-      <rule>ᾦ</rule>
+      <rule>ᾦ</rule>
       <rule>ᾦ</rule>
       <rule>ᾦ</rule>
       <type>level</type>
@@ -3267,7 +3267,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK SMALL LETTER OMEGA WITH DASIA AND PERISPOMENI AND YPOGEGRAMMENI</desc>
-      <rule>ᾧ</rule>
+      <rule>ᾧ</rule>
       <rule>ᾧ</rule>
       <rule>ᾧ</rule>
       <type>level</type>
@@ -3275,7 +3275,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK CAPITAL LETTER OMEGA WITH PSILI AND PROSGEGRAMMENI</desc>
-      <rule>ᾨ</rule>
+      <rule>ᾨ</rule>
       <rule>ᾨ</rule>
       <rule>ᾨ</rule>
       <type>level</type>
@@ -3283,7 +3283,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK CAPITAL LETTER OMEGA WITH DASIA AND PROSGEGRAMMENI</desc>
-      <rule>ᾩ</rule>
+      <rule>ᾩ</rule>
       <rule>ᾩ</rule>
       <rule>ᾩ</rule>
       <type>level</type>
@@ -3291,7 +3291,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK CAPITAL LETTER OMEGA WITH PSILI AND VARIA AND PROSGEGRAMMENI</desc>
-      <rule>ᾪ</rule>
+      <rule>ᾪ</rule>
       <rule>ᾪ</rule>
       <rule>ᾪ</rule>
       <type>level</type>
@@ -3299,7 +3299,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK CAPITAL LETTER OMEGA WITH DASIA AND VARIA AND PROSGEGRAMMENI</desc>
-      <rule>ᾫ</rule>
+      <rule>ᾫ</rule>
       <rule>ᾫ</rule>
       <rule>ᾫ</rule>
       <type>level</type>
@@ -3307,7 +3307,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK CAPITAL LETTER OMEGA WITH PSILI AND OXIA AND PROSGEGRAMMENI</desc>
-      <rule>ᾬ</rule>
+      <rule>ᾬ</rule>
       <rule>ᾬ</rule>
       <rule>ᾬ</rule>
       <type>level</type>
@@ -3315,7 +3315,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK CAPITAL LETTER OMEGA WITH DASIA AND OXIA AND PROSGEGRAMMENI</desc>
-      <rule>ᾭ</rule>
+      <rule>ᾭ</rule>
       <rule>ᾭ</rule>
       <rule>ᾭ</rule>
       <type>level</type>
@@ -3323,7 +3323,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK CAPITAL LETTER OMEGA WITH PSILI AND PERISPOMENI AND PROSGEGRAMMENI</desc>
-      <rule>ᾮ</rule>
+      <rule>ᾮ</rule>
       <rule>ᾮ</rule>
       <rule>ᾮ</rule>
       <type>level</type>
@@ -3331,7 +3331,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK CAPITAL LETTER OMEGA WITH DASIA AND PERISPOMENI AND PROSGEGRAMMENI</desc>
-      <rule>ᾯ</rule>
+      <rule>ᾯ</rule>
       <rule>ᾯ</rule>
       <rule>ᾯ</rule>
       <type>level</type>
@@ -3339,7 +3339,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK SMALL LETTER ALPHA WITH VRACHY</desc>
-      <rule>ᾰ</rule>
+      <rule>ᾰ</rule>
       <rule>ᾰ</rule>
       <rule>ᾰ</rule>
       <type>level</type>
@@ -3347,7 +3347,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK SMALL LETTER ALPHA WITH MACRON</desc>
-      <rule>ᾱ</rule>
+      <rule>ᾱ</rule>
       <rule>ᾱ</rule>
       <rule>ᾱ</rule>
       <type>level</type>
@@ -3355,7 +3355,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK SMALL LETTER ALPHA WITH VARIA AND YPOGEGRAMMENI</desc>
-      <rule>ᾲ</rule>
+      <rule>ᾲ</rule>
       <rule>ᾲ</rule>
       <rule>ᾲ</rule>
       <type>level</type>
@@ -3363,7 +3363,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK SMALL LETTER ALPHA WITH YPOGEGRAMMENI</desc>
-      <rule>ᾳ</rule>
+      <rule>ᾳ</rule>
       <rule>ᾳ</rule>
       <rule>ᾳ</rule>
       <type>level</type>
@@ -3371,7 +3371,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK SMALL LETTER ALPHA WITH OXIA AND YPOGEGRAMMENI</desc>
-      <rule>ᾴ</rule>
+      <rule>ᾴ</rule>
       <rule>ᾴ</rule>
       <rule>ᾴ</rule>
       <type>level</type>
@@ -3379,7 +3379,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK SMALL LETTER ALPHA WITH PERISPOMENI</desc>
-      <rule>ᾶ</rule>
+      <rule>ᾶ</rule>
       <rule>ᾶ</rule>
       <rule>ᾶ</rule>
       <type>level</type>
@@ -3387,7 +3387,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK SMALL LETTER ALPHA WITH PERISPOMENI AND YPOGEGRAMMENI</desc>
-      <rule>ᾷ</rule>
+      <rule>ᾷ</rule>
       <rule>ᾷ</rule>
       <rule>ᾷ</rule>
       <type>level</type>
@@ -3395,7 +3395,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK CAPITAL LETTER ALPHA WITH VRACHY</desc>
-      <rule>Ᾰ</rule>
+      <rule>Ᾰ</rule>
       <rule>Ᾰ</rule>
       <rule>Ᾰ</rule>
       <type>level</type>
@@ -3403,7 +3403,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK CAPITAL LETTER ALPHA WITH MACRON</desc>
-      <rule>Ᾱ</rule>
+      <rule>Ᾱ</rule>
       <rule>Ᾱ</rule>
       <rule>Ᾱ</rule>
       <type>level</type>
@@ -3411,7 +3411,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK CAPITAL LETTER ALPHA WITH VARIA</desc>
-      <rule>Ὰ</rule>
+      <rule>Ὰ</rule>
       <rule>Ὰ</rule>
       <rule>Ὰ</rule>
       <type>level</type>
@@ -3419,7 +3419,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK CAPITAL LETTER ALPHA WITH OXIA</desc>
-      <rule>Ά</rule>
+      <rule>Ά</rule>
       <rule>Ά</rule>
       <rule>Ά</rule>
       <type>level</type>
@@ -3427,7 +3427,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK CAPITAL LETTER ALPHA WITH PROSGEGRAMMENI</desc>
-      <rule>ᾼ</rule>
+      <rule>ᾼ</rule>
       <rule>ᾼ</rule>
       <rule>ᾼ</rule>
       <type>level</type>
@@ -3435,7 +3435,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK KORONIS</desc>
-      <rule> ̓</rule>
+      <rule>᾽</rule>
       <rule>᾽</rule>
       <rule>᾽</rule>
       <type>level</type>
@@ -3443,7 +3443,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK PROSGEGRAMMENI</desc>
-      <rule>ι</rule>
+      <rule>ι</rule>
       <rule>ι</rule>
       <rule>ι</rule>
       <type>level</type>
@@ -3451,7 +3451,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK PSILI</desc>
-      <rule> ̓</rule>
+      <rule>᾿</rule>
       <rule>᾿</rule>
       <rule>᾿</rule>
       <type>level</type>
@@ -3459,7 +3459,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK PERISPOMENI</desc>
-      <rule> ͂</rule>
+      <rule>῀</rule>
       <rule>῀</rule>
       <rule>῀</rule>
       <type>level</type>
@@ -3467,7 +3467,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK DIALYTIKA AND PERISPOMENI</desc>
-      <rule> ̈͂</rule>
+      <rule>῁</rule>
       <rule>῁</rule>
       <rule>῁</rule>
       <type>level</type>
@@ -3475,7 +3475,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK SMALL LETTER ETA WITH VARIA AND YPOGEGRAMMENI</desc>
-      <rule>ῂ</rule>
+      <rule>ῂ</rule>
       <rule>ῂ</rule>
       <rule>ῂ</rule>
       <type>level</type>
@@ -3483,7 +3483,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK SMALL LETTER ETA WITH YPOGEGRAMMENI</desc>
-      <rule>ῃ</rule>
+      <rule>ῃ</rule>
       <rule>ῃ</rule>
       <rule>ῃ</rule>
       <type>level</type>
@@ -3491,7 +3491,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK SMALL LETTER ETA WITH OXIA AND YPOGEGRAMMENI</desc>
-      <rule>ῄ</rule>
+      <rule>ῄ</rule>
       <rule>ῄ</rule>
       <rule>ῄ</rule>
       <type>level</type>
@@ -3499,7 +3499,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK SMALL LETTER ETA WITH PERISPOMENI</desc>
-      <rule>ῆ</rule>
+      <rule>ῆ</rule>
       <rule>ῆ</rule>
       <rule>ῆ</rule>
       <type>level</type>
@@ -3507,7 +3507,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK SMALL LETTER ETA WITH PERISPOMENI AND YPOGEGRAMMENI</desc>
-      <rule>ῇ</rule>
+      <rule>ῇ</rule>
       <rule>ῇ</rule>
       <rule>ῇ</rule>
       <type>level</type>
@@ -3515,7 +3515,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK CAPITAL LETTER EPSILON WITH VARIA</desc>
-      <rule>Ὲ</rule>
+      <rule>Ὲ</rule>
       <rule>Ὲ</rule>
       <rule>Ὲ</rule>
       <type>level</type>
@@ -3523,7 +3523,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK CAPITAL LETTER EPSILON WITH OXIA</desc>
-      <rule>Έ</rule>
+      <rule>Έ</rule>
       <rule>Έ</rule>
       <rule>Έ</rule>
       <type>level</type>
@@ -3531,7 +3531,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK CAPITAL LETTER ETA WITH VARIA</desc>
-      <rule>Ὴ</rule>
+      <rule>Ὴ</rule>
       <rule>Ὴ</rule>
       <rule>Ὴ</rule>
       <type>level</type>
@@ -3539,7 +3539,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK CAPITAL LETTER ETA WITH OXIA</desc>
-      <rule>Ή</rule>
+      <rule>Ή</rule>
       <rule>Ή</rule>
       <rule>Ή</rule>
       <type>level</type>
@@ -3547,7 +3547,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK CAPITAL LETTER ETA WITH PROSGEGRAMMENI</desc>
-      <rule>ῌ</rule>
+      <rule>ῌ</rule>
       <rule>ῌ</rule>
       <rule>ῌ</rule>
       <type>level</type>
@@ -3555,7 +3555,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK PSILI AND VARIA</desc>
-      <rule> ̓̀</rule>
+      <rule>῍</rule>
       <rule>῍</rule>
       <rule>῍</rule>
       <type>level</type>
@@ -3563,7 +3563,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK PSILI AND OXIA</desc>
-      <rule> ̓́</rule>
+      <rule>῎</rule>
       <rule>῎</rule>
       <rule>῎</rule>
       <type>level</type>
@@ -3571,7 +3571,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK PSILI AND PERISPOMENI</desc>
-      <rule> ̓͂</rule>
+      <rule>῏</rule>
       <rule>῏</rule>
       <rule>῏</rule>
       <type>level</type>
@@ -3579,7 +3579,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK SMALL LETTER IOTA WITH VRACHY</desc>
-      <rule>ῐ</rule>
+      <rule>ῐ</rule>
       <rule>ῐ</rule>
       <rule>ῐ</rule>
       <type>level</type>
@@ -3587,7 +3587,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK SMALL LETTER IOTA WITH MACRON</desc>
-      <rule>ῑ</rule>
+      <rule>ῑ</rule>
       <rule>ῑ</rule>
       <rule>ῑ</rule>
       <type>level</type>
@@ -3595,7 +3595,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK SMALL LETTER IOTA WITH DIALYTIKA AND VARIA</desc>
-      <rule>ῒ</rule>
+      <rule>ῒ</rule>
       <rule>ῒ</rule>
       <rule>ῒ</rule>
       <type>level</type>
@@ -3603,7 +3603,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK SMALL LETTER IOTA WITH DIALYTIKA AND OXIA</desc>
-      <rule>ΐ</rule>
+      <rule>ΐ</rule>
       <rule>ΐ</rule>
       <rule>ΐ</rule>
       <type>level</type>
@@ -3611,7 +3611,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK SMALL LETTER IOTA WITH PERISPOMENI</desc>
-      <rule>ῖ</rule>
+      <rule>ῖ</rule>
       <rule>ῖ</rule>
       <rule>ῖ</rule>
       <type>level</type>
@@ -3619,7 +3619,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK SMALL LETTER IOTA WITH DIALYTIKA AND PERISPOMENI</desc>
-      <rule>ῗ</rule>
+      <rule>ῗ</rule>
       <rule>ῗ</rule>
       <rule>ῗ</rule>
       <type>level</type>
@@ -3627,7 +3627,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK CAPITAL LETTER IOTA WITH VRACHY</desc>
-      <rule>Ῐ</rule>
+      <rule>Ῐ</rule>
       <rule>Ῐ</rule>
       <rule>Ῐ</rule>
       <type>level</type>
@@ -3635,7 +3635,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK CAPITAL LETTER IOTA WITH MACRON</desc>
-      <rule>Ῑ</rule>
+      <rule>Ῑ</rule>
       <rule>Ῑ</rule>
       <rule>Ῑ</rule>
       <type>level</type>
@@ -3643,7 +3643,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK CAPITAL LETTER IOTA WITH VARIA</desc>
-      <rule>Ὶ</rule>
+      <rule>Ὶ</rule>
       <rule>Ὶ</rule>
       <rule>Ὶ</rule>
       <type>level</type>
@@ -3651,7 +3651,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK CAPITAL LETTER IOTA WITH OXIA</desc>
-      <rule>Ί</rule>
+      <rule>Ί</rule>
       <rule>Ί</rule>
       <rule>Ί</rule>
       <type>level</type>
@@ -3659,7 +3659,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK DASIA AND VARIA</desc>
-      <rule> ̔̀</rule>
+      <rule>῝</rule>
       <rule>῝</rule>
       <rule>῝</rule>
       <type>level</type>
@@ -3667,7 +3667,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK DASIA AND OXIA</desc>
-      <rule> ̔́</rule>
+      <rule>῞</rule>
       <rule>῞</rule>
       <rule>῞</rule>
       <type>level</type>
@@ -3675,7 +3675,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK DASIA AND PERISPOMENI</desc>
-      <rule> ̔͂</rule>
+      <rule>῟</rule>
       <rule>῟</rule>
       <rule>῟</rule>
       <type>level</type>
@@ -3683,7 +3683,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK SMALL LETTER UPSILON WITH VRACHY</desc>
-      <rule>ῠ</rule>
+      <rule>ῠ</rule>
       <rule>ῠ</rule>
       <rule>ῠ</rule>
       <type>level</type>
@@ -3691,7 +3691,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK SMALL LETTER UPSILON WITH MACRON</desc>
-      <rule>ῡ</rule>
+      <rule>ῡ</rule>
       <rule>ῡ</rule>
       <rule>ῡ</rule>
       <type>level</type>
@@ -3699,7 +3699,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK SMALL LETTER UPSILON WITH DIALYTIKA AND VARIA</desc>
-      <rule>ῢ</rule>
+      <rule>ῢ</rule>
       <rule>ῢ</rule>
       <rule>ῢ</rule>
       <type>level</type>
@@ -3707,7 +3707,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK SMALL LETTER UPSILON WITH DIALYTIKA AND OXIA</desc>
-      <rule>ΰ</rule>
+      <rule>ΰ</rule>
       <rule>ΰ</rule>
       <rule>ΰ</rule>
       <type>level</type>
@@ -3715,7 +3715,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK SMALL LETTER RHO WITH PSILI</desc>
-      <rule>ῤ</rule>
+      <rule>ῤ</rule>
       <rule>ῤ</rule>
       <rule>ῤ</rule>
       <type>level</type>
@@ -3723,7 +3723,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK SMALL LETTER RHO WITH DASIA</desc>
-      <rule>ῥ</rule>
+      <rule>ῥ</rule>
       <rule>ῥ</rule>
       <rule>ῥ</rule>
       <type>level</type>
@@ -3731,7 +3731,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK SMALL LETTER UPSILON WITH PERISPOMENI</desc>
-      <rule>ῦ</rule>
+      <rule>ῦ</rule>
       <rule>ῦ</rule>
       <rule>ῦ</rule>
       <type>level</type>
@@ -3739,7 +3739,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK SMALL LETTER UPSILON WITH DIALYTIKA AND PERISPOMENI</desc>
-      <rule>ῧ</rule>
+      <rule>ῧ</rule>
       <rule>ῧ</rule>
       <rule>ῧ</rule>
       <type>level</type>
@@ -3747,7 +3747,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK CAPITAL LETTER UPSILON WITH VRACHY</desc>
-      <rule>Ῠ</rule>
+      <rule>Ῠ</rule>
       <rule>Ῠ</rule>
       <rule>Ῠ</rule>
       <type>level</type>
@@ -3755,7 +3755,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK CAPITAL LETTER UPSILON WITH MACRON</desc>
-      <rule>Ῡ</rule>
+      <rule>Ῡ</rule>
       <rule>Ῡ</rule>
       <rule>Ῡ</rule>
       <type>level</type>
@@ -3763,7 +3763,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK CAPITAL LETTER UPSILON WITH VARIA</desc>
-      <rule>Ὺ</rule>
+      <rule>Ὺ</rule>
       <rule>Ὺ</rule>
       <rule>Ὺ</rule>
       <type>level</type>
@@ -3771,7 +3771,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK CAPITAL LETTER UPSILON WITH OXIA</desc>
-      <rule>Ύ</rule>
+      <rule>Ύ</rule>
       <rule>Ύ</rule>
       <rule>Ύ</rule>
       <type>level</type>
@@ -3779,7 +3779,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK CAPITAL LETTER RHO WITH DASIA</desc>
-      <rule>Ῥ</rule>
+      <rule>Ῥ</rule>
       <rule>Ῥ</rule>
       <rule>Ῥ</rule>
       <type>level</type>
@@ -3787,7 +3787,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK DIALYTIKA AND VARIA</desc>
-      <rule> ̈̀</rule>
+      <rule>῭</rule>
       <rule>῭</rule>
       <rule>῭</rule>
       <type>level</type>
@@ -3795,7 +3795,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK DIALYTIKA AND OXIA</desc>
-      <rule> ̈́</rule>
+      <rule>΅</rule>
       <rule>΅</rule>
       <rule>΅</rule>
       <type>level</type>
@@ -3803,7 +3803,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK VARIA</desc>
-      <rule>`</rule>
+      <rule>`</rule>
       <rule>`</rule>
       <rule>`</rule>
       <type>level</type>
@@ -3811,7 +3811,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK SMALL LETTER OMEGA WITH VARIA AND YPOGEGRAMMENI</desc>
-      <rule>ῲ</rule>
+      <rule>ῲ</rule>
       <rule>ῲ</rule>
       <rule>ῲ</rule>
       <type>level</type>
@@ -3819,7 +3819,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK SMALL LETTER OMEGA WITH YPOGEGRAMMENI</desc>
-      <rule>ῳ</rule>
+      <rule>ῳ</rule>
       <rule>ῳ</rule>
       <rule>ῳ</rule>
       <type>level</type>
@@ -3827,7 +3827,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK SMALL LETTER OMEGA WITH OXIA AND YPOGEGRAMMENI</desc>
-      <rule>ῴ</rule>
+      <rule>ῴ</rule>
       <rule>ῴ</rule>
       <rule>ῴ</rule>
       <type>level</type>
@@ -3835,7 +3835,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK SMALL LETTER OMEGA WITH PERISPOMENI</desc>
-      <rule>ῶ</rule>
+      <rule>ῶ</rule>
       <rule>ῶ</rule>
       <rule>ῶ</rule>
       <type>level</type>
@@ -3843,7 +3843,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK SMALL LETTER OMEGA WITH PERISPOMENI AND YPOGEGRAMMENI</desc>
-      <rule>ῷ</rule>
+      <rule>ῷ</rule>
       <rule>ῷ</rule>
       <rule>ῷ</rule>
       <type>level</type>
@@ -3851,7 +3851,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK CAPITAL LETTER OMICRON WITH VARIA</desc>
-      <rule>Ὸ</rule>
+      <rule>Ὸ</rule>
       <rule>Ὸ</rule>
       <rule>Ὸ</rule>
       <type>level</type>
@@ -3859,7 +3859,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK CAPITAL LETTER OMICRON WITH OXIA</desc>
-      <rule>Ό</rule>
+      <rule>Ό</rule>
       <rule>Ό</rule>
       <rule>Ό</rule>
       <type>level</type>
@@ -3867,7 +3867,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK CAPITAL LETTER OMEGA WITH VARIA</desc>
-      <rule>Ὼ</rule>
+      <rule>Ὼ</rule>
       <rule>Ὼ</rule>
       <rule>Ὼ</rule>
       <type>level</type>
@@ -3875,7 +3875,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK CAPITAL LETTER OMEGA WITH OXIA</desc>
-      <rule>Ώ</rule>
+      <rule>Ώ</rule>
       <rule>Ώ</rule>
       <rule>Ώ</rule>
       <type>level</type>
@@ -3883,7 +3883,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK CAPITAL LETTER OMEGA WITH PROSGEGRAMMENI</desc>
-      <rule>ῼ</rule>
+      <rule>ῼ</rule>
       <rule>ῼ</rule>
       <rule>ῼ</rule>
       <type>level</type>
@@ -3891,7 +3891,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK OXIA</desc>
-      <rule> ́</rule>
+      <rule>´</rule>
       <rule>´</rule>
       <rule>´</rule>
       <type>level</type>
@@ -3899,7 +3899,7 @@
    <ruleset>
       <range>GkExt</range>
       <desc>GREEK DASIA</desc>
-      <rule> ̔</rule>
+      <rule>῾</rule>
       <rule>῾</rule>
       <rule>῾</rule>
       <type>level</type>
@@ -4075,7 +4075,7 @@
    <ruleset>
       <range>Lat1Suppl</range>
       <desc>FEMININE ORDINAL INDICATOR</desc>
-      <rule>a</rule>
+      <rule>ª</rule>
       <rule>ª</rule>
       <rule>ª</rule>
       <type>level</type>
@@ -4083,7 +4083,7 @@
    <ruleset>
       <range>Lat1Suppl</range>
       <desc>LATIN CAPITAL LETTER A WITH GRAVE</desc>
-      <rule>À</rule>
+      <rule>À</rule>
       <rule>À</rule>
       <rule>À</rule>
       <type>level</type>
@@ -4091,7 +4091,7 @@
    <ruleset>
       <range>Lat1Suppl</range>
       <desc>LATIN CAPITAL LETTER A WITH ACUTE</desc>
-      <rule>Á</rule>
+      <rule>Á</rule>
       <rule>Á</rule>
       <rule>Á</rule>
       <type>level</type>
@@ -4099,7 +4099,7 @@
    <ruleset>
       <range>Lat1Suppl</range>
       <desc>LATIN CAPITAL LETTER A WITH CIRCUMFLEX</desc>
-      <rule>Â</rule>
+      <rule>Â</rule>
       <rule>Â</rule>
       <rule>Â</rule>
       <type>level</type>
@@ -4107,7 +4107,7 @@
    <ruleset>
       <range>Lat1Suppl</range>
       <desc>LATIN CAPITAL LETTER A WITH TILDE</desc>
-      <rule>Ã</rule>
+      <rule>Ã</rule>
       <rule>Ã</rule>
       <rule>Ã</rule>
       <type>level</type>
@@ -4115,7 +4115,7 @@
    <ruleset>
       <range>Lat1Suppl</range>
       <desc>LATIN CAPITAL LETTER A WITH DIAERESIS</desc>
-      <rule>Ä</rule>
+      <rule>Ä</rule>
       <rule>Ä</rule>
       <rule>Ä</rule>
       <type>level</type>
@@ -4123,7 +4123,7 @@
    <ruleset>
       <range>Lat1Suppl</range>
       <desc>LATIN CAPITAL LETTER A WITH RING ABOVE</desc>
-      <rule>Å</rule>
+      <rule>Å</rule>
       <rule>Å</rule>
       <rule>Å</rule>
       <type>level</type>
@@ -4139,7 +4139,7 @@
    <ruleset>
       <range>Lat1Suppl</range>
       <desc>LATIN SMALL LETTER A WITH GRAVE</desc>
-      <rule>à</rule>
+      <rule>à</rule>
       <rule>à</rule>
       <rule>à</rule>
       <type>level</type>
@@ -4147,7 +4147,7 @@
    <ruleset>
       <range>Lat1Suppl</range>
       <desc>LATIN SMALL LETTER A WITH ACUTE</desc>
-      <rule>á</rule>
+      <rule>á</rule>
       <rule>á</rule>
       <rule>á</rule>
       <type>level</type>
@@ -4155,7 +4155,7 @@
    <ruleset>
       <range>Lat1Suppl</range>
       <desc>LATIN SMALL LETTER A WITH CIRCUMFLEX</desc>
-      <rule>â</rule>
+      <rule>â</rule>
       <rule>â</rule>
       <rule>â</rule>
       <type>level</type>
@@ -4171,7 +4171,7 @@
    <ruleset>
       <range>Lat1Suppl</range>
       <desc>LATIN SMALL LETTER A WITH DIAERESIS</desc>
-      <rule>ä</rule>
+      <rule>ä</rule>
       <rule>ä</rule>
       <rule>ä</rule>
       <type>level</type>
@@ -4179,7 +4179,7 @@
    <ruleset>
       <range>Lat1Suppl</range>
       <desc>LATIN SMALL LETTER A WITH RING ABOVE</desc>
-      <rule>å</rule>
+      <rule>å</rule>
       <rule>å</rule>
       <rule>å</rule>
       <type>level</type>
@@ -4195,7 +4195,7 @@
    <ruleset>
       <range>Lat1Suppl</range>
       <desc>LATIN CAPITAL LETTER C WITH CEDILLA</desc>
-      <rule>Ç</rule>
+      <rule>Ç</rule>
       <rule>Ç</rule>
       <rule>Ç</rule>
       <type>level</type>
@@ -4203,7 +4203,7 @@
    <ruleset>
       <range>Lat1Suppl</range>
       <desc>LATIN SMALL LETTER C WITH CEDILLA</desc>
-      <rule>ç</rule>
+      <rule>ç</rule>
       <rule>ç</rule>
       <rule>ç</rule>
       <type>level</type>
@@ -4227,7 +4227,7 @@
    <ruleset>
       <range>Lat1Suppl</range>
       <desc>LATIN CAPITAL LETTER E WITH GRAVE</desc>
-      <rule>È</rule>
+      <rule>È</rule>
       <rule>È</rule>
       <rule>È</rule>
       <type>level</type>
@@ -4235,7 +4235,7 @@
    <ruleset>
       <range>Lat1Suppl</range>
       <desc>LATIN CAPITAL LETTER E WITH ACUTE</desc>
-      <rule>É</rule>
+      <rule>É</rule>
       <rule>É</rule>
       <rule>É</rule>
       <type>level</type>
@@ -4243,7 +4243,7 @@
    <ruleset>
       <range>Lat1Suppl</range>
       <desc>LATIN CAPITAL LETTER E WITH CIRCUMFLEX</desc>
-      <rule>Ê</rule>
+      <rule>Ê</rule>
       <rule>Ê</rule>
       <rule>Ê</rule>
       <type>level</type>
@@ -4251,7 +4251,7 @@
    <ruleset>
       <range>Lat1Suppl</range>
       <desc>LATIN CAPITAL LETTER E WITH DIAERESIS</desc>
-      <rule>Ë</rule>
+      <rule>Ë</rule>
       <rule>Ë</rule>
       <rule>Ë</rule>
       <type>level</type>
@@ -4259,7 +4259,7 @@
    <ruleset>
       <range>Lat1Suppl</range>
       <desc>LATIN SMALL LETTER E WITH GRAVE</desc>
-      <rule>è</rule>
+      <rule>è</rule>
       <rule>è</rule>
       <rule>è</rule>
       <type>level</type>
@@ -4267,7 +4267,7 @@
    <ruleset>
       <range>Lat1Suppl</range>
       <desc>LATIN SMALL LETTER E WITH ACUTE</desc>
-      <rule>é</rule>
+      <rule>é</rule>
       <rule>é</rule>
       <rule>é</rule>
       <type>level</type>
@@ -4275,7 +4275,7 @@
    <ruleset>
       <range>Lat1Suppl</range>
       <desc>LATIN SMALL LETTER E WITH CIRCUMFLEX</desc>
-      <rule>ê</rule>
+      <rule>ê</rule>
       <rule>ê</rule>
       <rule>ê</rule>
       <type>level</type>
@@ -4283,7 +4283,7 @@
    <ruleset>
       <range>Lat1Suppl</range>
       <desc>LATIN SMALL LETTER E WITH DIAERESIS</desc>
-      <rule>ë</rule>
+      <rule>ë</rule>
       <rule>ë</rule>
       <rule>ë</rule>
       <type>level</type>
@@ -4291,7 +4291,7 @@
    <ruleset>
       <range>Lat1Suppl</range>
       <desc>LATIN CAPITAL LETTER I WITH GRAVE</desc>
-      <rule>Ì</rule>
+      <rule>Ì</rule>
       <rule>Ì</rule>
       <rule>Ì</rule>
       <type>level</type>
@@ -4299,7 +4299,7 @@
    <ruleset>
       <range>Lat1Suppl</range>
       <desc>LATIN CAPITAL LETTER I WITH ACUTE</desc>
-      <rule>Í</rule>
+      <rule>Í</rule>
       <rule>Í</rule>
       <rule>Í</rule>
       <type>level</type>
@@ -4307,7 +4307,7 @@
    <ruleset>
       <range>Lat1Suppl</range>
       <desc>LATIN CAPITAL LETTER I WITH CIRCUMFLEX</desc>
-      <rule>Î</rule>
+      <rule>Î</rule>
       <rule>Î</rule>
       <rule>Î</rule>
       <type>level</type>
@@ -4315,7 +4315,7 @@
    <ruleset>
       <range>Lat1Suppl</range>
       <desc>LATIN CAPITAL LETTER I WITH DIAERESIS</desc>
-      <rule>Ï</rule>
+      <rule>Ï</rule>
       <rule>Ï</rule>
       <rule>Ï</rule>
       <type>level</type>
@@ -4323,7 +4323,7 @@
    <ruleset>
       <range>Lat1Suppl</range>
       <desc>LATIN SMALL LETTER I WITH GRAVE</desc>
-      <rule>ì</rule>
+      <rule>ì</rule>
       <rule>ì</rule>
       <rule>ì</rule>
       <type>level</type>
@@ -4331,7 +4331,7 @@
    <ruleset>
       <range>Lat1Suppl</range>
       <desc>LATIN SMALL LETTER I WITH ACUTE</desc>
-      <rule>í</rule>
+      <rule>í</rule>
       <rule>í</rule>
       <rule>í</rule>
       <type>level</type>
@@ -4339,7 +4339,7 @@
    <ruleset>
       <range>Lat1Suppl</range>
       <desc>LATIN SMALL LETTER I WITH CIRCUMFLEX</desc>
-      <rule>î</rule>
+      <rule>î</rule>
       <rule>î</rule>
       <rule>î</rule>
       <type>level</type>
@@ -4347,7 +4347,7 @@
    <ruleset>
       <range>Lat1Suppl</range>
       <desc>LATIN SMALL LETTER I WITH DIAERESIS</desc>
-      <rule>ï</rule>
+      <rule>ï</rule>
       <rule>ï</rule>
       <rule>ï</rule>
       <type>level</type>
@@ -4355,7 +4355,7 @@
    <ruleset>
       <range>Lat1Suppl</range>
       <desc>LATIN CAPITAL LETTER N WITH TILDE</desc>
-      <rule>Ñ</rule>
+      <rule>Ñ</rule>
       <rule>Ñ</rule>
       <rule>Ñ</rule>
       <type>level</type>
@@ -4371,7 +4371,7 @@
    <ruleset>
       <range>Lat1Suppl</range>
       <desc>MASCULINE ORDINAL INDICATOR</desc>
-      <rule>o</rule>
+      <rule>º</rule>
       <rule>º</rule>
       <rule>º</rule>
       <type>level</type>
@@ -4379,7 +4379,7 @@
    <ruleset>
       <range>Lat1Suppl</range>
       <desc>LATIN CAPITAL LETTER O WITH GRAVE</desc>
-      <rule>Ò</rule>
+      <rule>Ò</rule>
       <rule>Ò</rule>
       <rule>Ò</rule>
       <type>level</type>
@@ -4387,7 +4387,7 @@
    <ruleset>
       <range>Lat1Suppl</range>
       <desc>LATIN CAPITAL LETTER O WITH ACUTE</desc>
-      <rule>Ó</rule>
+      <rule>Ó</rule>
       <rule>Ó</rule>
       <rule>Ó</rule>
       <type>level</type>
@@ -4395,7 +4395,7 @@
    <ruleset>
       <range>Lat1Suppl</range>
       <desc>LATIN CAPITAL LETTER O WITH CIRCUMFLEX</desc>
-      <rule>Ô</rule>
+      <rule>Ô</rule>
       <rule>Ô</rule>
       <rule>Ô</rule>
       <type>level</type>
@@ -4403,7 +4403,7 @@
    <ruleset>
       <range>Lat1Suppl</range>
       <desc>LATIN CAPITAL LETTER O WITH TILDE</desc>
-      <rule>Õ</rule>
+      <rule>Õ</rule>
       <rule>Õ</rule>
       <rule>Õ</rule>
       <type>level</type>
@@ -4411,7 +4411,7 @@
    <ruleset>
       <range>Lat1Suppl</range>
       <desc>LATIN CAPITAL LETTER O WITH DIAERESIS</desc>
-      <rule>Ö</rule>
+      <rule>Ö</rule>
       <rule>Ö</rule>
       <rule>Ö</rule>
       <type>level</type>
@@ -4427,7 +4427,7 @@
    <ruleset>
       <range>Lat1Suppl</range>
       <desc>LATIN SMALL LETTER O WITH GRAVE</desc>
-      <rule>ò</rule>
+      <rule>ò</rule>
       <rule>ò</rule>
       <rule>ò</rule>
       <type>level</type>
@@ -4435,7 +4435,7 @@
    <ruleset>
       <range>Lat1Suppl</range>
       <desc>LATIN SMALL LETTER O WITH ACUTE</desc>
-      <rule>ó</rule>
+      <rule>ó</rule>
       <rule>ó</rule>
       <rule>ó</rule>
       <type>level</type>
@@ -4443,7 +4443,7 @@
    <ruleset>
       <range>Lat1Suppl</range>
       <desc>LATIN SMALL LETTER O WITH CIRCUMFLEX</desc>
-      <rule>ô</rule>
+      <rule>ô</rule>
       <rule>ô</rule>
       <rule>ô</rule>
       <type>level</type>
@@ -4459,7 +4459,7 @@
    <ruleset>
       <range>Lat1Suppl</range>
       <desc>LATIN SMALL LETTER O WITH DIAERESIS</desc>
-      <rule>ö</rule>
+      <rule>ö</rule>
       <rule>ö</rule>
       <rule>ö</rule>
       <type>level</type>
@@ -4483,7 +4483,7 @@
    <ruleset>
       <range>Lat1Suppl</range>
       <desc>LATIN CAPITAL LETTER U WITH GRAVE</desc>
-      <rule>Ù</rule>
+      <rule>Ù</rule>
       <rule>Ù</rule>
       <rule>Ù</rule>
       <type>level</type>
@@ -4491,7 +4491,7 @@
    <ruleset>
       <range>Lat1Suppl</range>
       <desc>LATIN CAPITAL LETTER U WITH ACUTE</desc>
-      <rule>Ú</rule>
+      <rule>Ú</rule>
       <rule>Ú</rule>
       <rule>Ú</rule>
       <type>level</type>
@@ -4499,7 +4499,7 @@
    <ruleset>
       <range>Lat1Suppl</range>
       <desc>LATIN CAPITAL LETTER U WITH CIRCUMFLEX</desc>
-      <rule>Û</rule>
+      <rule>Û</rule>
       <rule>Û</rule>
       <rule>Û</rule>
       <type>level</type>
@@ -4507,7 +4507,7 @@
    <ruleset>
       <range>Lat1Suppl</range>
       <desc>LATIN CAPITAL LETTER U WITH DIAERESIS</desc>
-      <rule>Ü</rule>
+      <rule>Ü</rule>
       <rule>Ü</rule>
       <rule>Ü</rule>
       <type>level</type>
@@ -4515,7 +4515,7 @@
    <ruleset>
       <range>Lat1Suppl</range>
       <desc>LATIN SMALL LETTER U WITH GRAVE</desc>
-      <rule>ù</rule>
+      <rule>ù</rule>
       <rule>ù</rule>
       <rule>ù</rule>
       <type>level</type>
@@ -4523,7 +4523,7 @@
    <ruleset>
       <range>Lat1Suppl</range>
       <desc>LATIN SMALL LETTER U WITH ACUTE</desc>
-      <rule>ú</rule>
+      <rule>ú</rule>
       <rule>ú</rule>
       <rule>ú</rule>
       <type>level</type>
@@ -4531,7 +4531,7 @@
    <ruleset>
       <range>Lat1Suppl</range>
       <desc>LATIN SMALL LETTER U WITH CIRCUMFLEX</desc>
-      <rule>û</rule>
+      <rule>û</rule>
       <rule>û</rule>
       <rule>û</rule>
       <type>level</type>
@@ -4539,7 +4539,7 @@
    <ruleset>
       <range>Lat1Suppl</range>
       <desc>LATIN SMALL LETTER U WITH DIAERESIS</desc>
-      <rule>ü</rule>
+      <rule>ü</rule>
       <rule>ü</rule>
       <rule>ü</rule>
       <type>level</type>
@@ -4547,7 +4547,7 @@
    <ruleset>
       <range>Lat1Suppl</range>
       <desc>LATIN CAPITAL LETTER Y WITH ACUTE</desc>
-      <rule>Ý</rule>
+      <rule>Ý</rule>
       <rule>Ý</rule>
       <rule>Ý</rule>
       <type>level</type>
@@ -4555,7 +4555,7 @@
    <ruleset>
       <range>Lat1Suppl</range>
       <desc>LATIN SMALL LETTER Y WITH ACUTE</desc>
-      <rule>ý</rule>
+      <rule>ý</rule>
       <rule>ý</rule>
       <rule>ý</rule>
       <type>level</type>
@@ -4563,7 +4563,7 @@
    <ruleset>
       <range>Lat1Suppl</range>
       <desc>LATIN SMALL LETTER Y WITH DIAERESIS</desc>
-      <rule>ÿ</rule>
+      <rule>ÿ</rule>
       <rule>ÿ</rule>
       <rule>ÿ</rule>
       <type>level</type>
@@ -4571,7 +4571,7 @@
    <ruleset>
       <range>Lat1Suppl</range>
       <desc>NO-BREAK SPACE</desc>
-      <rule> </rule>
+      <rule> </rule>
       <rule> </rule>
       <rule> </rule>
       <type>level</type>
@@ -4587,7 +4587,7 @@
    <ruleset>
       <range>Lat1Suppl</range>
       <desc>SUPERSCRIPT TWO</desc>
-      <rule>2</rule>
+      <rule>²</rule>
       <rule>²</rule>
       <rule>²</rule>
       <type>level</type>
@@ -4595,7 +4595,7 @@
    <ruleset>
       <range>Lat1Suppl</range>
       <desc>SUPERSCRIPT THREE</desc>
-      <rule>3</rule>
+      <rule>³</rule>
       <rule>³</rule>
       <rule>³</rule>
       <type>level</type>
@@ -4603,7 +4603,7 @@
    <ruleset>
       <range>Lat1Suppl</range>
       <desc>SUPERSCRIPT ONE</desc>
-      <rule>1</rule>
+      <rule>¹</rule>
       <rule>¹</rule>
       <rule>¹</rule>
       <type>level</type>
@@ -4611,7 +4611,7 @@
    <ruleset>
       <range>Lat1Suppl</range>
       <desc>VULGAR FRACTION ONE QUARTER</desc>
-      <rule>1⁄4</rule>
+      <rule>¼</rule>
       <rule>¼</rule>
       <rule>¼</rule>
       <type>level</type>
@@ -4619,7 +4619,7 @@
    <ruleset>
       <range>Lat1Suppl</range>
       <desc>VULGAR FRACTION ONE HALF</desc>
-      <rule>1⁄2</rule>
+      <rule>½</rule>
       <rule>½</rule>
       <rule>½</rule>
       <type>level</type>
@@ -4627,7 +4627,7 @@
    <ruleset>
       <range>Lat1Suppl</range>
       <desc>VULGAR FRACTION THREE QUARTERS</desc>
-      <rule>3⁄4</rule>
+      <rule>¾</rule>
       <rule>¾</rule>
       <rule>¾</rule>
       <type>level</type>
@@ -4683,7 +4683,7 @@
    <ruleset>
       <range>Lat1Suppl</range>
       <desc>DIAERESIS</desc>
-      <rule> ̈</rule>
+      <rule>¨</rule>
       <rule>¨</rule>
       <rule>¨</rule>
       <type>level</type>
@@ -4691,7 +4691,7 @@
    <ruleset>
       <range>Lat1Suppl</range>
       <desc>MACRON</desc>
-      <rule> ̄</rule>
+      <rule>¯</rule>
       <rule>¯</rule>
       <rule>¯</rule>
       <type>level</type>
@@ -4699,7 +4699,7 @@
    <ruleset>
       <range>Lat1Suppl</range>
       <desc>ACUTE ACCENT</desc>
-      <rule> ́</rule>
+      <rule>´</rule>
       <rule>´</rule>
       <rule>´</rule>
       <type>level</type>
@@ -4707,7 +4707,7 @@
    <ruleset>
       <range>Lat1Suppl</range>
       <desc>CEDILLA</desc>
-      <rule> ̧</rule>
+      <rule>¸</rule>
       <rule>¸</rule>
       <rule>¸</rule>
       <type>level</type>
@@ -4843,7 +4843,7 @@
    <ruleset>
       <range>LatExtA</range>
       <desc>LATIN CAPITAL LETTER A WITH MACRON</desc>
-      <rule>Ā</rule>
+      <rule>Ā</rule>
       <rule>Ā</rule>
       <rule>Ā</rule>
       <type>level</type>
@@ -4851,7 +4851,7 @@
    <ruleset>
       <range>LatExtA</range>
       <desc>LATIN SMALL LETTER A WITH MACRON</desc>
-      <rule>ā</rule>
+      <rule>ā</rule>
       <rule>ā</rule>
       <rule>ā</rule>
       <type>level</type>
@@ -4859,7 +4859,7 @@
    <ruleset>
       <range>LatExtA</range>
       <desc>LATIN CAPITAL LETTER A WITH BREVE</desc>
-      <rule>Ă</rule>
+      <rule>Ă</rule>
       <rule>Ă</rule>
       <rule>Ă</rule>
       <type>level</type>
@@ -4867,7 +4867,7 @@
    <ruleset>
       <range>LatExtA</range>
       <desc>LATIN SMALL LETTER A WITH BREVE</desc>
-      <rule>ă</rule>
+      <rule>ă</rule>
       <rule>ă</rule>
       <rule>ă</rule>
       <type>level</type>
@@ -4875,7 +4875,7 @@
    <ruleset>
       <range>LatExtA</range>
       <desc>LATIN CAPITAL LETTER A WITH OGONEK</desc>
-      <rule>Ą</rule>
+      <rule>Ą</rule>
       <rule>Ą</rule>
       <rule>Ą</rule>
       <type>level</type>
@@ -4883,7 +4883,7 @@
    <ruleset>
       <range>LatExtA</range>
       <desc>LATIN SMALL LETTER A WITH OGONEK</desc>
-      <rule>ą</rule>
+      <rule>ą</rule>
       <rule>ą</rule>
       <rule>ą</rule>
       <type>level</type>
@@ -4891,7 +4891,7 @@
    <ruleset>
       <range>LatExtA</range>
       <desc>LATIN CAPITAL LETTER C WITH ACUTE</desc>
-      <rule>Ć</rule>
+      <rule>Ć</rule>
       <rule>Ć</rule>
       <rule>Ć</rule>
       <type>level</type>
@@ -4899,7 +4899,7 @@
    <ruleset>
       <range>LatExtA</range>
       <desc>LATIN SMALL LETTER C WITH ACUTE</desc>
-      <rule>ć</rule>
+      <rule>ć</rule>
       <rule>ć</rule>
       <rule>ć</rule>
       <type>level</type>
@@ -4907,7 +4907,7 @@
    <ruleset>
       <range>LatExtA</range>
       <desc>LATIN CAPITAL LETTER C WITH DOT ABOVE</desc>
-      <rule>Ċ</rule>
+      <rule>Ċ</rule>
       <rule>Ċ</rule>
       <rule>Ċ</rule>
       <type>level</type>
@@ -4915,7 +4915,7 @@
    <ruleset>
       <range>LatExtA</range>
       <desc>LATIN SMALL LETTER C WITH DOT ABOVE</desc>
-      <rule>ċ</rule>
+      <rule>ċ</rule>
       <rule>ċ</rule>
       <rule>ċ</rule>
       <type>level</type>
@@ -4939,7 +4939,7 @@
    <ruleset>
       <range>LatExtA</range>
       <desc>LATIN CAPITAL LETTER E WITH MACRON</desc>
-      <rule>Ē</rule>
+      <rule>Ē</rule>
       <rule>Ē</rule>
       <rule>Ē</rule>
       <type>level</type>
@@ -4947,7 +4947,7 @@
    <ruleset>
       <range>LatExtA</range>
       <desc>LATIN SMALL LETTER E WITH MACRON</desc>
-      <rule>ē</rule>
+      <rule>ē</rule>
       <rule>ē</rule>
       <rule>ē</rule>
       <type>level</type>
@@ -4955,7 +4955,7 @@
    <ruleset>
       <range>LatExtA</range>
       <desc>LATIN CAPITAL LETTER E WITH BREVE</desc>
-      <rule>Ĕ</rule>
+      <rule>Ĕ</rule>
       <rule>Ĕ</rule>
       <rule>Ĕ</rule>
       <type>level</type>
@@ -4963,7 +4963,7 @@
    <ruleset>
       <range>LatExtA</range>
       <desc>LATIN SMALL LETTER E WITH BREVE</desc>
-      <rule>ĕ</rule>
+      <rule>ĕ</rule>
       <rule>ĕ</rule>
       <rule>ĕ</rule>
       <type>level</type>
@@ -4971,7 +4971,7 @@
    <ruleset>
       <range>LatExtA</range>
       <desc>LATIN CAPITAL LETTER E WITH DOT ABOVE</desc>
-      <rule>Ė</rule>
+      <rule>Ė</rule>
       <rule>Ė</rule>
       <rule>Ė</rule>
       <type>level</type>
@@ -4979,7 +4979,7 @@
    <ruleset>
       <range>LatExtA</range>
       <desc>LATIN SMALL LETTER E WITH DOT ABOVE</desc>
-      <rule>ė</rule>
+      <rule>ė</rule>
       <rule>ė</rule>
       <rule>ė</rule>
       <type>level</type>
@@ -4987,7 +4987,7 @@
    <ruleset>
       <range>LatExtA</range>
       <desc>LATIN CAPITAL LETTER E WITH OGONEK</desc>
-      <rule>Ę</rule>
+      <rule>Ę</rule>
       <rule>Ę</rule>
       <rule>Ę</rule>
       <type>level</type>
@@ -5003,7 +5003,7 @@
    <ruleset>
       <range>LatExtA</range>
       <desc>LATIN CAPITAL LETTER G WITH DOT ABOVE</desc>
-      <rule>Ġ</rule>
+      <rule>Ġ</rule>
       <rule>Ġ</rule>
       <rule>Ġ</rule>
       <type>level</type>
@@ -5011,7 +5011,7 @@
    <ruleset>
       <range>LatExtA</range>
       <desc>LATIN SMALL LETTER G WITH DOT ABOVE</desc>
-      <rule>ġ</rule>
+      <rule>ġ</rule>
       <rule>ġ</rule>
       <rule>ġ</rule>
       <type>level</type>
@@ -5027,7 +5027,7 @@
    <ruleset>
       <range>LatExtA</range>
       <desc>LATIN CAPITAL LETTER I WITH MACRON</desc>
-      <rule>Ī</rule>
+      <rule>Ī</rule>
       <rule>Ī</rule>
       <rule>Ī</rule>
       <type>level</type>
@@ -5035,7 +5035,7 @@
    <ruleset>
       <range>LatExtA</range>
       <desc>LATIN SMALL LETTER I WITH MACRON</desc>
-      <rule>ī</rule>
+      <rule>ī</rule>
       <rule>ī</rule>
       <rule>ī</rule>
       <type>level</type>
@@ -5043,7 +5043,7 @@
    <ruleset>
       <range>LatExtA</range>
       <desc>LATIN CAPITAL LETTER I WITH BREVE</desc>
-      <rule>Ĭ</rule>
+      <rule>Ĭ</rule>
       <rule>Ĭ</rule>
       <rule>Ĭ</rule>
       <type>level</type>
@@ -5051,7 +5051,7 @@
    <ruleset>
       <range>LatExtA</range>
       <desc>LATIN SMALL LETTER I WITH BREVE</desc>
-      <rule>ĭ</rule>
+      <rule>ĭ</rule>
       <rule>ĭ</rule>
       <rule>ĭ</rule>
       <type>level</type>
@@ -5059,7 +5059,7 @@
    <ruleset>
       <range>LatExtA</range>
       <desc>LATIN CAPITAL LETTER I WITH OGONEK</desc>
-      <rule>Į</rule>
+      <rule>Į</rule>
       <rule>Į</rule>
       <rule>Į</rule>
       <type>level</type>
@@ -5067,7 +5067,7 @@
    <ruleset>
       <range>LatExtA</range>
       <desc>LATIN SMALL LETTER I WITH OGONEK</desc>
-      <rule>į</rule>
+      <rule>į</rule>
       <rule>į</rule>
       <rule>į</rule>
       <type>level</type>
@@ -5075,7 +5075,7 @@
    <ruleset>
       <range>LatExtA</range>
       <desc>LATIN CAPITAL LETTER I WITH DOT ABOVE</desc>
-      <rule>İ</rule>
+      <rule>İ</rule>
       <rule>İ</rule>
       <rule>İ</rule>
       <type>level</type>
@@ -5107,7 +5107,7 @@
    <ruleset>
       <range>LatExtA</range>
       <desc>LATIN CAPITAL LETTER L WITH ACUTE</desc>
-      <rule>Ĺ</rule>
+      <rule>Ĺ</rule>
       <rule>Ĺ</rule>
       <rule>Ĺ</rule>
       <type>level</type>
@@ -5115,7 +5115,7 @@
    <ruleset>
       <range>LatExtA</range>
       <desc>LATIN SMALL LETTER L WITH ACUTE</desc>
-      <rule>ĺ</rule>
+      <rule>ĺ</rule>
       <rule>ĺ</rule>
       <rule>ĺ</rule>
       <type>level</type>
@@ -5139,7 +5139,7 @@
    <ruleset>
       <range>LatExtA</range>
       <desc>LATIN CAPITAL LETTER N WITH ACUTE</desc>
-      <rule>Ń</rule>
+      <rule>Ń</rule>
       <rule>Ń</rule>
       <rule>Ń</rule>
       <type>level</type>
@@ -5147,7 +5147,7 @@
    <ruleset>
       <range>LatExtA</range>
       <desc>LATIN SMALL LETTER N WITH ACUTE</desc>
-      <rule>ń</rule>
+      <rule>ń</rule>
       <rule>ń</rule>
       <rule>ń</rule>
       <type>level</type>
@@ -5171,7 +5171,7 @@
    <ruleset>
       <range>LatExtA</range>
       <desc>LATIN CAPITAL LETTER O WITH MACRON</desc>
-      <rule>Ō</rule>
+      <rule>Ō</rule>
       <rule>Ō</rule>
       <rule>Ō</rule>
       <type>level</type>
@@ -5179,7 +5179,7 @@
    <ruleset>
       <range>LatExtA</range>
       <desc>LATIN SMALL LETTER O WITH MACRON</desc>
-      <rule>ō</rule>
+      <rule>ō</rule>
       <rule>ō</rule>
       <rule>ō</rule>
       <type>level</type>
@@ -5187,7 +5187,7 @@
    <ruleset>
       <range>LatExtA</range>
       <desc>LATIN CAPITAL LETTER O WITH BREVE</desc>
-      <rule>Ŏ</rule>
+      <rule>Ŏ</rule>
       <rule>Ŏ</rule>
       <rule>Ŏ</rule>
       <type>level</type>
@@ -5195,7 +5195,7 @@
    <ruleset>
       <range>LatExtA</range>
       <desc>LATIN SMALL LETTER O WITH BREVE</desc>
-      <rule>ŏ</rule>
+      <rule>ŏ</rule>
       <rule>ŏ</rule>
       <rule>ŏ</rule>
       <type>level</type>
@@ -5203,7 +5203,7 @@
    <ruleset>
       <range>LatExtA</range>
       <desc>LATIN CAPITAL LETTER O WITH DOUBLE ACUTE</desc>
-      <rule>Ő</rule>
+      <rule>Ő</rule>
       <rule>Ő</rule>
       <rule>Ő</rule>
       <type>level</type>
@@ -5211,7 +5211,7 @@
    <ruleset>
       <range>LatExtA</range>
       <desc>LATIN SMALL LETTER O WITH DOUBLE ACUTE</desc>
-      <rule>ő</rule>
+      <rule>ő</rule>
       <rule>ő</rule>
       <rule>ő</rule>
       <type>level</type>
@@ -5235,7 +5235,7 @@
    <ruleset>
       <range>LatExtA</range>
       <desc>LATIN CAPITAL LETTER R WITH ACUTE</desc>
-      <rule>Ŕ</rule>
+      <rule>Ŕ</rule>
       <rule>Ŕ</rule>
       <rule>Ŕ</rule>
       <type>level</type>
@@ -5243,7 +5243,7 @@
    <ruleset>
       <range>LatExtA</range>
       <desc>LATIN SMALL LETTER R WITH ACUTE</desc>
-      <rule>ŕ</rule>
+      <rule>ŕ</rule>
       <rule>ŕ</rule>
       <rule>ŕ</rule>
       <type>level</type>
@@ -5251,7 +5251,7 @@
    <ruleset>
       <range>LatExtA</range>
       <desc>LATIN CAPITAL LETTER S WITH ACUTE</desc>
-      <rule>Ś</rule>
+      <rule>Ś</rule>
       <rule>Ś</rule>
       <rule>Ś</rule>
       <type>level</type>
@@ -5259,7 +5259,7 @@
    <ruleset>
       <range>LatExtA</range>
       <desc>LATIN SMALL LETTER S WITH ACUTE</desc>
-      <rule>ś</rule>
+      <rule>ś</rule>
       <rule>ś</rule>
       <rule>ś</rule>
       <type>level</type>
@@ -5275,7 +5275,7 @@
    <ruleset>
       <range>LatExtA</range>
       <desc>LATIN CAPITAL LETTER U WITH MACRON</desc>
-      <rule>Ū</rule>
+      <rule>Ū</rule>
       <rule>Ū</rule>
       <rule>Ū</rule>
       <type>level</type>
@@ -5283,7 +5283,7 @@
    <ruleset>
       <range>LatExtA</range>
       <desc>LATIN SMALL LETTER U WITH MACRON</desc>
-      <rule>ū</rule>
+      <rule>ū</rule>
       <rule>ū</rule>
       <rule>ū</rule>
       <type>level</type>
@@ -5291,7 +5291,7 @@
    <ruleset>
       <range>LatExtA</range>
       <desc>LATIN CAPITAL LETTER U WITH BREVE</desc>
-      <rule>Ŭ</rule>
+      <rule>Ŭ</rule>
       <rule>Ŭ</rule>
       <rule>Ŭ</rule>
       <type>level</type>
@@ -5299,7 +5299,7 @@
    <ruleset>
       <range>LatExtA</range>
       <desc>LATIN SMALL LETTER U WITH BREVE</desc>
-      <rule>ŭ</rule>
+      <rule>ŭ</rule>
       <rule>ŭ</rule>
       <rule>ŭ</rule>
       <type>level</type>
@@ -5307,7 +5307,7 @@
    <ruleset>
       <range>LatExtA</range>
       <desc>LATIN CAPITAL LETTER U WITH RING ABOVE</desc>
-      <rule>Ů</rule>
+      <rule>Ů</rule>
       <rule>Ů</rule>
       <rule>Ů</rule>
       <type>level</type>
@@ -5315,7 +5315,7 @@
    <ruleset>
       <range>LatExtA</range>
       <desc>LATIN SMALL LETTER U WITH RING ABOVE</desc>
-      <rule>ů</rule>
+      <rule>ů</rule>
       <rule>ů</rule>
       <rule>ů</rule>
       <type>level</type>
@@ -5323,7 +5323,7 @@
    <ruleset>
       <range>LatExtA</range>
       <desc>LATIN CAPITAL LETTER U WITH DOUBLE ACUTE</desc>
-      <rule>Ű</rule>
+      <rule>Ű</rule>
       <rule>Ű</rule>
       <rule>Ű</rule>
       <type>level</type>
@@ -5331,7 +5331,7 @@
    <ruleset>
       <range>LatExtA</range>
       <desc>LATIN SMALL LETTER U WITH DOUBLE ACUTE</desc>
-      <rule>ű</rule>
+      <rule>ű</rule>
       <rule>ű</rule>
       <rule>ű</rule>
       <type>level</type>
@@ -5339,7 +5339,7 @@
    <ruleset>
       <range>LatExtA</range>
       <desc>LATIN CAPITAL LETTER U WITH OGONEK</desc>
-      <rule>Ų</rule>
+      <rule>Ų</rule>
       <rule>Ų</rule>
       <rule>Ų</rule>
       <type>level</type>
@@ -5347,7 +5347,7 @@
    <ruleset>
       <range>LatExtA</range>
       <desc>LATIN SMALL LETTER U WITH OGONEK</desc>
-      <rule>ų</rule>
+      <rule>ų</rule>
       <rule>ų</rule>
       <rule>ų</rule>
       <type>level</type>
@@ -5355,7 +5355,7 @@
    <ruleset>
       <range>LatExtA</range>
       <desc>LATIN CAPITAL LETTER W WITH CIRCUMFLEX</desc>
-      <rule>Ŵ</rule>
+      <rule>Ŵ</rule>
       <rule>Ŵ</rule>
       <rule>Ŵ</rule>
       <type>level</type>
@@ -5363,7 +5363,7 @@
    <ruleset>
       <range>LatExtA</range>
       <desc>LATIN SMALL LETTER W WITH CIRCUMFLEX</desc>
-      <rule>ŵ</rule>
+      <rule>ŵ</rule>
       <rule>ŵ</rule>
       <rule>ŵ</rule>
       <type>level</type>
@@ -5371,7 +5371,7 @@
    <ruleset>
       <range>LatExtA</range>
       <desc>LATIN CAPITAL LETTER Y WITH CIRCUMFLEX</desc>
-      <rule>Ŷ</rule>
+      <rule>Ŷ</rule>
       <rule>Ŷ</rule>
       <rule>Ŷ</rule>
       <type>level</type>
@@ -5379,7 +5379,7 @@
    <ruleset>
       <range>LatExtA</range>
       <desc>LATIN SMALL LETTER Y WITH CIRCUMFLEX</desc>
-      <rule>ŷ</rule>
+      <rule>ŷ</rule>
       <rule>ŷ</rule>
       <rule>ŷ</rule>
       <type>level</type>
@@ -5387,7 +5387,7 @@
    <ruleset>
       <range>LatExtA</range>
       <desc>LATIN CAPITAL LETTER Y WITH DIAERESIS</desc>
-      <rule>Ÿ</rule>
+      <rule>Ÿ</rule>
       <rule>Ÿ</rule>
       <rule>Ÿ</rule>
       <type>level</type>
@@ -5395,7 +5395,7 @@
    <ruleset>
       <range>LatExtA</range>
       <desc>LATIN CAPITAL LETTER Z WITH DOT ABOVE</desc>
-      <rule>Ż</rule>
+      <rule>Ż</rule>
       <rule>Ż</rule>
       <rule>Ż</rule>
       <type>level</type>
@@ -5403,7 +5403,7 @@
    <ruleset>
       <range>LatExtA</range>
       <desc>LATIN SMALL LETTER Z WITH DOT ABOVE</desc>
-      <rule>ż</rule>
+      <rule>ż</rule>
       <rule>ż</rule>
       <rule>ż</rule>
       <type>level</type>
@@ -5411,7 +5411,7 @@
    <ruleset>
       <range>LatExtAdd</range>
       <desc>LATIN CAPITAL LETTER A WITH DOT BELOW</desc>
-      <rule>Ạ</rule>
+      <rule>Ạ</rule>
       <rule>Ạ</rule>
       <rule>Ạ</rule>
       <type>level</type>
@@ -5419,7 +5419,7 @@
    <ruleset>
       <range>LatExtAdd</range>
       <desc>LATIN SMALL LETTER A WITH DOT BELOW</desc>
-      <rule>ạ</rule>
+      <rule>ạ</rule>
       <rule>ạ</rule>
       <rule>ạ</rule>
       <type>level</type>
@@ -5427,7 +5427,7 @@
    <ruleset>
       <range>LatExtAdd</range>
       <desc>LATIN CAPITAL LETTER A WITH HOOK ABOVE</desc>
-      <rule>Ả</rule>
+      <rule>Ả</rule>
       <rule>Ả</rule>
       <rule>Ả</rule>
       <type>level</type>
@@ -5435,7 +5435,7 @@
    <ruleset>
       <range>LatExtAdd</range>
       <desc>LATIN SMALL LETTER A WITH HOOK ABOVE</desc>
-      <rule>ả</rule>
+      <rule>ả</rule>
       <rule>ả</rule>
       <rule>ả</rule>
       <type>level</type>
@@ -5443,7 +5443,7 @@
    <ruleset>
       <range>LatExtAdd</range>
       <desc>LATIN CAPITAL LETTER A WITH BREVE AND ACUTE</desc>
-      <rule>Ắ</rule>
+      <rule>Ắ</rule>
       <rule>Ắ</rule>
       <rule>Ắ</rule>
       <type>level</type>
@@ -5451,7 +5451,7 @@
    <ruleset>
       <range>LatExtAdd</range>
       <desc>LATIN SMALL LETTER A WITH BREVE AND ACUTE</desc>
-      <rule>ắ</rule>
+      <rule>ắ</rule>
       <rule>ắ</rule>
       <rule>ắ</rule>
       <type>level</type>
@@ -5459,7 +5459,7 @@
    <ruleset>
       <range>LatExtAdd</range>
       <desc>LATIN CAPITAL LETTER B WITH DOT ABOVE</desc>
-      <rule>Ḃ</rule>
+      <rule>Ḃ</rule>
       <rule>Ḃ</rule>
       <rule>Ḃ</rule>
       <type>level</type>
@@ -5467,7 +5467,7 @@
    <ruleset>
       <range>LatExtAdd</range>
       <desc>LATIN SMALL LETTER B WITH DOT ABOVE</desc>
-      <rule>ḃ</rule>
+      <rule>ḃ</rule>
       <rule>ḃ</rule>
       <rule>ḃ</rule>
       <type>level</type>
@@ -5475,7 +5475,7 @@
    <ruleset>
       <range>LatExtAdd</range>
       <desc>LATIN CAPITAL LETTER B WITH DOT BELOW</desc>
-      <rule>Ḅ</rule>
+      <rule>Ḅ</rule>
       <rule>Ḅ</rule>
       <rule>Ḅ</rule>
       <type>level</type>
@@ -5483,7 +5483,7 @@
    <ruleset>
       <range>LatExtAdd</range>
       <desc>LATIN SMALL LETTER B WITH DOT BELOW</desc>
-      <rule>ḅ</rule>
+      <rule>ḅ</rule>
       <rule>ḅ</rule>
       <rule>ḅ</rule>
       <type>level</type>
@@ -5491,7 +5491,7 @@
    <ruleset>
       <range>LatExtAdd</range>
       <desc>LATIN CAPITAL LETTER D WITH DOT ABOVE</desc>
-      <rule>Ḋ</rule>
+      <rule>Ḋ</rule>
       <rule>Ḋ</rule>
       <rule>Ḋ</rule>
       <type>level</type>
@@ -5499,7 +5499,7 @@
    <ruleset>
       <range>LatExtAdd</range>
       <desc>LATIN SMALL LETTER D WITH DOT ABOVE</desc>
-      <rule>ḋ</rule>
+      <rule>ḋ</rule>
       <rule>ḋ</rule>
       <rule>ḋ</rule>
       <type>level</type>
@@ -5507,7 +5507,7 @@
    <ruleset>
       <range>LatExtAdd</range>
       <desc>LATIN CAPITAL LETTER D WITH DOT BELOW</desc>
-      <rule>Ḍ</rule>
+      <rule>Ḍ</rule>
       <rule>Ḍ</rule>
       <rule>Ḍ</rule>
       <type>level</type>
@@ -5515,7 +5515,7 @@
    <ruleset>
       <range>LatExtAdd</range>
       <desc>LATIN SMALL LETTER D WITH DOT BELOW</desc>
-      <rule>ḍ</rule>
+      <rule>ḍ</rule>
       <rule>ḍ</rule>
       <rule>ḍ</rule>
       <type>level</type>
@@ -5531,7 +5531,7 @@
    <ruleset>
       <range>LatExtAdd</range>
       <desc>LATIN CAPITAL LETTER E WITH MACRON AND ACUTE</desc>
-      <rule>Ḗ</rule>
+      <rule>Ḗ</rule>
       <rule>Ḗ</rule>
       <rule>Ḗ</rule>
       <type>level</type>
@@ -5539,7 +5539,7 @@
    <ruleset>
       <range>LatExtAdd</range>
       <desc>LATIN SMALL LETTER E WITH MACRON AND ACUTE</desc>
-      <rule>ḗ</rule>
+      <rule>ḗ</rule>
       <rule>ḗ</rule>
       <rule>ḗ</rule>
       <type>level</type>
@@ -5547,7 +5547,7 @@
    <ruleset>
       <range>LatExtAdd</range>
       <desc>LATIN CAPITAL LETTER E WITH DOT BELOW</desc>
-      <rule>Ẹ</rule>
+      <rule>Ẹ</rule>
       <rule>Ẹ</rule>
       <rule>Ẹ</rule>
       <type>level</type>
@@ -5555,7 +5555,7 @@
    <ruleset>
       <range>LatExtAdd</range>
       <desc>LATIN SMALL LETTER E WITH DOT BELOW</desc>
-      <rule>ẹ</rule>
+      <rule>ẹ</rule>
       <rule>ẹ</rule>
       <rule>ẹ</rule>
       <type>level</type>
@@ -5563,7 +5563,7 @@
    <ruleset>
       <range>LatExtAdd</range>
       <desc>LATIN CAPITAL LETTER F WITH DOT ABOVE</desc>
-      <rule>Ḟ</rule>
+      <rule>Ḟ</rule>
       <rule>Ḟ</rule>
       <rule>Ḟ</rule>
       <type>level</type>
@@ -5571,7 +5571,7 @@
    <ruleset>
       <range>LatExtAdd</range>
       <desc>LATIN SMALL LETTER F WITH DOT ABOVE</desc>
-      <rule>ḟ</rule>
+      <rule>ḟ</rule>
       <rule>ḟ</rule>
       <rule>ḟ</rule>
       <type>level</type>
@@ -5579,7 +5579,7 @@
    <ruleset>
       <range>LatExtAdd</range>
       <desc>LATIN SMALL LETTER H WITH DOT ABOVE</desc>
-      <rule>Ḣ</rule>
+      <rule>Ḣ</rule>
       <rule>Ḣ</rule>
       <rule>Ḣ</rule>
       <type>level</type>
@@ -5587,7 +5587,7 @@
    <ruleset>
       <range>LatExtAdd</range>
       <desc>LATIN CAPITAL LETTER H WITH DOT ABOVE</desc>
-      <rule>ḣ</rule>
+      <rule>ḣ</rule>
       <rule>ḣ</rule>
       <rule>ḣ</rule>
       <type>level</type>
@@ -5595,7 +5595,7 @@
    <ruleset>
       <range>LatExtAdd</range>
       <desc>LATIN CAPITAL LETTER H WITH DOT BELOW</desc>
-      <rule>Ḥ</rule>
+      <rule>Ḥ</rule>
       <rule>Ḥ</rule>
       <rule>Ḥ</rule>
       <type>level</type>
@@ -5603,7 +5603,7 @@
    <ruleset>
       <range>LatExtAdd</range>
       <desc>LATIN SMALL LETTER H WITH DOT BELOW</desc>
-      <rule>ḥ</rule>
+      <rule>ḥ</rule>
       <rule>ḥ</rule>
       <rule>ḥ</rule>
       <type>level</type>
@@ -5611,7 +5611,7 @@
    <ruleset>
       <range>LatExtAdd</range>
       <desc>LATIN CAPITAL LETTER I WITH HOOK ABOVE</desc>
-      <rule>Ỉ</rule>
+      <rule>Ỉ</rule>
       <rule>Ỉ</rule>
       <rule>Ỉ</rule>
       <type>level</type>
@@ -5619,7 +5619,7 @@
    <ruleset>
       <range>LatExtAdd</range>
       <desc>LATIN SMALL LETTER I WITH HOOK ABOVE</desc>
-      <rule>ỉ</rule>
+      <rule>ỉ</rule>
       <rule>ỉ</rule>
       <rule>ỉ</rule>
       <type>level</type>
@@ -5627,7 +5627,7 @@
    <ruleset>
       <range>LatExtAdd</range>
       <desc>LATIN CAPITAL LETTER I WITH DOT BELOW</desc>
-      <rule>Ị</rule>
+      <rule>Ị</rule>
       <rule>Ị</rule>
       <rule>Ị</rule>
       <type>level</type>
@@ -5635,7 +5635,7 @@
    <ruleset>
       <range>LatExtAdd</range>
       <desc>LATIN SMALL LETTER I WITH DOT BELOW</desc>
-      <rule>ị</rule>
+      <rule>ị</rule>
       <rule>ị</rule>
       <rule>ị</rule>
       <type>level</type>
@@ -5643,7 +5643,7 @@
    <ruleset>
       <range>LatExtAdd</range>
       <desc>LATIN CAPITAL LETTER K WITH ACUTE</desc>
-      <rule>Ḱ</rule>
+      <rule>Ḱ</rule>
       <rule>Ḱ</rule>
       <rule>Ḱ</rule>
       <type>level</type>
@@ -5651,7 +5651,7 @@
    <ruleset>
       <range>LatExtAdd</range>
       <desc>LATIN SMALL LETTER K WITH ACUTE</desc>
-      <rule>ḱ</rule>
+      <rule>ḱ</rule>
       <rule>ḱ</rule>
       <rule>ḱ</rule>
       <type>level</type>
@@ -5659,7 +5659,7 @@
    <ruleset>
       <range>LatExtAdd</range>
       <desc>LATIN CAPITAL LETTER K WITH DOT BELOW</desc>
-      <rule>Ḳ</rule>
+      <rule>Ḳ</rule>
       <rule>Ḳ</rule>
       <rule>Ḳ</rule>
       <type>level</type>
@@ -5667,7 +5667,7 @@
    <ruleset>
       <range>LatExtAdd</range>
       <desc>LATIN SMALL LETTER K WITH DOT BELOW</desc>
-      <rule>ḳ</rule>
+      <rule>ḳ</rule>
       <rule>ḳ</rule>
       <rule>ḳ</rule>
       <type>level</type>
@@ -5675,7 +5675,7 @@
    <ruleset>
       <range>LatExtAdd</range>
       <desc>LATIN CAPITAL LETTER L WITH DOT BELOW</desc>
-      <rule>Ḷ</rule>
+      <rule>Ḷ</rule>
       <rule>Ḷ</rule>
       <rule>Ḷ</rule>
       <type>level</type>
@@ -5683,7 +5683,7 @@
    <ruleset>
       <range>LatExtAdd</range>
       <desc>LATIN SMALL LETTER L WITH DOT BELOW</desc>
-      <rule>ḷ</rule>
+      <rule>ḷ</rule>
       <rule>ḷ</rule>
       <rule>ḷ</rule>
       <type>level</type>
@@ -5707,7 +5707,7 @@
    <ruleset>
       <range>LatExtAdd</range>
       <desc>LATIN CAPITAL LETTER M WITH ACUTE</desc>
-      <rule>Ḿ</rule>
+      <rule>Ḿ</rule>
       <rule>Ḿ</rule>
       <rule>Ḿ</rule>
       <type>level</type>
@@ -5715,7 +5715,7 @@
    <ruleset>
       <range>LatExtAdd</range>
       <desc>LATIN SMALL LETTER M WITH ACUTE</desc>
-      <rule>ḿ</rule>
+      <rule>ḿ</rule>
       <rule>ḿ</rule>
       <rule>ḿ</rule>
       <type>level</type>
@@ -5723,7 +5723,7 @@
    <ruleset>
       <range>LatExtAdd</range>
       <desc>LATIN CAPITAL LETTER M WITH DOT ABOVE</desc>
-      <rule>Ṁ</rule>
+      <rule>Ṁ</rule>
       <rule>Ṁ</rule>
       <rule>Ṁ</rule>
       <type>level</type>
@@ -5731,7 +5731,7 @@
    <ruleset>
       <range>LatExtAdd</range>
       <desc>LATIN SMALL LETTER M WITH DOT ABOVE</desc>
-      <rule>ṁ</rule>
+      <rule>ṁ</rule>
       <rule>ṁ</rule>
       <rule>ṁ</rule>
       <type>level</type>
@@ -5739,7 +5739,7 @@
    <ruleset>
       <range>LatExtAdd</range>
       <desc>LATIN CAPITAL LETTER M WITH DOT BELOW</desc>
-      <rule>Ṃ</rule>
+      <rule>Ṃ</rule>
       <rule>Ṃ</rule>
       <rule>Ṃ</rule>
       <type>level</type>
@@ -5747,7 +5747,7 @@
    <ruleset>
       <range>LatExtAdd</range>
       <desc>LATIN SMALL LETTER M WITH DOT BELOW</desc>
-      <rule>ṃ</rule>
+      <rule>ṃ</rule>
       <rule>ṃ</rule>
       <rule>ṃ</rule>
       <type>level</type>
@@ -5755,7 +5755,7 @@
    <ruleset>
       <range>LatExtAdd</range>
       <desc>LATIN CAPITAL LETTER N WITH DOT ABOVE</desc>
-      <rule>Ṅ</rule>
+      <rule>Ṅ</rule>
       <rule>Ṅ</rule>
       <rule>Ṅ</rule>
       <type>level</type>
@@ -5763,7 +5763,7 @@
    <ruleset>
       <range>LatExtAdd</range>
       <desc>LATIN SMALL LETTER N WITH DOT ABOVE</desc>
-      <rule>ṅ</rule>
+      <rule>ṅ</rule>
       <rule>ṅ</rule>
       <rule>ṅ</rule>
       <type>level</type>
@@ -5771,7 +5771,7 @@
    <ruleset>
       <range>LatExtAdd</range>
       <desc>LATIN CAPITAL LETTER N WITH DOT BELOW</desc>
-      <rule>Ṇ</rule>
+      <rule>Ṇ</rule>
       <rule>Ṇ</rule>
       <rule>Ṇ</rule>
       <type>level</type>
@@ -5779,7 +5779,7 @@
    <ruleset>
       <range>LatExtAdd</range>
       <desc>LATIN SMALL LETTER N WITH DOT BELOW</desc>
-      <rule>ṇ</rule>
+      <rule>ṇ</rule>
       <rule>ṇ</rule>
       <rule>ṇ</rule>
       <type>level</type>
@@ -5787,7 +5787,7 @@
    <ruleset>
       <range>LatExtAdd</range>
       <desc>LATIN CAPITAL LETTER O WITH MACRON AND ACUTE</desc>
-      <rule>Ṓ</rule>
+      <rule>Ṓ</rule>
       <rule>Ṓ</rule>
       <rule>Ṓ</rule>
       <type>level</type>
@@ -5795,7 +5795,7 @@
    <ruleset>
       <range>LatExtAdd</range>
       <desc>LATIN SMALL LETTER O WITH MACRON AND ACUTE</desc>
-      <rule>ṓ</rule>
+      <rule>ṓ</rule>
       <rule>ṓ</rule>
       <rule>ṓ</rule>
       <type>level</type>
@@ -5803,7 +5803,7 @@
    <ruleset>
       <range>LatExtAdd</range>
       <desc>LATIN CAPITAL LETTER O WITH DOT BELOW</desc>
-      <rule>Ọ</rule>
+      <rule>Ọ</rule>
       <rule>Ọ</rule>
       <rule>Ọ</rule>
       <type>level</type>
@@ -5811,7 +5811,7 @@
    <ruleset>
       <range>LatExtAdd</range>
       <desc>LATIN SMALL LETTER O WITH DOT BELOW</desc>
-      <rule>ọ</rule>
+      <rule>ọ</rule>
       <rule>ọ</rule>
       <rule>ọ</rule>
       <type>level</type>
@@ -5819,7 +5819,7 @@
    <ruleset>
       <range>LatExtAdd</range>
       <desc>LATIN CAPITAL LETTER O WITH HOOK ABOVE</desc>
-      <rule>Ỏ</rule>
+      <rule>Ỏ</rule>
       <rule>Ỏ</rule>
       <rule>Ỏ</rule>
       <type>level</type>
@@ -5827,7 +5827,7 @@
    <ruleset>
       <range>LatExtAdd</range>
       <desc>LATIN SMALL LETTER O WITH HOOK ABOVE</desc>
-      <rule>ỏ</rule>
+      <rule>ỏ</rule>
       <rule>ỏ</rule>
       <rule>ỏ</rule>
       <type>level</type>
@@ -5835,7 +5835,7 @@
    <ruleset>
       <range>LatExtAdd</range>
       <desc>LATIN CAPITAL LETTER P WITH ACUTE</desc>
-      <rule>Ṕ</rule>
+      <rule>Ṕ</rule>
       <rule>Ṕ</rule>
       <rule>Ṕ</rule>
       <type>level</type>
@@ -5843,7 +5843,7 @@
    <ruleset>
       <range>LatExtAdd</range>
       <desc>LATIN SMALL LETTER P WITH ACUTE</desc>
-      <rule>ṕ</rule>
+      <rule>ṕ</rule>
       <rule>ṕ</rule>
       <rule>ṕ</rule>
       <type>level</type>
@@ -5851,7 +5851,7 @@
    <ruleset>
       <range>LatExtAdd</range>
       <desc>LATIN CAPITAL LETTER P WITH DOT ABOVE</desc>
-      <rule>Ṗ</rule>
+      <rule>Ṗ</rule>
       <rule>Ṗ</rule>
       <rule>Ṗ</rule>
       <type>level</type>
@@ -5859,7 +5859,7 @@
    <ruleset>
       <range>LatExtAdd</range>
       <desc>LATIN SMALL LETTER P WITH DOT ABOVE</desc>
-      <rule>ṗ</rule>
+      <rule>ṗ</rule>
       <rule>ṗ</rule>
       <rule>ṗ</rule>
       <type>level</type>
@@ -5867,7 +5867,7 @@
    <ruleset>
       <range>LatExtAdd</range>
       <desc>LATIN CAPITAL LETTER R WITH DOT ABOVE</desc>
-      <rule>Ṙ</rule>
+      <rule>Ṙ</rule>
       <rule>Ṙ</rule>
       <rule>Ṙ</rule>
       <type>level</type>
@@ -5875,7 +5875,7 @@
    <ruleset>
       <range>LatExtAdd</range>
       <desc>LATIN SMALL LETTER R WITH DOT ABOVE</desc>
-      <rule>ṙ</rule>
+      <rule>ṙ</rule>
       <rule>ṙ</rule>
       <rule>ṙ</rule>
       <type>level</type>
@@ -5883,7 +5883,7 @@
    <ruleset>
       <range>LatExtAdd</range>
       <desc>LATIN CAPITAL LETTER R WITH DOT BELOW</desc>
-      <rule>Ṛ</rule>
+      <rule>Ṛ</rule>
       <rule>Ṛ</rule>
       <rule>Ṛ</rule>
       <type>level</type>
@@ -5891,7 +5891,7 @@
    <ruleset>
       <range>LatExtAdd</range>
       <desc>LATIN SMALL LETTER R WITH DOT BELOW</desc>
-      <rule>ṛ</rule>
+      <rule>ṛ</rule>
       <rule>ṛ</rule>
       <rule>ṛ</rule>
       <type>level</type>
@@ -5899,7 +5899,7 @@
    <ruleset>
       <range>LatExtAdd</range>
       <desc>LATIN CAPITAL LETTER S WITH DOT ABOVE</desc>
-      <rule>Ṡ</rule>
+      <rule>Ṡ</rule>
       <rule>Ṡ</rule>
       <rule>Ṡ</rule>
       <type>level</type>
@@ -5907,7 +5907,7 @@
    <ruleset>
       <range>LatExtAdd</range>
       <desc>LATIN SMALL LETTER S WITH DOT ABOVE</desc>
-      <rule>ṡ</rule>
+      <rule>ṡ</rule>
       <rule>ṡ</rule>
       <rule>ṡ</rule>
       <type>level</type>
@@ -5915,7 +5915,7 @@
    <ruleset>
       <range>LatExtAdd</range>
       <desc>LATIN CAPITAL LETTER S WITH DOT BELOW</desc>
-      <rule>Ṣ</rule>
+      <rule>Ṣ</rule>
       <rule>Ṣ</rule>
       <rule>Ṣ</rule>
       <type>level</type>
@@ -5923,7 +5923,7 @@
    <ruleset>
       <range>LatExtAdd</range>
       <desc>LATIN SMALL LETTER S WITH DOT BELOW</desc>
-      <rule>ṣ</rule>
+      <rule>ṣ</rule>
       <rule>ṣ</rule>
       <rule>ṣ</rule>
       <type>level</type>
@@ -5955,7 +5955,7 @@
    <ruleset>
       <range>LatExtAdd</range>
       <desc>LATIN CAPITAL LETTER T WITH DOT ABOVE</desc>
-      <rule>Ṫ</rule>
+      <rule>Ṫ</rule>
       <rule>Ṫ</rule>
       <rule>Ṫ</rule>
       <type>level</type>
@@ -5963,7 +5963,7 @@
    <ruleset>
       <range>LatExtAdd</range>
       <desc>LATIN SMALL LETTER T WITH DOT ABOVE</desc>
-      <rule>ṫ</rule>
+      <rule>ṫ</rule>
       <rule>ṫ</rule>
       <rule>ṫ</rule>
       <type>level</type>
@@ -5971,7 +5971,7 @@
    <ruleset>
       <range>LatExtAdd</range>
       <desc>LATIN CAPITAL LETTER T WITH DOT BELOW</desc>
-      <rule>Ṭ</rule>
+      <rule>Ṭ</rule>
       <rule>Ṭ</rule>
       <rule>Ṭ</rule>
       <type>level</type>
@@ -5979,7 +5979,7 @@
    <ruleset>
       <range>LatExtAdd</range>
       <desc>LATIN SMALL LETTER T WITH DOT BELOW</desc>
-      <rule>ṭ</rule>
+      <rule>ṭ</rule>
       <rule>ṭ</rule>
       <rule>ṭ</rule>
       <type>level</type>
@@ -5987,7 +5987,7 @@
    <ruleset>
       <range>LatExtAdd</range>
       <desc>LATIN CAPITAL LETTER U WITH DOT BELOW</desc>
-      <rule>Ụ</rule>
+      <rule>Ụ</rule>
       <rule>Ụ</rule>
       <rule>Ụ</rule>
       <type>level</type>
@@ -5995,7 +5995,7 @@
    <ruleset>
       <range>LatExtAdd</range>
       <desc>LATIN SMALL LETTER U WITH DOT BELOW</desc>
-      <rule>ụ</rule>
+      <rule>ụ</rule>
       <rule>ụ</rule>
       <rule>ụ</rule>
       <type>level</type>
@@ -6003,7 +6003,7 @@
    <ruleset>
       <range>LatExtAdd</range>
       <desc>LATIN CAPITAL LETTER U WITH HOOK ABOVE</desc>
-      <rule>Ủ</rule>
+      <rule>Ủ</rule>
       <rule>Ủ</rule>
       <rule>Ủ</rule>
       <type>level</type>
@@ -6011,7 +6011,7 @@
    <ruleset>
       <range>LatExtAdd</range>
       <desc>LATIN SMALL LETTER U WITH HOOK ABOVE</desc>
-      <rule>ủ</rule>
+      <rule>ủ</rule>
       <rule>ủ</rule>
       <rule>ủ</rule>
       <type>level</type>
@@ -6019,7 +6019,7 @@
    <ruleset>
       <range>LatExtAdd</range>
       <desc>LATIN CAPITAL LETTER V WITH DOT BELOW</desc>
-      <rule>Ṿ</rule>
+      <rule>Ṿ</rule>
       <rule>Ṿ</rule>
       <rule>Ṿ</rule>
       <type>level</type>
@@ -6027,7 +6027,7 @@
    <ruleset>
       <range>LatExtAdd</range>
       <desc>LATIN SMALL LETTER V WITH DOT BELOW</desc>
-      <rule>ṿ</rule>
+      <rule>ṿ</rule>
       <rule>ṿ</rule>
       <rule>ṿ</rule>
       <type>level</type>
@@ -6051,7 +6051,7 @@
    <ruleset>
       <range>LatExtAdd</range>
       <desc>LATIN CAPITAL LETTER W WITH GRAVE</desc>
-      <rule>Ẁ</rule>
+      <rule>Ẁ</rule>
       <rule>Ẁ</rule>
       <rule>Ẁ</rule>
       <type>level</type>
@@ -6059,7 +6059,7 @@
    <ruleset>
       <range>LatExtAdd</range>
       <desc>LATIN SMALL LETTER W WITH GRAVE</desc>
-      <rule>ẁ</rule>
+      <rule>ẁ</rule>
       <rule>ẁ</rule>
       <rule>ẁ</rule>
       <type>level</type>
@@ -6067,7 +6067,7 @@
    <ruleset>
       <range>LatExtAdd</range>
       <desc>LATIN CAPITAL LETTER W WITH ACUTE</desc>
-      <rule>Ẃ</rule>
+      <rule>Ẃ</rule>
       <rule>Ẃ</rule>
       <rule>Ẃ</rule>
       <type>level</type>
@@ -6075,7 +6075,7 @@
    <ruleset>
       <range>LatExtAdd</range>
       <desc>LATIN SMALL LETTER W WITH ACUTE</desc>
-      <rule>ẃ</rule>
+      <rule>ẃ</rule>
       <rule>ẃ</rule>
       <rule>ẃ</rule>
       <type>level</type>
@@ -6083,7 +6083,7 @@
    <ruleset>
       <range>LatExtAdd</range>
       <desc>LATIN CAPITAL LETTER W WITH DIAERESIS</desc>
-      <rule>Ẅ</rule>
+      <rule>Ẅ</rule>
       <rule>Ẅ</rule>
       <rule>Ẅ</rule>
       <type>level</type>
@@ -6091,7 +6091,7 @@
    <ruleset>
       <range>LatExtAdd</range>
       <desc>LATIN SMALL LETTER W WITH DIAERESIS</desc>
-      <rule>ẅ</rule>
+      <rule>ẅ</rule>
       <rule>ẅ</rule>
       <rule>ẅ</rule>
       <type>level</type>
@@ -6099,7 +6099,7 @@
    <ruleset>
       <range>LatExtAdd</range>
       <desc>LATIN CAPITAL LETTER W WITH DOT ABOVE</desc>
-      <rule>Ẇ</rule>
+      <rule>Ẇ</rule>
       <rule>Ẇ</rule>
       <rule>Ẇ</rule>
       <type>level</type>
@@ -6107,7 +6107,7 @@
    <ruleset>
       <range>LatExtAdd</range>
       <desc>LATIN SMALL LETTER W WITH DOT ABOVE</desc>
-      <rule>ẇ</rule>
+      <rule>ẇ</rule>
       <rule>ẇ</rule>
       <rule>ẇ</rule>
       <type>level</type>
@@ -6115,7 +6115,7 @@
    <ruleset>
       <range>LatExtAdd</range>
       <desc>LATIN CAPITAL LETTER W WITH DOT BELOW</desc>
-      <rule>Ẉ</rule>
+      <rule>Ẉ</rule>
       <rule>Ẉ</rule>
       <rule>Ẉ</rule>
       <type>level</type>
@@ -6123,7 +6123,7 @@
    <ruleset>
       <range>LatExtAdd</range>
       <desc>LATIN SMALL LETTER W WITH DOT BELOW</desc>
-      <rule>ẉ</rule>
+      <rule>ẉ</rule>
       <rule>ẉ</rule>
       <rule>ẉ</rule>
       <type>level</type>
@@ -6131,7 +6131,7 @@
    <ruleset>
       <range>LatExtAdd</range>
       <desc>LATIN SMALL LETTER W WITH RING ABOVE</desc>
-      <rule>ẘ</rule>
+      <rule>ẘ</rule>
       <rule>ẘ</rule>
       <rule>ẘ</rule>
       <type>level</type>
@@ -6139,7 +6139,7 @@
    <ruleset>
       <range>LatExtAdd</range>
       <desc>LATIN CAPITAL LETTER Y WITH DOT ABOVE</desc>
-      <rule>Ẏ</rule>
+      <rule>Ẏ</rule>
       <rule>Ẏ</rule>
       <rule>Ẏ</rule>
       <type>level</type>
@@ -6147,7 +6147,7 @@
    <ruleset>
       <range>LatExtAdd</range>
       <desc>LATIN SMALL LETTER Y WITH DOT ABOVE</desc>
-      <rule>ẏ</rule>
+      <rule>ẏ</rule>
       <rule>ẏ</rule>
       <rule>ẏ</rule>
       <type>level</type>
@@ -6155,7 +6155,7 @@
    <ruleset>
       <range>LatExtAdd</range>
       <desc>LATIN SMALL LETTER Y WITH RING ABOVE</desc>
-      <rule>ẙ</rule>
+      <rule>ẙ</rule>
       <rule>ẙ</rule>
       <rule>ẙ</rule>
       <type>level</type>
@@ -6163,7 +6163,7 @@
    <ruleset>
       <range>LatExtAdd</range>
       <desc>LATIN CAPITAL LETTER Y WITH GRAVE</desc>
-      <rule>Ỳ</rule>
+      <rule>Ỳ</rule>
       <rule>Ỳ</rule>
       <rule>Ỳ</rule>
       <type>level</type>
@@ -6171,7 +6171,7 @@
    <ruleset>
       <range>LatExtAdd</range>
       <desc>LATIN SMALL LETTER Y WITH GRAVE</desc>
-      <rule>ỳ</rule>
+      <rule>ỳ</rule>
       <rule>ỳ</rule>
       <rule>ỳ</rule>
       <type>level</type>
@@ -6179,7 +6179,7 @@
    <ruleset>
       <range>LatExtAdd</range>
       <desc>LATIN CAPITAL LETTER Y WITH DOT BELOW</desc>
-      <rule>Ỵ</rule>
+      <rule>Ỵ</rule>
       <rule>Ỵ</rule>
       <rule>Ỵ</rule>
       <type>level</type>
@@ -6187,7 +6187,7 @@
    <ruleset>
       <range>LatExtAdd</range>
       <desc>LATIN SMALL LETTER Y WITH DOT BELOW</desc>
-      <rule>ỵ</rule>
+      <rule>ỵ</rule>
       <rule>ỵ</rule>
       <rule>ỵ</rule>
       <type>level</type>
@@ -6195,7 +6195,7 @@
    <ruleset>
       <range>LatExtAdd</range>
       <desc>LATIN CAPITAL LETTER Y WITH HOOK ABOVE</desc>
-      <rule>Ỷ</rule>
+      <rule>Ỷ</rule>
       <rule>Ỷ</rule>
       <rule>Ỷ</rule>
       <type>level</type>
@@ -6203,7 +6203,7 @@
    <ruleset>
       <range>LatExtAdd</range>
       <desc>LATIN SMALL LETTER Y WITH HOOK ABOVE</desc>
-      <rule>ỷ</rule>
+      <rule>ỷ</rule>
       <rule>ỷ</rule>
       <rule>ỷ</rule>
       <type>level</type>
@@ -6227,7 +6227,7 @@
    <ruleset>
       <range>LatExtAdd</range>
       <desc>LATIN CAPITAL LETTER Z WITH DOT BELOW</desc>
-      <rule>Ẓ</rule>
+      <rule>Ẓ</rule>
       <rule>Ẓ</rule>
       <rule>Ẓ</rule>
       <type>level</type>
@@ -6235,7 +6235,7 @@
    <ruleset>
       <range>LatExtAdd</range>
       <desc>LATIN SMALL LETTER Z WITH DOT BELOW</desc>
-      <rule>ẓ</rule>
+      <rule>ẓ</rule>
       <rule>ẓ</rule>
       <rule>ẓ</rule>
       <type>level</type>
@@ -6243,7 +6243,7 @@
    <ruleset>
       <range>LatExtB</range>
       <desc>LATIN CAPITAL LETTER AE WITH MACRON</desc>
-      <rule>Ǣ</rule>
+      <rule>Ǣ</rule>
       <rule>Ǣ</rule>
       <rule>Ǣ</rule>
       <type>level</type>
@@ -6251,7 +6251,7 @@
    <ruleset>
       <range>LatExtB</range>
       <desc>LATIN SMALL LETTER AE WITH MACRON</desc>
-      <rule>ǣ</rule>
+      <rule>ǣ</rule>
       <rule>ǣ</rule>
       <rule>ǣ</rule>
       <type>level</type>
@@ -6259,7 +6259,7 @@
    <ruleset>
       <range>LatExtB</range>
       <desc>LATIN CAPITAL LETTER AE WITH ACUTE</desc>
-      <rule>Ǽ</rule>
+      <rule>Ǽ</rule>
       <rule>Ǽ</rule>
       <rule>Ǽ</rule>
       <type>level</type>
@@ -6267,7 +6267,7 @@
    <ruleset>
       <range>LatExtB</range>
       <desc>LATIN SMALL LETTER AE WITH ACUTE</desc>
-      <rule>ǽ</rule>
+      <rule>ǽ</rule>
       <rule>ǽ</rule>
       <rule>ǽ</rule>
       <type>level</type>
@@ -6275,7 +6275,7 @@
    <ruleset>
       <range>LatExtB</range>
       <desc>LATIN CAPITAL LETTER A WITH DOT ABOVE</desc>
-      <rule>Ȧ</rule>
+      <rule>Ȧ</rule>
       <rule>Ȧ</rule>
       <rule>Ȧ</rule>
       <type>level</type>
@@ -6283,7 +6283,7 @@
    <ruleset>
       <range>LatExtB</range>
       <desc>LATIN SMALL LETTER A WITH DOT ABOVE</desc>
-      <rule>ȧ</rule>
+      <rule>ȧ</rule>
       <rule>ȧ</rule>
       <rule>ȧ</rule>
       <type>level</type>
@@ -6315,7 +6315,7 @@
    <ruleset>
       <range>LatExtB</range>
       <desc>LATIN CAPITAL LETTER G WITH ACUTE</desc>
-      <rule>Ǵ</rule>
+      <rule>Ǵ</rule>
       <rule>Ǵ</rule>
       <rule>Ǵ</rule>
       <type>level</type>
@@ -6323,7 +6323,7 @@
    <ruleset>
       <range>LatExtB</range>
       <desc>LATIN SMALL LETTER G WITH ACUTE</desc>
-      <rule>ǵ</rule>
+      <rule>ǵ</rule>
       <rule>ǵ</rule>
       <rule>ǵ</rule>
       <type>level</type>
@@ -6403,7 +6403,7 @@
    <ruleset>
       <range>LatExtB</range>
       <desc>LATIN CAPITAL LETTER O WITH CARON</desc>
-      <rule>Ǒ</rule>
+      <rule>Ǒ</rule>
       <rule>Ǒ</rule>
       <rule>Ǒ</rule>
       <type>level</type>
@@ -6411,7 +6411,7 @@
    <ruleset>
       <range>LatExtB</range>
       <desc>LATIN SMALL LETTER O WITH CARON</desc>
-      <rule>ǒ</rule>
+      <rule>ǒ</rule>
       <rule>ǒ</rule>
       <rule>ǒ</rule>
       <type>level</type>
@@ -6419,7 +6419,7 @@
    <ruleset>
       <range>LatExtB</range>
       <desc>LATIN CAPITAL LETTER O WITH OGONEK</desc>
-      <rule>Ǫ</rule>
+      <rule>Ǫ</rule>
       <rule>Ǫ</rule>
       <rule>Ǫ</rule>
       <type>level</type>
@@ -6427,7 +6427,7 @@
    <ruleset>
       <range>LatExtB</range>
       <desc>LATIN SMALL LETTER O WITH OGONEK</desc>
-      <rule>ǫ</rule>
+      <rule>ǫ</rule>
       <rule>ǫ</rule>
       <rule>ǫ</rule>
       <type>level</type>
@@ -6435,7 +6435,7 @@
    <ruleset>
       <range>LatExtB</range>
       <desc>LATIN CAPITAL LETTER O WITH OGONEK AND MACRON</desc>
-      <rule>Ǭ</rule>
+      <rule>Ǭ</rule>
       <rule>Ǭ</rule>
       <rule>Ǭ</rule>
       <type>level</type>
@@ -6443,7 +6443,7 @@
    <ruleset>
       <range>LatExtB</range>
       <desc>LATIN SMALL LETTER O WITH OGONEK AND MACRON</desc>
-      <rule>ǭ</rule>
+      <rule>ǭ</rule>
       <rule>ǭ</rule>
       <rule>ǭ</rule>
       <type>level</type>
@@ -6451,7 +6451,7 @@
    <ruleset>
       <range>LatExtB</range>
       <desc>LATIN CAPITAL LETTER O WITH STROKE AND ACUTE</desc>
-      <rule>Ǿ</rule>
+      <rule>Ǿ</rule>
       <rule>Ǿ</rule>
       <rule>Ǿ</rule>
       <type>level</type>
@@ -6459,7 +6459,7 @@
    <ruleset>
       <range>LatExtB</range>
       <desc>LATIN SMALL LETTER O WITH STROKE AND ACUTE</desc>
-      <rule>ǿ</rule>
+      <rule>ǿ</rule>
       <rule>ǿ</rule>
       <rule>ǿ</rule>
       <type>level</type>
@@ -6467,7 +6467,7 @@
    <ruleset>
       <range>LatExtB</range>
       <desc>LATIN CAPITAL LETTER O WITH DIAERESIS AND MACRON</desc>
-      <rule>Ȫ</rule>
+      <rule>Ȫ</rule>
       <rule>Ȫ</rule>
       <rule>Ȫ</rule>
       <type>level</type>
@@ -6475,7 +6475,7 @@
    <ruleset>
       <range>LatExtB</range>
       <desc>LATIN SMALL LETTER O WITH DIAERESIS AND MACRON</desc>
-      <rule>ȫ</rule>
+      <rule>ȫ</rule>
       <rule>ȫ</rule>
       <rule>ȫ</rule>
       <type>level</type>
@@ -6483,7 +6483,7 @@
    <ruleset>
       <range>LatExtB</range>
       <desc>LATIN CAPITAL LETTER O WITH DOT ABOVE</desc>
-      <rule>Ȯ</rule>
+      <rule>Ȯ</rule>
       <rule>Ȯ</rule>
       <rule>Ȯ</rule>
       <type>level</type>
@@ -6491,7 +6491,7 @@
    <ruleset>
       <range>LatExtB</range>
       <desc>LATIN SMALL LETTER O WITH DOT ABOVE</desc>
-      <rule>ȯ</rule>
+      <rule>ȯ</rule>
       <rule>ȯ</rule>
       <rule>ȯ</rule>
       <type>level</type>
@@ -6507,7 +6507,7 @@
    <ruleset>
       <range>LatExtB</range>
       <desc>LATIN CAPITAL LETTER U WITH CARON</desc>
-      <rule>Ǔ</rule>
+      <rule>Ǔ</rule>
       <rule>Ǔ</rule>
       <rule>Ǔ</rule>
       <type>level</type>
@@ -6515,7 +6515,7 @@
    <ruleset>
       <range>LatExtB</range>
       <desc>LATIN SMALL LETTER U WITH CARON</desc>
-      <rule>ǔ</rule>
+      <rule>ǔ</rule>
       <rule>ǔ</rule>
       <rule>ǔ</rule>
       <type>level</type>
@@ -6523,7 +6523,7 @@
    <ruleset>
       <range>LatExtB</range>
       <desc>LATIN CAPITAL LETTER U WITH DIAERESIS AND MACRON</desc>
-      <rule>Ǖ</rule>
+      <rule>Ǖ</rule>
       <rule>Ǖ</rule>
       <rule>Ǖ</rule>
       <type>level</type>
@@ -6531,7 +6531,7 @@
    <ruleset>
       <range>LatExtB</range>
       <desc>LATIN SMALL LETTER U WITH DIAERESIS AND MACRON</desc>
-      <rule>ǖ</rule>
+      <rule>ǖ</rule>
       <rule>ǖ</rule>
       <rule>ǖ</rule>
       <type>level</type>
@@ -6555,7 +6555,7 @@
    <ruleset>
       <range>LatExtB</range>
       <desc>LATIN CAPITAL LETTER Y WITH MACRON</desc>
-      <rule>Ȳ</rule>
+      <rule>Ȳ</rule>
       <rule>Ȳ</rule>
       <rule>Ȳ</rule>
       <type>level</type>
@@ -6563,7 +6563,7 @@
    <ruleset>
       <range>LatExtB</range>
       <desc>LATIN SMALL LETTER Y WITH MACRON</desc>
-      <rule>ȳ</rule>
+      <rule>ȳ</rule>
       <rule>ȳ</rule>
       <rule>ȳ</rule>
       <type>level</type>
@@ -6627,7 +6627,7 @@
    <ruleset>
       <range>LatExtC</range>
       <desc>MODIFIER LETTER CAPITAL V</desc>
-      <rule>V</rule>
+      <rule>ⱽ</rule>
       <rule>ⱽ</rule>
       <rule>ⱽ</rule>
       <type>level</type>
@@ -7331,7 +7331,7 @@
    <ruleset>
       <range>LatExtD</range>
       <desc>MODIFIER LETTER US</desc>
-      <rule>ꝯ</rule>
+      <rule>ꝰ</rule>
       <rule>ꝰ</rule>
       <rule>ꝰ</rule>
       <type>level</type>
@@ -7523,7 +7523,7 @@
    <ruleset>
       <range>MathOp</range>
       <desc>NOT EQUAL TO</desc>
-      <rule>≠</rule>
+      <rule>≠</rule>
       <rule>≠</rule>
       <rule>≠</rule>
       <type>level</type>
@@ -8891,7 +8891,7 @@
    <ruleset>
       <range>PUA-15</range>
       <desc>LATIN CAPITAL LETTER E WITH OGONEK AND MACRON</desc>
-      <rule>Ę̄</rule>
+      <rule>Ę̄</rule>
       <rule>Ę̄</rule>
       <rule></rule>
       <type>level</type>
@@ -8899,7 +8899,7 @@
    <ruleset>
       <range>PUA-15</range>
       <desc>LATIN SMALL LETTER E WITH OGONEK AND MACRON</desc>
-      <rule>ę̄</rule>
+      <rule>ę̄</rule>
       <rule>ę̄</rule>
       <rule></rule>
       <type>level</type>
@@ -9459,7 +9459,7 @@
    <ruleset>
       <range>PUA-16</range>
       <desc>LATIN SMALL LETTER LONG S WITH ACUTE</desc>
-      <rule>ś</rule>
+      <rule>ſ́</rule>
       <rule>ſ́</rule>
       <rule></rule>
       <type>level</type>
@@ -10427,7 +10427,7 @@
    <ruleset>
       <range>PUA-19</range>
       <desc>LATIN SMALL LETTER LONG S WITH DOT BELOW</desc>
-      <rule>ṣ</rule>
+      <rule>ſ̣</rule>
       <rule>ſ̣</rule>
       <rule></rule>
       <type>level</type>
@@ -12507,7 +12507,7 @@
    <ruleset>
       <range>PUA-42</range>
       <desc>LATIN SMALL LETTER A WITH DIAERESIS AND DOT BELOW</desc>
-      <rule>ạ̈</rule>
+      <rule>ạ̈</rule>
       <rule>ạ̈</rule>
       <rule></rule>
       <type>level</type>
@@ -14147,7 +14147,7 @@
    <ruleset>
       <range>PhonExt</range>
       <desc>MODIFIER CAPITAL LETTER I</desc>
-      <rule>I</rule>
+      <rule>ᴵ</rule>
       <rule>ᴵ</rule>
       <rule>ᴵ</rule>
       <type>level</type>
@@ -14235,7 +14235,7 @@
    <ruleset>
       <range>SpModLet</range>
       <desc>MODIFIER LETTER SMALL X</desc>
-      <rule>x</rule>
+      <rule>ˣ</rule>
       <rule>ˣ</rule>
       <rule>ˣ</rule>
       <type>level</type>
@@ -14259,7 +14259,7 @@
    <ruleset>
       <range>SpModLet</range>
       <desc>BREVE</desc>
-      <rule> ̆</rule>
+      <rule>˘</rule>
       <rule>˘</rule>
       <rule>˘</rule>
       <type>level</type>
@@ -14267,7 +14267,7 @@
    <ruleset>
       <range>SpModLet</range>
       <desc>DOT ABOVE</desc>
-      <rule> ̇</rule>
+      <rule>˙</rule>
       <rule>˙</rule>
       <rule>˙</rule>
       <type>level</type>
@@ -14275,7 +14275,7 @@
    <ruleset>
       <range>SpModLet</range>
       <desc>RING ABOVE</desc>
-      <rule> ̊</rule>
+      <rule>˚</rule>
       <rule>˚</rule>
       <rule>˚</rule>
       <type>level</type>
@@ -14283,7 +14283,7 @@
    <ruleset>
       <range>SpModLet</range>
       <desc>OGONEK</desc>
-      <rule> ̨</rule>
+      <rule>˛</rule>
       <rule>˛</rule>
       <rule>˛</rule>
       <type>level</type>
@@ -14291,7 +14291,7 @@
    <ruleset>
       <range>SpModLet</range>
       <desc>SMALL TILDE</desc>
-      <rule> ̃</rule>
+      <rule>˜</rule>
       <rule>˜</rule>
       <rule>˜</rule>
       <type>level</type>
@@ -14299,7 +14299,7 @@
    <ruleset>
       <range>SpModLet</range>
       <desc>DOUBLE ACUTE ACCENT</desc>
-      <rule> ̋</rule>
+      <rule>˝</rule>
       <rule>˝</rule>
       <rule>˝</rule>
       <type>level</type>
@@ -14307,7 +14307,7 @@
    <ruleset>
       <range>SupSub</range>
       <desc>SUPERSCRIPT ZERO</desc>
-      <rule>0</rule>
+      <rule>⁰</rule>
       <rule>⁰</rule>
       <rule>⁰</rule>
       <type>level</type>
@@ -14315,7 +14315,7 @@
    <ruleset>
       <range>SupSub</range>
       <desc>SUPERSCRIPT FOUR</desc>
-      <rule>4</rule>
+      <rule>⁴</rule>
       <rule>⁴</rule>
       <rule>⁴</rule>
       <type>level</type>
@@ -14323,7 +14323,7 @@
    <ruleset>
       <range>SupSub</range>
       <desc>SUPERSCRIPT FIVE</desc>
-      <rule>5</rule>
+      <rule>⁵</rule>
       <rule>⁵</rule>
       <rule>⁵</rule>
       <type>level</type>
@@ -14331,7 +14331,7 @@
    <ruleset>
       <range>SupSub</range>
       <desc>SUPERSCRIPT SIX</desc>
-      <rule>6</rule>
+      <rule>⁶</rule>
       <rule>⁶</rule>
       <rule>⁶</rule>
       <type>level</type>
@@ -14339,7 +14339,7 @@
    <ruleset>
       <range>SupSub</range>
       <desc>SUPERSCRIPT SEVEN</desc>
-      <rule>7</rule>
+      <rule>⁷</rule>
       <rule>⁷</rule>
       <rule>⁷</rule>
       <type>level</type>
@@ -14347,7 +14347,7 @@
    <ruleset>
       <range>SupSub</range>
       <desc>SUPERSCRIPT EIGHT</desc>
-      <rule>8</rule>
+      <rule>⁸</rule>
       <rule>⁸</rule>
       <rule>⁸</rule>
       <type>level</type>
@@ -14355,7 +14355,7 @@
    <ruleset>
       <range>SupSub</range>
       <desc>SUPERSCRIPT NINE</desc>
-      <rule>9</rule>
+      <rule>⁹</rule>
       <rule>⁹</rule>
       <rule>⁹</rule>
       <type>level</type>
@@ -14363,7 +14363,7 @@
    <ruleset>
       <range>SupSub</range>
       <desc>SUBSCRIPT ZERO</desc>
-      <rule>0</rule>
+      <rule>₀</rule>
       <rule>₀</rule>
       <rule>₀</rule>
       <type>level</type>
@@ -14371,7 +14371,7 @@
    <ruleset>
       <range>SupSub</range>
       <desc>SUBSCRIPT ONE</desc>
-      <rule>1</rule>
+      <rule>₁</rule>
       <rule>₁</rule>
       <rule>₁</rule>
       <type>level</type>
@@ -14379,7 +14379,7 @@
    <ruleset>
       <range>SupSub</range>
       <desc>SUBSCRIPT TWO</desc>
-      <rule>2</rule>
+      <rule>₂</rule>
       <rule>₂</rule>
       <rule>₂</rule>
       <type>level</type>
@@ -14387,7 +14387,7 @@
    <ruleset>
       <range>SupSub</range>
       <desc>SUBSCRIPT THREE</desc>
-      <rule>3</rule>
+      <rule>₃</rule>
       <rule>₃</rule>
       <rule>₃</rule>
       <type>level</type>
@@ -14395,7 +14395,7 @@
    <ruleset>
       <range>SupSub</range>
       <desc>SUBSCRIPT FOUR</desc>
-      <rule>4</rule>
+      <rule>₄</rule>
       <rule>₄</rule>
       <rule>₄</rule>
       <type>level</type>
@@ -14403,7 +14403,7 @@
    <ruleset>
       <range>SupSub</range>
       <desc>SUBSCRIPT FIVE</desc>
-      <rule>5</rule>
+      <rule>₅</rule>
       <rule>₅</rule>
       <rule>₅</rule>
       <type>level</type>
@@ -14411,7 +14411,7 @@
    <ruleset>
       <range>SupSub</range>
       <desc>SUBSCRIPT SIX</desc>
-      <rule>6</rule>
+      <rule>₆</rule>
       <rule>₆</rule>
       <rule>₆</rule>
       <type>level</type>
@@ -14419,7 +14419,7 @@
    <ruleset>
       <range>SupSub</range>
       <desc>SUBSCRIPT SEVEN</desc>
-      <rule>7</rule>
+      <rule>₇</rule>
       <rule>₇</rule>
       <rule>₇</rule>
       <type>level</type>
@@ -14427,7 +14427,7 @@
    <ruleset>
       <range>SupSub</range>
       <desc>SUBSCRIPT EIGHT</desc>
-      <rule>8</rule>
+      <rule>₈</rule>
       <rule>₈</rule>
       <rule>₈</rule>
       <type>level</type>
@@ -14435,7 +14435,7 @@
    <ruleset>
       <range>SupSub</range>
       <desc>SUBSCRIPT NINE</desc>
-      <rule>9</rule>
+      <rule>₉</rule>
       <rule>₉</rule>
       <rule>₉</rule>
       <type>level</type>
@@ -14443,7 +14443,7 @@
    <ruleset>
       <range>SupSub</range>
       <desc>SUPERSCRIPT MINUS</desc>
-      <rule>−</rule>
+      <rule>⁻</rule>
       <rule>⁻</rule>
       <rule>⁻</rule>
       <type>level</type>
