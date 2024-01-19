@@ -336,19 +336,19 @@
                                             <xsl:value-of select="fn:string[@key = 'description']"/>
                                             <cdesc/>
 
-                                  <!-- normalized NFKD level 2 to level 1 -->
+                                  
 
                                             <xsl:choose>
                                                 <xsl:when test="$c2 = $mufic2">
                                                     <xsl:choose>
                                                         <xsl:when test="$mufic2 != ''">
                                                             <orule/>
-                                                            <xsl:value-of select="normalize-unicode($mufic2, 'NFKD')"/>
+                                                            <xsl:value-of select="$mufic2"/>
                                                             <crule/>
                                                         </xsl:when>
                                                         <xsl:otherwise>
                                                             <orule/>
-                                                            <xsl:value-of select="normalize-unicode($mufi, 'NFKD')"/>
+                                                            <xsl:value-of select="$mufi"/>
                                                             <crule/>
                                                         </xsl:otherwise>
                                                     </xsl:choose>
@@ -357,12 +357,12 @@
                                                     <xsl:choose>
                                                         <xsl:when test="$c2 != ''">
                                                             <orule/>
-                                                            <xsl:value-of select="normalize-unicode($c2, 'NFKD')"/>
+                                                            <xsl:value-of select="$c2"/>
                                                             <crule/>
                                                         </xsl:when>
                                                         <xsl:otherwise>
                                                             <orule/>
-                                                            <xsl:value-of select="normalize-unicode($mufic2, 'NFKD')"/>
+                                                            <xsl:value-of select="$mufic2"/>
                                                             <crule/>
                                                         </xsl:otherwise>
                                                     </xsl:choose>
