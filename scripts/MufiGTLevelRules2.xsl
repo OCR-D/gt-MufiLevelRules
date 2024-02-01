@@ -383,7 +383,7 @@
                                         </xsl:when>
                                         <xsl:otherwise>
                                             <orule/>
-                                            <xsl:value-of select="$mufi"/>
+                                            <!--<xsl:value-of select="$mufi"/>-->debug
                                             <crule/>
                                         </xsl:otherwise>
                                     </xsl:choose>
