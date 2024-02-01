@@ -7667,8 +7667,8 @@
    <ruleset>
       <range>PUA-1</range>
       <desc>LATIN SMALL LIGATURE AF</desc>
-      <rule></rule>
-      <rule></rule>
+      <rule>af</rule>
+      <rule>af</rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -7683,24 +7683,24 @@
    <ruleset>
       <range>PUA-1</range>
       <desc>LATIN SMALL LIGATURE AG</desc>
-      <rule></rule>
-      <rule></rule>
+      <rule>ag</rule>
+      <rule>ag</rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
    <ruleset>
       <range>PUA-1</range>
       <desc>LATIN SMALL LIGATURE AL</desc>
-      <rule></rule>
-      <rule></rule>
+      <rule>al</rule>
+      <rule>al</rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
    <ruleset>
       <range>PUA-1</range>
       <desc>LATIN SMALL LIGATURE AN</desc>
-      <rule></rule>
-      <rule></rule>
+      <rule>an</rule>
+      <rule>an</rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -7715,16 +7715,16 @@
    <ruleset>
       <range>PUA-1</range>
       <desc>LATIN SMALL LIGATURE AP</desc>
-      <rule></rule>
-      <rule></rule>
+      <rule>ap</rule>
+      <rule>ap</rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
    <ruleset>
       <range>PUA-1</range>
       <desc>LATIN SMALL LIGATURE AR</desc>
-      <rule></rule>
-      <rule></rule>
+      <rule>ar</rule>
+      <rule>ar</rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -7779,16 +7779,16 @@
    <ruleset>
       <range>PUA-1</range>
       <desc>LATIN SMALL LIGATURE BB</desc>
-      <rule></rule>
-      <rule></rule>
+      <rule>bb</rule>
+      <rule>bb</rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
    <ruleset>
       <range>PUA-1</range>
       <desc>LATIN SMALL LIGATURE BG</desc>
-      <rule></rule>
-      <rule></rule>
+      <rule>bg</rule>
+      <rule>bg</rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -7819,8 +7819,8 @@
    <ruleset>
       <range>PUA-1</range>
       <desc>LATIN SMALL LIGATURE EY</desc>
-      <rule></rule>
-      <rule></rule>
+      <rule>ey</rule>
+      <rule>ey</rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -7843,8 +7843,8 @@
    <ruleset>
       <range>PUA-1</range>
       <desc>LATIN SMALL LIGATURE FR</desc>
-      <rule></rule>
-      <rule></rule>
+      <rule>fr</rule>
+      <rule>fr</rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -7867,8 +7867,8 @@
    <ruleset>
       <range>PUA-1</range>
       <desc>LATIN SMALL LIGATURE FY</desc>
-      <rule></rule>
-      <rule></rule>
+      <rule>fy</rule>
+      <rule>fy</rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -7907,32 +7907,32 @@
    <ruleset>
       <range>PUA-1</range>
       <desc>LATIN SMALL LIGATURE GR</desc>
-      <rule></rule>
-      <rule></rule>
+      <rule>gr</rule>
+      <rule>gr</rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
    <ruleset>
       <range>PUA-1</range>
       <desc>LATIN SMALL LIGATURE GP</desc>
-      <rule></rule>
-      <rule></rule>
+      <rule>gp</rule>
+      <rule>gp</rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
    <ruleset>
       <range>PUA-1</range>
       <desc>LATIN SMALL LIGATURE GG</desc>
-      <rule></rule>
-      <rule></rule>
+      <rule>gg</rule>
+      <rule>gg</rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
    <ruleset>
       <range>PUA-1</range>
       <desc>LATIN SMALL LIGATURE GD</desc>
-      <rule></rule>
-      <rule></rule>
+      <rule>gd</rule>
+      <rule>gd</rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -7955,8 +7955,8 @@
    <ruleset>
       <range>PUA-1</range>
       <desc>LATIN SMALL LIGATURE GO</desc>
-      <rule></rule>
-      <rule></rule>
+      <rule>go</rule>
+      <rule>go</rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -8011,8 +8011,8 @@
    <ruleset>
       <range>PUA-1</range>
       <desc>LATIN SMALL LIGATURE OC</desc>
-      <rule></rule>
-      <rule></rule>
+      <rule>oc</rule>
+      <rule>oc</rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -8043,8 +8043,8 @@
    <ruleset>
       <range>PUA-1</range>
       <desc>LATIN SMALL LIGATURE PP</desc>
-      <rule></rule>
-      <rule></rule>
+      <rule>pp</rule>
+      <rule>pp</rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -8059,8 +8059,8 @@
    <ruleset>
       <range>PUA-1</range>
       <desc>LATIN CAPITAL LIGATURE PP</desc>
-      <rule></rule>
-      <rule></rule>
+      <rule>PP</rule>
+      <rule>PP</rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -8259,8 +8259,8 @@
    <ruleset>
       <range>PUA-1</range>
       <desc>LATIN SMALL LIGATURE TR</desc>
-      <rule></rule>
-      <rule></rule>
+      <rule>tr</rule>
+      <rule>tr</rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -8283,48 +8283,48 @@
    <ruleset>
       <range>PUA-1</range>
       <desc>LATIN SMALL LIGATURE TY</desc>
-      <rule></rule>
-      <rule></rule>
+      <rule>ty</rule>
+      <rule>ty</rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
    <ruleset>
       <range>PUA-1</range>
       <desc>LATIN SMALL LIGATURE TZ</desc>
-      <rule></rule>
-      <rule></rule>
+      <rule>tz</rule>
+      <rule>tz</rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
    <ruleset>
       <range>PUA-1</range>
       <desc>LATIN CAPITAL LIGATURE UU</desc>
-      <rule></rule>
-      <rule></rule>
+      <rule>UU</rule>
+      <rule>UU</rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
    <ruleset>
       <range>PUA-1</range>
       <desc>LATIN SMALL LIGATURE UU</desc>
-      <rule></rule>
-      <rule></rule>
+      <rule>uu</rule>
+      <rule>uu</rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
    <ruleset>
       <range>PUA-1</range>
       <desc>LATIN CAPITAL LIGATURE UE</desc>
-      <rule></rule>
-      <rule></rule>
+      <rule>UE</rule>
+      <rule>UE</rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
    <ruleset>
       <range>PUA-1</range>
       <desc>LATIN SMALL LIGATURE UE</desc>
-      <rule></rule>
-      <rule></rule>
+      <rule>ue</rule>
+      <rule>ue</rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -11075,8 +11075,8 @@
    <ruleset>
       <range>PUA-3</range>
       <desc>LATIN ENLARGED LETTER SMALL LIGATURE AE</desc>
-      <rule></rule>
-      <rule></rule>
+      <rule>ae</rule>
+      <rule>ae</rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -11099,16 +11099,16 @@
    <ruleset>
       <range>PUA-3</range>
       <desc>LATIN ENLARGED LETTER SMALL LIGATURE AO</desc>
-      <rule></rule>
-      <rule></rule>
+      <rule>ae</rule>
+      <rule>ae</rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
    <ruleset>
       <range>PUA-3</range>
       <desc>LATIN ENLARGED LETTER SMALL LIGATURE AA</desc>
-      <rule></rule>
-      <rule></rule>
+      <rule>aa</rule>
+      <rule>aa</rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -11275,8 +11275,8 @@
    <ruleset>
       <range>PUA-3</range>
       <desc>LATIN ENLARGED LETTER SMALL LIGATURE OE</desc>
-      <rule></rule>
-      <rule></rule>
+      <rule>oe</rule>
+      <rule>oe</rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -13683,16 +13683,16 @@
    <ruleset>
       <range>PUA-7</range>
       <desc>COMBINING LATIN SMALL LIGATURE AN</desc>
-      <rule></rule>
-      <rule></rule>
+      <rule>an</rule>
+      <rule>an</rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
    <ruleset>
       <range>PUA-7</range>
       <desc>COMBINING LATIN SMALL LIGATURE AR</desc>
-      <rule></rule>
-      <rule></rule>
+      <rule>ar</rule>
+      <rule>ar</rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
