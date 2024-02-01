@@ -1,1 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?><levelrules><ruleset><range>PUA-40</range><desc>LATIN SMALL LETTER E WITH DIAERESIS AND MACRON</desc><rule>ë̄</rule><rule>ë̄</rule><rule></rule><type>level</type></ruleset></levelrules>
+<?xml version="1.0" encoding="UTF-8"?><levelrules><ruleset><range>PUA-40</range><desc>LATIN SMALL LETTER E WITH DIAERESIS AND MACRON</desc><rule></rule><rule>ë̄</rule><rule></rule><type>level</type></ruleset></levelrules>

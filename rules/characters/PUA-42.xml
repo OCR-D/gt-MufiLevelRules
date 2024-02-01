@@ -1,1 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?><levelrules><ruleset><range>PUA-42</range><desc>LATIN SMALL LETTER A WITH DIAERESIS AND DOT BELOW</desc><rule>ạ̈</rule><rule>ạ̈</rule><rule></rule><type>level</type></ruleset></levelrules>
+<?xml version="1.0" encoding="UTF-8"?><levelrules><ruleset><range>PUA-42</range><desc>LATIN SMALL LETTER A WITH DIAERESIS AND DOT BELOW</desc><rule></rule><rule>ạ̈</rule><rule></rule><type>level</type></ruleset></levelrules>

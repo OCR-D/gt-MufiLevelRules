@@ -1,1 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?><levelrules><ruleset><range>PUA-29</range><desc>LATIN SMALL LETTER U WITH CURLY BAR ABOVE</desc><rule>u</rule><rule>u</rule><rule></rule><type>level</type></ruleset></levelrules>
+<?xml version="1.0" encoding="UTF-8"?><levelrules><ruleset><range>PUA-29</range><desc>LATIN SMALL LETTER U WITH CURLY BAR ABOVE</desc><rule></rule><rule>u</rule><rule></rule><type>level</type></ruleset></levelrules>
