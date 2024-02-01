@@ -7875,24 +7875,24 @@
    <ruleset>
       <range>PUA-1</range>
       <desc>LATIN SMALL LIGATURE FFT</desc>
-      <rule></rule>
-      <rule></rule>
+      <rule>fft</rule>
+      <rule>fft</rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
    <ruleset>
       <range>PUA-1</range>
       <desc>LATIN SMALL LIGATURE FFY</desc>
-      <rule></rule>
-      <rule></rule>
+      <rule>ffy</rule>
+      <rule>ffy</rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
    <ruleset>
       <range>PUA-1</range>
       <desc>LATIN SMALL LIGATURE FTY</desc>
-      <rule></rule>
-      <rule></rule>
+      <rule>fty</rule>
+      <rule>fty</rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
