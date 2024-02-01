@@ -7707,8 +7707,8 @@
    <ruleset>
       <range>PUA-1</range>
       <desc>LATIN SMALL LIGATURE A SMALL CAPITAL N</desc>
-      <rule/>
-      <rule/>
+      <rule>aɴ</rule>
+      <rule>aɴ</rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -7731,16 +7731,16 @@
    <ruleset>
       <range>PUA-1</range>
       <desc>LATIN SMALL LIGATURE A SMALL CAPITAL R</desc>
-      <rule/>
-      <rule/>
+      <rule>aʀ</rule>
+      <rule>aʀ</rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
    <ruleset>
       <range>PUA-1</range>
       <desc>LATIN SMALL LIGATURE A THORN</desc>
-      <rule/>
-      <rule/>
+      <rule>aþ</rule>
+      <rule>aþ</rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -7827,8 +7827,8 @@
    <ruleset>
       <range>PUA-1</range>
       <desc>LATIN SMALL LIGATURE F A WITH DIAERESIS</desc>
-      <rule/>
-      <rule/>
+      <rule>fä</rule>
+      <rule>fä</rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -7859,8 +7859,8 @@
    <ruleset>
       <range>PUA-1</range>
       <desc>LATIN SMALL LIGATURE F U WITH DIAERESIS</desc>
-      <rule/>
-      <rule/>
+      <rule>fü</rule>
+      <rule>fü</rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -7939,8 +7939,8 @@
    <ruleset>
       <range>PUA-1</range>
       <desc>LATIN SMALL LIGATURE G D ROTUNDA</desc>
-      <rule/>
-      <rule/>
+      <rule>gdꝛ</rule>
+      <rule>gdꝛ</rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -7995,16 +7995,16 @@
    <ruleset>
       <range>PUA-1</range>
       <desc>LATIN SMALL LIGATURE SMALL CAPITAL N LONG S</desc>
-      <rule/>
-      <rule/>
+      <rule>Nſ</rule>
+      <rule>Nſ</rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
    <ruleset>
       <range>PUA-1</range>
       <desc>LATIN SMALL LIGATURE O R ROTUNDA</desc>
-      <rule/>
-      <rule/>
+      <rule>oꝛ</rule>
+      <rule>oꝛ</rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -8067,40 +8067,40 @@
    <ruleset>
       <range>PUA-1</range>
       <desc>LATIN SMALL LIGATURE Q INSULAR V</desc>
-      <rule/>
-      <rule/>
+      <rule>qv</rule>
+      <rule>qv</rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
    <ruleset>
       <range>PUA-1</range>
       <desc>LATIN SMALL LIGATURE LONG S L WITH STROKE</desc>
-      <rule/>
-      <rule/>
+      <rule>ſł̵</rule>
+      <rule>ſł̵</rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
    <ruleset>
       <range>PUA-1</range>
       <desc>LATIN SMALL LIGATURE LONG S DESCENDING T</desc>
-      <rule/>
-      <rule/>
+      <rule>ſt</rule>
+      <rule>ſt</rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
    <ruleset>
       <range>PUA-1</range>
       <desc>LATIN SMALL LIGATURE LONG S A WITH DIAERESIS</desc>
-      <rule/>
-      <rule/>
+      <rule>ſä</rule>
+      <rule>ſä</rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
    <ruleset>
       <range>PUA-1</range>
       <desc>LATIN SMALL LIGATURE LONG S H</desc>
-      <rule/>
-      <rule/>
+      <rule>ſh</rule>
+      <rule>ſh</rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -8115,24 +8115,24 @@
    <ruleset>
       <range>PUA-1</range>
       <desc>LATIN SMALL LIGATURE LONG S L</desc>
-      <rule/>
-      <rule/>
+      <rule>ſl</rule>
+      <rule>ſl</rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
    <ruleset>
       <range>PUA-1</range>
       <desc>LATIN SMALL LIGATURE LONG S O WITH DIAERESIS</desc>
-      <rule/>
-      <rule/>
+      <rule>ſö</rule>
+      <rule>ſö</rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
    <ruleset>
       <range>PUA-1</range>
       <desc>LATIN SMALL LIGATURE LONG S P</desc>
-      <rule/>
-      <rule/>
+      <rule>ſp</rule>
+      <rule>ſp</rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -8147,48 +8147,48 @@
    <ruleset>
       <range>PUA-1</range>
       <desc>LATIN SMALL LIGATURE LONG S LONG S I</desc>
-      <rule/>
-      <rule/>
+      <rule>ſſi</rule>
+      <rule>ſſi</rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
    <ruleset>
       <range>PUA-1</range>
       <desc>LATIN SMALL LIGATURE LONG S LONG S L</desc>
-      <rule/>
-      <rule/>
+      <rule>ſſl</rule>
+      <rule>ſſl</rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
    <ruleset>
       <range>PUA-1</range>
       <desc>LATIN SMALL LIGATURE LONG S TI</desc>
-      <rule/>
-      <rule/>
+      <rule>ſti</rule>
+      <rule>ſti</rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
    <ruleset>
       <range>PUA-1</range>
       <desc>LATIN SMALL LIGATURE LONG S TR</desc>
-      <rule/>
-      <rule/>
+      <rule>ſtr</rule>
+      <rule>ſtr</rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
    <ruleset>
       <range>PUA-1</range>
       <desc>LATIN SMALL LIGATURE LONG S U WITH DIAERESIS</desc>
-      <rule/>
-      <rule/>
+      <rule>ſü</rule>
+      <rule>ſü</rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
    <ruleset>
       <range>PUA-1</range>
       <desc>LATIN SMALL LIGATURE LONG S INSULAR V</desc>
-      <rule/>
-      <rule/>
+      <rule>ſv</rule>
+      <rule>ſv</rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -8219,40 +8219,40 @@
    <ruleset>
       <range>PUA-1</range>
       <desc>LATIN SMALL LIGATURE LONG S J</desc>
-      <rule/>
-      <rule/>
+      <rule>ſj</rule>
+      <rule>ſj</rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
    <ruleset>
       <range>PUA-1</range>
       <desc>LATIN SMALL LIGATURE LONG S K</desc>
-      <rule/>
-      <rule/>
+      <rule>ſk</rule>
+      <rule>ſk</rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
    <ruleset>
       <range>PUA-1</range>
       <desc>LATIN SMALL LIGATURE LONG S S</desc>
-      <rule/>
-      <rule/>
+      <rule>ſs</rule>
+      <rule>ſs</rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
    <ruleset>
       <range>PUA-1</range>
       <desc>LATIN SMALL LIGATURE LONG S LONG S K</desc>
-      <rule/>
-      <rule/>
+      <rule>ſſk</rule>
+      <rule>ſſk</rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
    <ruleset>
       <range>PUA-1</range>
       <desc>LATIN SMALL LIGATURE LONG S LONG S T</desc>
-      <rule/>
-      <rule/>
+      <rule>ſſt</rule>
+      <rule>ſſt</rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -8275,8 +8275,8 @@
    <ruleset>
       <range>PUA-1</range>
       <desc>LATIN SMALL LIGATURE T ROTUNDA T ROTUNDA</desc>
-      <rule/>
-      <rule/>
+      <rule>tꝛtꝛ</rule>
+      <rule>tꝛtꝛ</rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -12859,16 +12859,16 @@
    <ruleset>
       <range>PUA-5</range>
       <desc>LATIN SMALL LIGATURE H AND LONG S WITH STROKE</desc>
-      <rule/>
-      <rule/>
+      <rule>hſ̵</rule>
+      <rule>hſ̵</rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
    <ruleset>
       <range>PUA-5</range>
       <desc>LATIN SMALL LIGATURE H AND LONG S</desc>
-      <rule/>
-      <rule/>
+      <rule>hſ</rule>
+      <rule>hſ</rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -12899,16 +12899,16 @@
    <ruleset>
       <range>PUA-5</range>
       <desc>LATIN SMALL LIGATURE K AND LONG S WITH STROKE</desc>
-      <rule/>
-      <rule/>
+      <rule>kſ̵</rule>
+      <rule>kſ̵</rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
    <ruleset>
       <range>PUA-5</range>
       <desc>LATIN SMALL LIGATURE K AND LONG S</desc>
-      <rule/>
-      <rule/>
+      <rule>kſ</rule>
+      <rule>kſ</rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -13043,16 +13043,16 @@
    <ruleset>
       <range>PUA-5</range>
       <desc>LATIN SMALL LIGATURE THORN AND LONG S</desc>
-      <rule/>
-      <rule/>
+      <rule>þſ</rule>
+      <rule>þſ</rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
    <ruleset>
       <range>PUA-5</range>
       <desc>LATIN SMALL LIGATURE THORN AND LONG S WITH STROKE</desc>
-      <rule/>
-      <rule/>
+      <rule>ꝥſ</rule>
+      <rule>ꝥſ</rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -13139,8 +13139,8 @@
    <ruleset>
       <range>PUA-51</range>
       <desc>LATIN SMALL LIGATURE DD ROTUNDA</desc>
-      <rule/>
-      <rule/>
+      <rule>ddꝛ</rule>
+      <rule>ddꝛ</rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -13699,8 +13699,8 @@
    <ruleset>
       <range>PUA-7</range>
       <desc>COMBINING LATIN SMALL LIGATURE A SMALL CAPITAL N</desc>
-      <rule/>
-      <rule/>
+      <rule>aɴ</rule>
+      <rule>aɴ</rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -13755,8 +13755,8 @@
    <ruleset>
       <range>PUA-7</range>
       <desc>COMBINING LATIN SMALL LIGATURE A SMALL CAPITAL R</desc>
-      <rule/>
-      <rule/>
+      <rule>aʀ</rule>
+      <rule>aʀ</rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
