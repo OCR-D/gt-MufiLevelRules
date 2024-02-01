@@ -1956,7 +1956,9 @@
       <range>GeomShap</range>
       <desc>DOTTED CIRCLE</desc>
       <rule/>
-      <rule/>
+      <rule>
+                                            debug
+                                            </rule>
       <rule/>
       <type>level</type>
    </ruleset>
@@ -7636,7 +7638,9 @@
       <range>PUA-1</range>
       <desc>BORROMAEAN RINGS</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -7644,7 +7648,9 @@
       <range>PUA-1</range>
       <desc>LATIN SMALL LIGATURE AA CLOSED FORM</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -7652,7 +7658,9 @@
       <range>PUA-1</range>
       <desc>LATIN SMALL LIGATURE NECKLESS A E</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -7660,7 +7668,9 @@
       <range>PUA-1</range>
       <desc>LATIN SMALL LIGATURE NECKLESS A V</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -7676,7 +7686,9 @@
       <range>PUA-1</range>
       <desc>LATIN SMALL LIGATURE A INSULAR F</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -7708,7 +7720,9 @@
       <range>PUA-1</range>
       <desc>LATIN SMALL LIGATURE A SMALL CAPITAL N</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -7732,7 +7746,9 @@
       <range>PUA-1</range>
       <desc>LATIN SMALL LIGATURE A SMALL CAPITAL R</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -7740,7 +7756,9 @@
       <range>PUA-1</range>
       <desc>LATIN SMALL LIGATURE A THORN</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -7748,7 +7766,9 @@
       <range>PUA-1</range>
       <desc>LATIN CAPITAL LIGATURE NECKLESS A E</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -7756,7 +7776,9 @@
       <range>PUA-1</range>
       <desc>LATIN SMALL LETTER AE WITH RIGHT UPPER LOOP</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -7764,7 +7786,9 @@
       <range>PUA-1</range>
       <desc>LATIN CAPITAL LIGATURE AO NECKLESS</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -7772,7 +7796,9 @@
       <range>PUA-1</range>
       <desc>LATIN SMALL LIGATURE AO NECKLESS</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -7828,7 +7854,9 @@
       <range>PUA-1</range>
       <desc>LATIN SMALL LIGATURE F A WITH DIAERESIS</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -7860,7 +7888,9 @@
       <range>PUA-1</range>
       <desc>LATIN SMALL LIGATURE F U WITH DIAERESIS</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -7900,7 +7930,9 @@
       <range>PUA-1</range>
       <desc>LATIN SMALL LIGATURE F O WITH DIAERESIS</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -7940,7 +7972,9 @@
       <range>PUA-1</range>
       <desc>LATIN SMALL LIGATURE G D ROTUNDA</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -7948,7 +7982,9 @@
       <range>PUA-1</range>
       <desc>LATIN SMALL LIGATURE G ETH</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -7964,7 +8000,9 @@
       <range>PUA-1</range>
       <desc>LATIN CAPITAL LETTER H LIGATED WITH ARM OF LATIN SMALL LETTER R</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -7972,7 +8010,9 @@
       <range>PUA-1</range>
       <desc>LATIN SMALL LETTER H LIGATED WITH ARM OF LATIN SMALL LETTER R</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -7980,7 +8020,9 @@
       <range>PUA-1</range>
       <desc>LATIN SMALL LETTER K LIGATED WITH ARM OF LATIN SMALL LETTER R</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -7996,7 +8038,9 @@
       <range>PUA-1</range>
       <desc>LATIN SMALL LIGATURE SMALL CAPITAL N LONG S</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -8004,7 +8048,9 @@
       <range>PUA-1</range>
       <desc>LATIN SMALL LIGATURE O R ROTUNDA</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -8020,7 +8066,9 @@
       <range>PUA-1</range>
       <desc>LATIN CAPITAL LIGATURE O R ROTUNDA</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -8028,7 +8076,9 @@
       <range>PUA-1</range>
       <desc>LATIN SMALL LIGATURE O RUM</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -8036,7 +8086,9 @@
       <range>PUA-1</range>
       <desc>LATIN CAPITAL LIGATURE O RUM</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -8052,7 +8104,9 @@
       <range>PUA-1</range>
       <desc>LATIN SMALL LIGATURE PP WITH FLOURISH</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -8068,7 +8122,9 @@
       <range>PUA-1</range>
       <desc>LATIN SMALL LIGATURE Q INSULAR V</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -8076,7 +8132,9 @@
       <range>PUA-1</range>
       <desc>LATIN SMALL LIGATURE LONG S L WITH STROKE</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -8084,7 +8142,9 @@
       <range>PUA-1</range>
       <desc>LATIN SMALL LIGATURE LONG S DESCENDING T</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -8092,7 +8152,9 @@
       <range>PUA-1</range>
       <desc>LATIN SMALL LIGATURE LONG S A WITH DIAERESIS</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -8100,7 +8162,9 @@
       <range>PUA-1</range>
       <desc>LATIN SMALL LIGATURE LONG S H</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -8116,7 +8180,9 @@
       <range>PUA-1</range>
       <desc>LATIN SMALL LIGATURE LONG S L</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -8124,7 +8190,9 @@
       <range>PUA-1</range>
       <desc>LATIN SMALL LIGATURE LONG S O WITH DIAERESIS</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -8132,7 +8200,9 @@
       <range>PUA-1</range>
       <desc>LATIN SMALL LIGATURE LONG S P</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -8148,7 +8218,9 @@
       <range>PUA-1</range>
       <desc>LATIN SMALL LIGATURE LONG S LONG S I</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -8156,7 +8228,9 @@
       <range>PUA-1</range>
       <desc>LATIN SMALL LIGATURE LONG S LONG S L</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -8164,7 +8238,9 @@
       <range>PUA-1</range>
       <desc>LATIN SMALL LIGATURE LONG S TI</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -8172,7 +8248,9 @@
       <range>PUA-1</range>
       <desc>LATIN SMALL LIGATURE LONG S TR</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -8180,7 +8258,9 @@
       <range>PUA-1</range>
       <desc>LATIN SMALL LIGATURE LONG S U WITH DIAERESIS</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -8188,7 +8268,9 @@
       <range>PUA-1</range>
       <desc>LATIN SMALL LIGATURE LONG S INSULAR V</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -8196,7 +8278,9 @@
       <range>PUA-1</range>
       <desc>LATIN SMALL LIGATURE LONG S L WITH DIAGONAL STROKE</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -8204,7 +8288,9 @@
       <range>PUA-1</range>
       <desc>LATIN SMALL LIGATURE LONG S L WITH MEDIUM-HIGH OVERLINE</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -8220,7 +8306,9 @@
       <range>PUA-1</range>
       <desc>LATIN SMALL LIGATURE LONG S J</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -8228,7 +8316,9 @@
       <range>PUA-1</range>
       <desc>LATIN SMALL LIGATURE LONG S K</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -8236,7 +8326,9 @@
       <range>PUA-1</range>
       <desc>LATIN SMALL LIGATURE LONG S S</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -8244,7 +8336,9 @@
       <range>PUA-1</range>
       <desc>LATIN SMALL LIGATURE LONG S LONG S K</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -8252,7 +8346,9 @@
       <range>PUA-1</range>
       <desc>LATIN SMALL LIGATURE LONG S LONG S T</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -8276,7 +8372,9 @@
       <range>PUA-1</range>
       <desc>LATIN SMALL LIGATURE T ROTUNDA T ROTUNDA</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -8332,7 +8430,9 @@
       <range>PUA-1</range>
       <desc>DOUBLE CROSS</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -8340,7 +8440,9 @@
       <range>PUA-1</range>
       <desc>LATIN SMALL LETTER THORN LIGATED WITH ARM OF LATIN SMALL LETTER R</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -8348,7 +8450,9 @@
       <range>PUA-10</range>
       <desc>METRICAL SYMBOL LONGUM</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -8356,7 +8460,9 @@
       <range>PUA-10</range>
       <desc>METRICAL SYMBOL BREVE</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -8364,7 +8470,9 @@
       <range>PUA-10</range>
       <desc>METRICAL SYMBOL BREVE ABOVE LONGUM (SHORT OR LONG SYLLABLE)</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -8372,7 +8480,9 @@
       <range>PUA-10</range>
       <desc>METRICAL SYMBOL LONGUM ABOVE BREVE (SHORT OR LONG SYLLABLE)</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -8380,7 +8490,9 @@
       <range>PUA-10</range>
       <desc>METRICAL SYMBOL LONGUM WITH ACUTE (PRIMARY STRESS)</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -8388,7 +8500,9 @@
       <range>PUA-10</range>
       <desc>METRICAL SYMBOL LONGUM WITH GRAVE (SECONDARY STRESS)</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -8396,7 +8510,9 @@
       <range>PUA-10</range>
       <desc>METRICAL SYMBOL BREVE WITH ACUTE (PRIMARY STRESS)</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -8404,7 +8520,9 @@
       <range>PUA-10</range>
       <desc>METRICAL SYMBOL BREVE WITH GRAVE (SECONDARY STRESS)</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -8412,7 +8530,9 @@
       <range>PUA-10</range>
       <desc>METRICAL SYMBOL BREVE ABOVE LONGUM WITH ACUTE (SHORT OR LONG SYLLABLE WITH PRIMARY STRESS)</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -8420,7 +8540,9 @@
       <range>PUA-10</range>
       <desc>METRICAL SYMBOL BREVE ABOVE LONGUM WITH GRAVE (SHORT OR LONG SYLLABLE WITH SECONDARY STRESS)</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -8428,7 +8550,9 @@
       <range>PUA-10</range>
       <desc>METRICAL SYMBOL ANCEPS</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -8436,7 +8560,9 @@
       <range>PUA-10</range>
       <desc>METRICAL SYMBOL ANCEPS WITH ACUTE (PRIMARY STRESS)</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -8444,7 +8570,9 @@
       <range>PUA-10</range>
       <desc>METRICAL SYMBOL ANCEPS WITH GRAVE (SECONDARY STRESS)</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -8452,7 +8580,9 @@
       <range>PUA-10</range>
       <desc>METRICAL SYMBOL PAUSE</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -8460,7 +8590,9 @@
       <range>PUA-10</range>
       <desc>METRICAL SYMBOL LONGUM WITH DOUBLE ACUTE (SECONDARY STRESS)</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -8468,7 +8600,9 @@
       <range>PUA-10</range>
       <desc>METRICAL SYMBOL LONGUM WITH DOUBLE GRAVE (SECONDARY STRESS AND ALLITERATION)</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -8476,7 +8610,9 @@
       <range>PUA-10</range>
       <desc>METRICAL SYMBOL BREVE WITH DOUBLE ACUTE (PRIMARY STRESS AND ALLITERATION)</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -8484,7 +8620,9 @@
       <range>PUA-10</range>
       <desc>METRICAL SYMBOL BREVE WITH DOUBLE GRAVE (SECONDARY STRESS AND ALLITERATION)</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -8492,7 +8630,9 @@
       <range>PUA-10</range>
       <desc>METRICAL SYMBOL ANCEPS WITH DOUBLE ACUTE (PRIMARY STRESS AND ALLITERATION)</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -8500,7 +8640,9 @@
       <range>PUA-10</range>
       <desc>METRICAL SYMBOL ANCEPS WITH DOUBLE GRAVE (SECONDARY STRESS AND ALLITERATION)</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -8508,7 +8650,9 @@
       <range>PUA-10</range>
       <desc>METRICAL SYMBOL RESOLVED LIFT WITH ACUTE (PRIMARY STRESS)</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -8516,7 +8660,9 @@
       <range>PUA-10</range>
       <desc>METRICAL SYMBOL RESOLVED LIFT WITH DOUBLE ACUTE (PRIMARY STRESS AND ALLITERATION)</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -8524,7 +8670,9 @@
       <range>PUA-10</range>
       <desc>METRICAL SYMBOL RESOLVED LIFT</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -8532,7 +8680,9 @@
       <range>PUA-11</range>
       <desc>ROMAN NUMERAL CAPITAL C WITH TWO BARS</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -8540,7 +8690,9 @@
       <range>PUA-11</range>
       <desc>ROMAN NUMERAL SMALL C WITH TWO BARS</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -8548,7 +8700,9 @@
       <range>PUA-11</range>
       <desc>MODIFIER CAPITAL LETTER V</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -8556,7 +8710,9 @@
       <range>PUA-11</range>
       <desc>MODIFIER LETTER CAPITAL X</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -8564,7 +8720,9 @@
       <range>PUA-11</range>
       <desc>SMALL BASE LINE ZERO SIGN</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -8572,7 +8730,9 @@
       <range>PUA-12</range>
       <desc>LATIN AS LIBRALIS SIGN</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -8580,7 +8740,9 @@
       <range>PUA-12</range>
       <desc>LATIN SMALL CAPITAL LETTER X WITH BAR</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -8588,7 +8750,9 @@
       <range>PUA-12</range>
       <desc>LATIN SMALL CAPITAL LETTER Y WITH BAR</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -8596,7 +8760,9 @@
       <range>PUA-12</range>
       <desc>LATIN SMALL CAPITAL LETTER D WITH SLASH</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -8604,7 +8770,9 @@
       <range>PUA-12</range>
       <desc>PHARMACEUTICAL DRAM SIGN</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -8612,7 +8780,9 @@
       <range>PUA-12</range>
       <desc>ECU SIGN</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -8620,7 +8790,9 @@
       <range>PUA-12</range>
       <desc>FLOREN SIGN WITH LOOP</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -8628,7 +8800,9 @@
       <range>PUA-12</range>
       <desc>GROSCHEN SIGN</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -8636,7 +8810,9 @@
       <range>PUA-12</range>
       <desc>DUTCH LIBRA SIGN</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -8644,7 +8820,9 @@
       <range>PUA-12</range>
       <desc>FRENCH LIBRA SIGN</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -8652,7 +8830,9 @@
       <range>PUA-12</range>
       <desc>ITALIAN LIBRA SIGN</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -8660,7 +8840,9 @@
       <range>PUA-12</range>
       <desc>FLEMISH LIBRA SIGN</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -8668,7 +8850,9 @@
       <range>PUA-12</range>
       <desc>LIRA NUOVA SIGN</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -8676,7 +8860,9 @@
       <range>PUA-12</range>
       <desc>LIRA STERLINA SIGN</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -8684,7 +8870,9 @@
       <range>PUA-12</range>
       <desc>OLD MARK SIGN</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -8692,7 +8880,9 @@
       <range>PUA-12</range>
       <desc>OLD FLOURISH MARK SIGN</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -8700,7 +8890,9 @@
       <range>PUA-12</range>
       <desc>MARKED SMALL LETTER M SIGN</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -8708,7 +8900,9 @@
       <range>PUA-12</range>
       <desc>FLOURISHED SMALL LETTER M SIGN</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -8716,7 +8910,9 @@
       <range>PUA-12</range>
       <desc>PHARMACEUTICAL OBOLUS SIGN</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -8724,7 +8920,9 @@
       <range>PUA-12</range>
       <desc>PENNING SIGN</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -8732,7 +8930,9 @@
       <range>PUA-12</range>
       <desc>OLD REICHSTALER SIGN</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -8740,7 +8940,9 @@
       <range>PUA-12</range>
       <desc>GERMAN SCHILLING SIGN</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -8748,7 +8950,9 @@
       <range>PUA-12</range>
       <desc>GERMAN SCRIPT SCHILLING SIGN</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -8756,7 +8960,9 @@
       <range>PUA-12</range>
       <desc>SCUDI SIGN</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -8764,7 +8970,9 @@
       <range>PUA-12</range>
       <desc>KRONE SIGN</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -8772,7 +8980,9 @@
       <range>PUA-12</range>
       <desc>HELBING SIGN</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -8780,7 +8990,9 @@
       <range>PUA-12</range>
       <desc>SCRIPT OUNCE SIGN</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -8788,7 +9000,9 @@
       <range>PUA-13</range>
       <desc>LATIN SMALL LETTER N WITH BAR</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -8796,7 +9010,9 @@
       <range>PUA-13</range>
       <desc>LATIN SMALL LETTER V WITH BAR</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -8804,7 +9020,9 @@
       <range>PUA-13</range>
       <desc>LATIN SMALL LETTER Y WITH BAR</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -8812,7 +9030,9 @@
       <range>PUA-14</range>
       <desc>LATIN SMALL LETTER MIDDLE HIGH GERMAN ZED</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -8820,7 +9040,9 @@
       <range>PUA-14</range>
       <desc>LATIN SMALL LIGATURE I MIDDLE HIGH GERMAN ZED</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -8828,7 +9050,9 @@
       <range>PUA-14</range>
       <desc>LATIN SMALL LIGATURE L MIDDLE HIGH GERMAN ZED</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -8836,7 +9060,9 @@
       <range>PUA-14</range>
       <desc>LATIN SMALL LIGATURE LONG S MIDDLE HIGH GERMAN ZED</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -8844,7 +9070,9 @@
       <range>PUA-14</range>
       <desc>LATIN SMALL LIGATURE LONG S I MIDDLE HIGH GERMAN ZED</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -8852,7 +9080,9 @@
       <range>PUA-15</range>
       <desc>MUFI DOUBLE DOLPHIN SIGN</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -8860,7 +9090,9 @@
       <range>PUA-15</range>
       <desc>LATIN SMALL LETTER B WITH MEDIUM-HIGH OVERLINE (ACROSS ASCENDER)</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -8876,7 +9108,9 @@
       <range>PUA-15</range>
       <desc>LATIN SMALL LETTER D WITH MEDIUM-HIGH OVERLINE (ACROSS ASCENDER)</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -8908,7 +9142,9 @@
       <range>PUA-15</range>
       <desc>LATIN SMALL LETTER H WITH MEDIUM-HIGH OVERLINE (ACROSS ASCENDER)</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -8964,7 +9200,9 @@
       <range>PUA-15</range>
       <desc>LATIN SMALL LETTER K WITH MEDIUM-HIGH OVERLINE (ACROSS ASCENDER)</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -8988,7 +9226,9 @@
       <range>PUA-15</range>
       <desc>LATIN SMALL LETTER L WITH MEDIUM-HIGH OVERLINE (ACROSS ASCENDER)</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -9084,7 +9324,9 @@
       <range>PUA-15</range>
       <desc>LATIN SMALL LETTER OPEN O WITH MACRON</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -9108,7 +9350,9 @@
       <range>PUA-15</range>
       <desc>LATIN SMALL LETTER LONG S WITH MEDIUM-HIGH OVERLINE (ACROSS ASCENDER)</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -9164,7 +9408,9 @@
       <range>PUA-15</range>
       <desc>COMBINING HIGH MACRON WITH FIXED HEIGHT (PART-WIDTH)</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -9172,7 +9418,9 @@
       <range>PUA-15</range>
       <desc>COMBINING MEDIUM-HIGH MACRON WITH FIXED HEIGHT (PART-WIDTH)</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -9180,7 +9428,9 @@
       <range>PUA-15</range>
       <desc>COMBINING HIGH OVERLINE WITH FIXED HEIGHT (FULL-WIDTH)</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -9188,7 +9438,9 @@
       <range>PUA-15</range>
       <desc>COMBINING MEDIUM-HIGH OVERLINE WITH FIXED HEIGHT (FULL-WIDTH)</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -9204,7 +9456,9 @@
       <range>PUA-15</range>
       <desc>LATIN SMALL LETTER THORN WITH MEDIUM-HIGH OVERLINE (ACROSS ASCENDER)</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -10484,7 +10738,9 @@
       <range>PUA-2</range>
       <desc>LATIN LETTER SMALL CAPITAL Q</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -10492,7 +10748,9 @@
       <range>PUA-2</range>
       <desc>LATIN LETTER SMALL CAPITAL X</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -10500,7 +10758,9 @@
       <range>PUA-2</range>
       <desc>LATIN LETTER SMALL CAPITAL THORN</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -10524,7 +10784,9 @@
       <range>PUA-20</range>
       <desc>LATIN SMALL LETTER A WITH DIAGONAL DIAERESIS</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -10564,7 +10826,9 @@
       <range>PUA-20</range>
       <desc>LATIN SMALL LETTER O WITH DIAGONAL DIAERESIS</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -11068,7 +11332,9 @@
       <range>PUA-3</range>
       <desc>LATIN ENLARGED LETTER SMALL A WITH ACUTE</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -11084,7 +11350,9 @@
       <range>PUA-3</range>
       <desc>LATIN LIGATURE ENLARGED LETTER SMALL A AND LATIN SMALL LETTER O</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -11092,7 +11360,9 @@
       <range>PUA-3</range>
       <desc>LATIN ENLARGED LETTER SMALL A</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -11116,7 +11386,9 @@
       <range>PUA-3</range>
       <desc>LATIN ENLARGED LETTER SMALL B</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -11124,7 +11396,9 @@
       <range>PUA-3</range>
       <desc>LATIN ENLARGED LETTER SMALL C</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -11132,7 +11406,9 @@
       <range>PUA-3</range>
       <desc>LATIN ENLARGED LETTER SMALL D</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -11140,7 +11416,9 @@
       <range>PUA-3</range>
       <desc>LATIN ENLARGED LETTER D ROTUNDA</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -11148,7 +11426,9 @@
       <range>PUA-3</range>
       <desc>LATIN ENLARGED LETTER SMALL ETH</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -11156,7 +11436,9 @@
       <range>PUA-3</range>
       <desc>LATIN ENLARGED LETTER SMALL E WITH OGONEK</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -11164,7 +11446,9 @@
       <range>PUA-3</range>
       <desc>LATIN ENLARGED LETTER SMALL E</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -11172,7 +11456,9 @@
       <range>PUA-3</range>
       <desc>LATIN ENLARGED LETTER SMALL F</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -11180,7 +11466,9 @@
       <range>PUA-3</range>
       <desc>LATIN ENLARGED LETTER SMALL INSULAR F</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -11188,7 +11476,9 @@
       <range>PUA-3</range>
       <desc>LATIN ENLARGED LETTER SMALL G</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -11196,7 +11486,9 @@
       <range>PUA-3</range>
       <desc>LATIN ENLARGED LETTER SMALL H</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -11204,7 +11496,9 @@
       <range>PUA-3</range>
       <desc>LATIN ENLARGED LETTER SMALL I</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -11212,7 +11506,9 @@
       <range>PUA-3</range>
       <desc>LATIN ENLARGED LETTER SMALL DOTLESS I</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -11220,7 +11516,9 @@
       <range>PUA-3</range>
       <desc>LATIN ENLARGED LETTER SMALL J</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -11228,7 +11526,9 @@
       <range>PUA-3</range>
       <desc>LATIN ENLARGED LETTER SMALL DOTLESS J</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -11236,7 +11536,9 @@
       <range>PUA-3</range>
       <desc>LATIN ENLARGED LETTER SMALL K</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -11244,7 +11546,9 @@
       <range>PUA-3</range>
       <desc>LATIN ENLARGED LETTER SMALL L</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -11252,7 +11556,9 @@
       <range>PUA-3</range>
       <desc>LATIN ENLARGED LETTER SMALL M</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -11260,7 +11566,9 @@
       <range>PUA-3</range>
       <desc>LATIN ENLARGED LETTER SMALL N</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -11268,7 +11576,9 @@
       <range>PUA-3</range>
       <desc>LATIN ENLARGED LETTER SMALL O</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -11284,7 +11594,9 @@
       <range>PUA-3</range>
       <desc>LATIN ENLARGED LETTER SMALL P</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -11292,7 +11604,9 @@
       <range>PUA-3</range>
       <desc>LATIN ENLARGED LETTER SMALL Q</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -11300,7 +11614,9 @@
       <range>PUA-3</range>
       <desc>LATIN ENLARGED LETTER SMALL R</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -11308,7 +11624,9 @@
       <range>PUA-3</range>
       <desc>LATIN ENLARGED LETTER SMALL LONG S</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -11316,7 +11634,9 @@
       <range>PUA-3</range>
       <desc>LATIN ENLARGED LETTER SMALL S</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -11324,7 +11644,9 @@
       <range>PUA-3</range>
       <desc>LATIN ENLARGED LETTER SMALL T</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -11332,7 +11654,9 @@
       <range>PUA-3</range>
       <desc>LATIN ENLARGED LETTER SMALL U</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -11340,7 +11664,9 @@
       <range>PUA-3</range>
       <desc>LATIN ENLARGED LETTER SMALL V</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -11348,7 +11674,9 @@
       <range>PUA-3</range>
       <desc>LATIN ENLARGED LETTER SMALL W</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -11356,7 +11684,9 @@
       <range>PUA-3</range>
       <desc>LATIN ENLARGED LETTER SMALL X</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -11364,7 +11694,9 @@
       <range>PUA-3</range>
       <desc>LATIN ENLARGED LETTER SMALL Y</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -11372,7 +11704,9 @@
       <range>PUA-3</range>
       <desc>LATIN ENLARGED LETTER SMALL Z</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -11380,7 +11714,9 @@
       <range>PUA-3</range>
       <desc>LATIN ENLARGED LETTER SMALL THORN</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -11452,7 +11788,9 @@
       <range>PUA-31</range>
       <desc>LATIN SMALL LETTER A WITH LATIN SMALL LETTER U ABOVE</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -11468,7 +11806,9 @@
       <range>PUA-31</range>
       <desc>LATIN SMALL LETTER B WITH LATIN SMALL LETTER E ABOVE</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -11476,7 +11816,9 @@
       <range>PUA-31</range>
       <desc>LATIN SMALL LETTER B WITH LATIN SMALL LETTER DOTLESS I ABOVE</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -11484,7 +11826,9 @@
       <range>PUA-31</range>
       <desc>LATIN SMALL LETTER B WITH LATIN SMALL LETTER O ABOVE</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -11492,7 +11836,9 @@
       <range>PUA-31</range>
       <desc>LATIN SMALL LETTER B WITH LATIN SMALL LETTER R ABOVE</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -11500,7 +11846,9 @@
       <range>PUA-31</range>
       <desc>LATIN SMALL LETTER B WITH LATIN SMALL LETTER V ABOVE</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -11508,7 +11856,9 @@
       <range>PUA-31</range>
       <desc>LATIN SMALL LETTER D ROTUNDA WITH LATIN SMALL LETTER E ABOVE</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -11516,7 +11866,9 @@
       <range>PUA-31</range>
       <desc>LATIN SMALL LETTER D ROTUNDA WITH LATIN SMALL LETTER DOTLESS I ABOVE</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -11524,7 +11876,9 @@
       <range>PUA-31</range>
       <desc>LATIN SMALL LETTER D ROTUNDA WITH LATIN SMALL LETTER O ABOVE</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -11532,7 +11886,9 @@
       <range>PUA-31</range>
       <desc>[F09A NEW]</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -11540,7 +11896,9 @@
       <range>PUA-31</range>
       <desc>LATIN SMALL LETTER D ROTUNDA WITH LATIN LETTER SMALL CAPITAL R ABOVE</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -11548,7 +11906,9 @@
       <range>PUA-31</range>
       <desc>LATIN SMALL LETTER D ROTUNDA WITH LATIN SMALL LETTER Z ABOVE</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -11556,7 +11916,9 @@
       <range>PUA-31</range>
       <desc>LATIN SMALL LETTER ETH WITH LATIN SMALL LETTER DOTLESS I ABOVE</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -11564,7 +11926,9 @@
       <range>PUA-31</range>
       <desc>LATIN SMALL LETTER ETH WITH LATIN SMALL LETTER M UNCIAL FORM ABOVE</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -11572,7 +11936,9 @@
       <range>PUA-31</range>
       <desc>LATIN SMALL LETTER ETH WITH LATIN SMALL LETTER R ABOVE</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -11580,7 +11946,9 @@
       <range>PUA-31</range>
       <desc>LATIN SMALL LETTER ETH WITH LATIN LETTER SMALL CAPITAL R ABOVE</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -11588,7 +11956,9 @@
       <range>PUA-31</range>
       <desc>LATIN SMALL LETTER ETH WITH LATIN SMALL LETTER T ABOVE</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -11628,7 +11998,9 @@
       <range>PUA-31</range>
       <desc>LATIN SMALL LETTER E WITH LATIN SMALL LETTER E ABOVE</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -11636,7 +12008,9 @@
       <range>PUA-31</range>
       <desc>LATIN SMALL LETTER E WITH LATIN SMALL LETTER O ABOVE</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -11644,7 +12018,9 @@
       <range>PUA-31</range>
       <desc>LATIN SMALL LETTER H WITH LATIN SMALL LETTER A ABOVE</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -11652,7 +12028,9 @@
       <range>PUA-31</range>
       <desc>LATIN SMALL LETTER H WITH LATIN SMALL LETTER E ABOVE</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -11660,7 +12038,9 @@
       <range>PUA-31</range>
       <desc>LATIN SMALL LETTER H WITH LATIN SMALL LETTER DOTLESS I ABOVE</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -11668,7 +12048,9 @@
       <range>PUA-31</range>
       <desc>LATIN SMALL LETTER H WITH LATIN SMALL LETTER M UNCIAL FORM ABOVE</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -11676,7 +12058,9 @@
       <range>PUA-31</range>
       <desc>LATIN SMALL LETTER H WITH LATIN SMALL LETTER O ABOVE</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -11684,7 +12068,9 @@
       <range>PUA-31</range>
       <desc>LATIN SMALL LETTER H WITH LATIN SMALL LETTER R ABOVE</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -11692,7 +12078,9 @@
       <range>PUA-31</range>
       <desc>LATIN SMALL LETTER H WITH LATIN SMALL LETTER V ABOVE</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -11700,7 +12088,9 @@
       <range>PUA-31</range>
       <desc>LATIN SMALL LETTER H WITH LATIN SMALL LETTER T ABOVE</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -11724,7 +12114,9 @@
       <range>PUA-31</range>
       <desc>LATIN SMALL LETTER I WITH LATIN SMALL LETTER A ABOVE</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -11756,7 +12148,9 @@
       <range>PUA-31</range>
       <desc>LATIN SMALL LETTER K WITH LATIN SMALL LETTER A ABOVE</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -11764,7 +12158,9 @@
       <range>PUA-31</range>
       <desc>LATIN SMALL LETTER K WITH LATIN SMALL LETTER E ABOVE</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -11772,7 +12168,9 @@
       <range>PUA-31</range>
       <desc>LATIN SMALL LETTER K WITH LATIN SMALL LETTER DOTLESS I ABOVE</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -11780,7 +12178,9 @@
       <range>PUA-31</range>
       <desc>LATIN SMALL LETTER K WITH LATIN SMALL LETTER O ABOVE</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -11788,7 +12188,9 @@
       <range>PUA-31</range>
       <desc>LATIN SMALL LETTER K WITH LATIN SMALL LETTER R ABOVE</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -11796,7 +12198,9 @@
       <range>PUA-31</range>
       <desc>LATIN SMALL LETTER K WITH LATIN LETTER SMALL CAPITAL R ABOVE</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -11804,7 +12208,9 @@
       <range>PUA-31</range>
       <desc>LATIN SMALL LETTER K WITH LATIN SMALL LETTER V ABOVE</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -11812,7 +12218,9 @@
       <range>PUA-31</range>
       <desc>LATIN SMALL LETTER K WITH LATIN SMALL LETTER Z ABOVE</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -11988,7 +12396,9 @@
       <range>PUA-31</range>
       <desc>LATIN SMALL LETTER W WITH LATIN SMALL LETTER I ABOVE</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -12028,7 +12438,9 @@
       <range>PUA-31</range>
       <desc>LATIN SMALL LETTER THORN WITH LATIN SMALL LETTER E ABOVE</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -12036,7 +12448,9 @@
       <range>PUA-31</range>
       <desc>LATIN SMALL LETTER THORN WITH LATIN SMALL LETTER DOTLESS I ABOVE</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -12044,7 +12458,9 @@
       <range>PUA-31</range>
       <desc>LATIN SMALL LETTER THORN WITH LATIN SMALL LETTER O ABOVE</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -12052,7 +12468,9 @@
       <range>PUA-31</range>
       <desc>LATIN SMALL LETTER THORN WITH LATIN SMALL LETTER R ABOVE</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -12060,7 +12478,9 @@
       <range>PUA-31</range>
       <desc>LATIN SMALL LETTER THORN WITH LATIN SMALL LETTER T ABOVE</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -12396,7 +12816,9 @@
       <range>PUA-4</range>
       <desc>LATIN ABBREVIATION SIGN AUTEM</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -12404,7 +12826,9 @@
       <range>PUA-4</range>
       <desc>LATIN ABBREVIATION SIGN CAPITAL ET</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -12412,7 +12836,9 @@
       <range>PUA-4</range>
       <desc>LATIN ABBREVIATION SIGN SMALL ET WITH STROKE</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -12420,7 +12846,9 @@
       <range>PUA-4</range>
       <desc>LATIN ABBREVIATION SIGN SMALL DE</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -12428,7 +12856,9 @@
       <range>PUA-4</range>
       <desc>LATIN ABBREVIATION SIGN SPACING BASE-LINE CAPITAL US</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -12436,7 +12866,9 @@
       <range>PUA-4</range>
       <desc>LATIN ABBREVIATION SIGN SPACING BASE-LINE US</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -12444,7 +12876,9 @@
       <range>PUA-4</range>
       <desc>LATIN ABBREVIATION SIGN CAPITAL ET WITH STROKE</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -12452,7 +12886,9 @@
       <range>PUA-4</range>
       <desc>LATIN ABBREVIATION SIGN SEMICOLON</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -12844,7 +13280,9 @@
       <range>PUA-5</range>
       <desc>ANTIPHON</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -12852,7 +13290,9 @@
       <range>PUA-5</range>
       <desc>LATIN SMALL SIGN PSALMI</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -12860,7 +13300,9 @@
       <range>PUA-5</range>
       <desc>LATIN SMALL LIGATURE H AND LONG S WITH STROKE</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -12868,7 +13310,9 @@
       <range>PUA-5</range>
       <desc>LATIN SMALL LIGATURE H AND LONG S</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -12876,7 +13320,9 @@
       <range>PUA-5</range>
       <desc>LATIN SMALL LETTER I WITH TWO STROKES</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -12892,7 +13338,9 @@
       <range>PUA-5</range>
       <desc>LATIN SMALL LETTER J WITH TWO STROKES</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -12900,7 +13348,9 @@
       <range>PUA-5</range>
       <desc>LATIN SMALL LIGATURE K AND LONG S WITH STROKE</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -12908,7 +13358,9 @@
       <range>PUA-5</range>
       <desc>LATIN SMALL LIGATURE K AND LONG S</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -12916,7 +13368,9 @@
       <range>PUA-5</range>
       <desc>LATIN CAPITAL SIGN PSALMI</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -12924,7 +13378,9 @@
       <range>PUA-5</range>
       <desc>LATIN CAPITAL SIGN PSALMUS</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -12932,7 +13388,9 @@
       <range>PUA-5</range>
       <desc>LATIN SMALL LETTER Q LIGATED WITH R ROTUNDA</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -12940,7 +13398,9 @@
       <range>PUA-5</range>
       <desc>LATIN SMALL LETTER Q WITH CENTRAL SLANTED STROKE</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -12956,7 +13416,9 @@
       <range>PUA-5</range>
       <desc>LATIN SMALL LETTER R WITH LONG LEG AND STROKE THROUGH DESCENDER</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -12964,7 +13426,9 @@
       <range>PUA-5</range>
       <desc>LATIN SMALL LETTER LONG S WITH FLOURISH</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -12972,7 +13436,9 @@
       <range>PUA-5</range>
       <desc>LATIN SMALL LETTER LONG S WITH SLANTED DESCENDING STROKE</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -12980,7 +13446,9 @@
       <range>PUA-5</range>
       <desc>LATIN SMALL LETTER V WITH SHORT SLASH</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -12988,7 +13456,9 @@
       <range>PUA-5</range>
       <desc>LATIN SMALL LETTER V WITH SHORT SLASH ABOVE RIGHT</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -12996,7 +13466,9 @@
       <range>PUA-5</range>
       <desc>LATIN SMALL LETTER V WITH TWO SHORT SLASHES ABOVE RIGHT</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -13004,7 +13476,9 @@
       <range>PUA-5</range>
       <desc>LATIN SMALL LETTER X WITH SHORT SLASH ABOVE</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -13012,7 +13486,9 @@
       <range>PUA-5</range>
       <desc>LATIN SMALL LETTER X WITH SHORT SLASH BELOW</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -13020,7 +13496,9 @@
       <range>PUA-5</range>
       <desc>LATIN SMALL LETTER X WITH TWO SHORT SLASHES BELOW RIGHT</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -13028,7 +13506,9 @@
       <range>PUA-5</range>
       <desc>HYMNUS</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -13036,7 +13516,9 @@
       <range>PUA-5</range>
       <desc>LATIN CAPITAL LETTER THORN WITH DIAGONAL STROKE</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -13044,7 +13526,9 @@
       <range>PUA-5</range>
       <desc>LATIN SMALL LIGATURE THORN AND LONG S</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -13052,7 +13536,9 @@
       <range>PUA-5</range>
       <desc>LATIN SMALL LIGATURE THORN AND LONG S WITH STROKE</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -13060,7 +13546,9 @@
       <range>PUA-5</range>
       <desc>LATIN SMALL LETTER THORN WITH DIAGONAL STROKE</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -13068,7 +13556,9 @@
       <range>PUA-51</range>
       <desc>LATIN CAPITAL LETTER A SQUARE FORM</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -13076,7 +13566,9 @@
       <range>PUA-51</range>
       <desc>LATIN SMALL LETTER A INSULAR FORM</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -13084,7 +13576,9 @@
       <range>PUA-51</range>
       <desc>LATIN CAPITAL LETTER A INSULAR FORM</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -13092,7 +13586,9 @@
       <range>PUA-51</range>
       <desc>LATIN SMALL LETTER OPEN A CAROLINGIAN FORM</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -13100,7 +13596,9 @@
       <range>PUA-51</range>
       <desc>LATIN SMALL LETTER CLOSED A GOTHIC FORM</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -13108,7 +13606,9 @@
       <range>PUA-51</range>
       <desc>LATIN SMALL LETTER A UNCIAL FORM</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -13116,7 +13616,9 @@
       <range>PUA-51</range>
       <desc>LATIN SMALL LETTER NECKLESS A</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -13124,7 +13626,9 @@
       <range>PUA-51</range>
       <desc>LATIN CAPITAL LETTER C SQUARE FORM</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -13132,7 +13636,9 @@
       <range>PUA-51</range>
       <desc>LATIN SMALL LETTER C WITH CURL</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -13140,7 +13646,9 @@
       <range>PUA-51</range>
       <desc>LATIN SMALL LIGATURE DD ROTUNDA</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -13148,7 +13656,9 @@
       <range>PUA-51</range>
       <desc>LATIN SMALL LETTER D WITH CURL</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -13156,7 +13666,9 @@
       <range>PUA-51</range>
       <desc>LATIN CAPITAL LETTER E UNCIAL FORM</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -13164,7 +13676,9 @@
       <range>PUA-51</range>
       <desc>LATIN CAPITAL LETTER CLOSED E UNCIAL FORM</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -13172,7 +13686,9 @@
       <range>PUA-51</range>
       <desc>LATIN SMALL LETTER E UNCIAL FORM</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -13180,7 +13696,9 @@
       <range>PUA-51</range>
       <desc>LATIN SMALL LETTER E EXTENDED BAR FORM</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -13188,7 +13706,9 @@
       <range>PUA-51</range>
       <desc>LATIN SMALL LETTER E TALL FORM</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -13196,7 +13716,9 @@
       <range>PUA-51</range>
       <desc>LATIN SMALL LETTER F WITH CURL</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -13204,7 +13726,9 @@
       <range>PUA-51</range>
       <desc>LATIN SMALL LETTER CLOSED INSULAR F</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -13212,7 +13736,9 @@
       <range>PUA-51</range>
       <desc>LATIN SMALL LETTER SEMI-CLOSED INSULAR F</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -13220,7 +13746,9 @@
       <range>PUA-51</range>
       <desc>LATIN SMALL LETTER INSULAR F WITH DOTTED HOOKS</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -13228,7 +13756,9 @@
       <range>PUA-51</range>
       <desc>LATIN CAPITAL LETTER G SQUARE FORM</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -13236,7 +13766,9 @@
       <range>PUA-51</range>
       <desc>LATIN SMALL LETTER G WITH CURL</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -13244,7 +13776,9 @@
       <range>PUA-51</range>
       <desc>LATIN SMALL LETTER G WITH SEPARATE LOOPS</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -13252,7 +13786,9 @@
       <range>PUA-51</range>
       <desc>LATIN SMALL LETTER CLOSED G WITH LARGE LOWER LOOP</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -13260,7 +13796,9 @@
       <range>PUA-51</range>
       <desc>LATIN SMALL LETTER CLOSED G WITH SMALL LOWER LOOP</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -13268,7 +13806,9 @@
       <range>PUA-51</range>
       <desc>LATIN CAPITAL LETTER UNCIAL H</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -13276,7 +13816,9 @@
       <range>PUA-51</range>
       <desc>LATIN SMALL LETTER H WITH RIGHT DESCENDER</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -13284,7 +13826,9 @@
       <range>PUA-51</range>
       <desc>LATIN SMALL LETTER LONG I</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -13292,7 +13836,9 @@
       <range>PUA-51</range>
       <desc>LATIN SMALL LETTER K WITH CURL</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -13300,7 +13846,9 @@
       <range>PUA-51</range>
       <desc>LATIN LETTER UNCIAL K</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -13308,7 +13856,9 @@
       <range>PUA-51</range>
       <desc>LATIN SMALL LETTER K CLOSED FORM</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -13316,7 +13866,9 @@
       <range>PUA-51</range>
       <desc>LATIN SMALL LETTER K SEMI-CLOSED FORM</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -13324,7 +13876,9 @@
       <range>PUA-51</range>
       <desc>LATIN SMALL LETTER L DESCENDING</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -13332,7 +13886,9 @@
       <range>PUA-51</range>
       <desc>LATIN CAPITAL LETTER UNCIAL M</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -13340,7 +13896,9 @@
       <range>PUA-51</range>
       <desc>LATIN SMALL LETTER M WITH RIGHT DESCENDER</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -13348,7 +13906,9 @@
       <range>PUA-51</range>
       <desc>LATIN CAPITAL LETTER UNCIAL M WITH RIGHT DESCENDER</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -13356,7 +13916,9 @@
       <range>PUA-51</range>
       <desc>LATIN MEDIUSCULE LETTER M UNCIAL FORM</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -13364,7 +13926,9 @@
       <range>PUA-51</range>
       <desc>LATIN SMALL LETTER UNCIAL M WITH RIGH DESCENDER</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -13372,7 +13936,9 @@
       <range>PUA-51</range>
       <desc>LATIN SMALL LETTER M UNCIAL FORM</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -13380,7 +13946,9 @@
       <range>PUA-51</range>
       <desc>LATIN SMALL LETTER M UNCIAL FORM WITH RIGHT DESCENDER</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -13388,7 +13956,9 @@
       <range>PUA-51</range>
       <desc>LATIN SMALL LETTER N WITH FLOURISH</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -13396,7 +13966,9 @@
       <range>PUA-51</range>
       <desc>LATIN SMALL LETTER N WITH RIGHT DESCENDER</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -13404,7 +13976,9 @@
       <range>PUA-51</range>
       <desc>LATIN CAPITAL LETTER N WITH RIGHT DESCENDER</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -13412,7 +13986,9 @@
       <range>PUA-51</range>
       <desc>LATIN LETTER SMALL CAPITAL N WITH RIGHT DESCENDER</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -13420,7 +13996,9 @@
       <range>PUA-51</range>
       <desc>LATIN LETTER SMALL CAPITAL N WITH LEFT DESCENDER</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -13428,7 +14006,9 @@
       <range>PUA-51</range>
       <desc>LATIN CAPITAL LETTER Q WITH STEM</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -13436,7 +14016,9 @@
       <range>PUA-51</range>
       <desc>LATIN SMALL LETTER R WITH FLOURISH</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -13444,7 +14026,9 @@
       <range>PUA-51</range>
       <desc>LATIN CAPITAL LETTER S CLOSED FORM</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -13452,7 +14036,9 @@
       <range>PUA-51</range>
       <desc>LATIN SMALL LETTER LONG S DESCENDING</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -13460,7 +14046,9 @@
       <range>PUA-51</range>
       <desc>LATIN SMALL LETTER S CLOSED FORM</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -13468,7 +14056,9 @@
       <range>PUA-51</range>
       <desc>LATIN SMALL LETTER T WITH CURL</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -13476,7 +14066,9 @@
       <range>PUA-51</range>
       <desc/>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -13484,7 +14076,9 @@
       <range>PUA-51</range>
       <desc>LATIN SMALL LETTER Y WITH RIGHT MAIN STROKE</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -13492,7 +14086,9 @@
       <range>PUA-6</range>
       <desc>COMBINING ABBREVIATION MARK SUPERSCRIPT UR ROUND R FORM</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -13500,7 +14096,9 @@
       <range>PUA-6</range>
       <desc>COMBINING ABBREVIATION MARK BAR ABOVE WITH DOT</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -13508,7 +14106,9 @@
       <range>PUA-6</range>
       <desc>COMBINING ABBREVIATION MARK SUPERSCRIPT RA OPEN A FORM WITH BAR ABOVE</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -13516,7 +14116,9 @@
       <range>PUA-6</range>
       <desc>COMBINING ABBREVIATION MARK SUPERSCRIPT UR LEMNISKATE FORM</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -13524,7 +14126,9 @@
       <range>PUA-6</range>
       <desc>COMBINING CURL HIGH POSITION</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -13532,7 +14136,9 @@
       <range>PUA-6</range>
       <desc>COMBINING ABBREVIATION MARK ZIGZAG ABOVE ANGLE FORM</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -13540,7 +14146,9 @@
       <range>PUA-6</range>
       <desc>COMBINING ABBREVIATION MARK ZIGZAG ABOVE CURLY FORM</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -13548,7 +14156,9 @@
       <range>PUA-6</range>
       <desc>COMBINING DOT ABOVE HIGH POSITION</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -13556,7 +14166,9 @@
       <range>PUA-6</range>
       <desc>COMBINING CURLY BAR ABOVE</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -13564,7 +14176,9 @@
       <range>PUA-6</range>
       <desc>COMBINING TRIPLE BREVE BELOW</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -13572,7 +14186,9 @@
       <range>PUA-7</range>
       <desc>COMBINING M UNCIAL FORM</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -13580,7 +14196,9 @@
       <range>PUA-7</range>
       <desc>COMBINING LATIN SMALL LETTER B</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -13588,7 +14206,9 @@
       <range>PUA-7</range>
       <desc>COMBINING LATIN LETTER SMALL CAPITAL B</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -13596,7 +14216,9 @@
       <range>PUA-7</range>
       <desc>COMBINING LATIN LETTER SMALL CAPITAL D</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -13604,7 +14226,9 @@
       <range>PUA-7</range>
       <desc>COMBINING LATIN SMALL LETTER F</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -13612,7 +14236,9 @@
       <range>PUA-7</range>
       <desc>COMBINING LATIN LETTER SMALL CAPITAL K</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -13620,7 +14246,9 @@
       <range>PUA-7</range>
       <desc>COMBINING LATIN SMALL LETTER P</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -13628,7 +14256,9 @@
       <range>PUA-7</range>
       <desc>COMBINING LATIN LETTER SMALL CAPITAL T</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -13636,7 +14266,9 @@
       <range>PUA-7</range>
       <desc>COMBINING LATIN SMALL LETTER Y</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -13644,7 +14276,9 @@
       <range>PUA-7</range>
       <desc>COMBINING LATIN SMALL LETTER DOTLESS I</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -13652,7 +14286,9 @@
       <range>PUA-7</range>
       <desc>COMBINING LATIN SMALL LETTER J</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -13660,7 +14296,9 @@
       <range>PUA-7</range>
       <desc>COMBINING LATIN SMALL LETTER DOTLESS J</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -13668,7 +14306,9 @@
       <range>PUA-7</range>
       <desc>COMBINING LATIN LETTER SMALL O WITH STROKE</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -13676,7 +14316,9 @@
       <range>PUA-7</range>
       <desc>COMBINING LATIN SMALL LETTER Q</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -13700,7 +14342,9 @@
       <range>PUA-7</range>
       <desc>COMBINING LATIN SMALL LIGATURE A SMALL CAPITAL N</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -13708,7 +14352,9 @@
       <range>PUA-7</range>
       <desc>COMBINING LATIN LETTER T ROTUNDA</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -13716,7 +14362,9 @@
       <range>PUA-7</range>
       <desc>COMBINING LATIN SMALL LETTER W</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -13724,7 +14372,9 @@
       <range>PUA-7</range>
       <desc>COMBINING LATIN SMALL LETTER THORN</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -13732,7 +14382,9 @@
       <range>PUA-7</range>
       <desc>COMBINING LATIN SMALL LETTER O R ROTUNDA</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -13740,7 +14392,9 @@
       <range>PUA-7</range>
       <desc>COMBINING LATIN SMALL LETTER O RUM</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -13748,7 +14402,9 @@
       <range>PUA-7</range>
       <desc>COMBINING LATIN SMALL LETTER RUM</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -13756,7 +14412,9 @@
       <range>PUA-7</range>
       <desc>COMBINING LATIN SMALL LIGATURE A SMALL CAPITAL R</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -13764,7 +14422,9 @@
       <range>PUA-7</range>
       <desc>COMBINING LATIN SMALL LETTER E WITH OGONEK</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -13772,7 +14432,9 @@
       <range>PUA-7</range>
       <desc>COMBINING LATIN SMALL LETTER E WITH MACRON</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -13780,7 +14442,9 @@
       <range>PUA-7</range>
       <desc>COMBINING LATIN SMALL LETTER O WITH OGONEK</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -13788,7 +14452,9 @@
       <range>PUA-7</range>
       <desc>COMBINING LATIN SMALL LETTER O WITH MACRON</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -13796,7 +14462,9 @@
       <range>PUA-8</range>
       <desc>PUNCTUS INTERROGATIVUS</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -13804,7 +14472,9 @@
       <range>PUA-8</range>
       <desc>PUNCTUS ELEVATUS</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -13812,7 +14482,9 @@
       <range>PUA-8</range>
       <desc>MEDIEVAL COMMA</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -13820,7 +14492,9 @@
       <range>PUA-8</range>
       <desc>PARAGRAPHUS</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -13828,7 +14502,9 @@
       <range>PUA-8</range>
       <desc>COMMA POSITURA</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -13836,7 +14512,9 @@
       <range>PUA-8</range>
       <desc>HIGH COMMA POSITURA (SIMPLEX DUCTUS)</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -13844,7 +14522,9 @@
       <range>PUA-8</range>
       <desc>PUNCTUS WITH COMMA POSITURA</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -13852,7 +14532,9 @@
       <range>PUA-8</range>
       <desc>COLON WITH MIDDLE COMMA POSITURA</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -13860,7 +14542,9 @@
       <range>PUA-8</range>
       <desc>THREE DOTS WITH COMMA POSITURA</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -13868,7 +14552,9 @@
       <range>PUA-8</range>
       <desc>PUNCTUS EXCLAMATIVUS</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -13876,7 +14562,9 @@
       <range>PUA-8</range>
       <desc>PUNCTUS INTERROGATIVUS HORIZONTAL TILDE</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -13884,7 +14572,9 @@
       <range>PUA-8</range>
       <desc>PUNCTUS VERSUS</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -13892,7 +14582,9 @@
       <range>PUA-8</range>
       <desc>SIGNE DE RENVOI</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -13900,7 +14592,9 @@
       <range>PUA-8</range>
       <desc>PUNCTUS ELEVATUS DIAGONAL STROKE</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -13908,7 +14602,9 @@
       <range>PUA-8</range>
       <desc>PUNCTUS INTERROGATIVUS LEMNISKATE FORM</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -13916,7 +14612,9 @@
       <range>PUA-8</range>
       <desc>TWO DOTS OVER COMMA POSITURA</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -13924,7 +14622,9 @@
       <range>PUA-8</range>
       <desc>VIRGULA SUSPENSIVA</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -13932,7 +14632,9 @@
       <range>PUA-8</range>
       <desc>PUNCTUS FLEXUS</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -13940,7 +14642,9 @@
       <range>PUA-8</range>
       <desc>SHORT VIRGULA</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -13948,7 +14652,9 @@
       <range>PUA-8</range>
       <desc>DISTINCTIO</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -13956,7 +14662,9 @@
       <range>PUA-8</range>
       <desc>WAVY LINE</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -13964,7 +14672,9 @@
       <range>PUA-8</range>
       <desc>PUNCTUS ELEVATUS WITH HIGH BACK</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -13972,7 +14682,9 @@
       <range>PUA-8</range>
       <desc>PUNCTUS ELEVATUS WITH ONSET</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -13980,7 +14692,9 @@
       <range>PUA-8</range>
       <desc>TRIPLE DAGGER</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -13988,7 +14702,9 @@
       <range>PUA-9</range>
       <desc>MIDDLE RING</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>
@@ -13996,7 +14712,9 @@
       <range>PUA-9</range>
       <desc>PALM BRANCH</desc>
       <rule></rule>
-      <rule></rule>
+      <rule>
+                                            debug
+                                            </rule>
       <rule></rule>
       <type>level</type>
    </ruleset>

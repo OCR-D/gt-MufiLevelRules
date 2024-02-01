@@ -1,1 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?><levelrules><ruleset><range>PUA-2</range><desc>LATIN LETTER SMALL CAPITAL Q</desc><rule></rule><rule></rule><rule></rule><type>level</type></ruleset><ruleset><range>PUA-2</range><desc>LATIN LETTER SMALL CAPITAL X</desc><rule></rule><rule></rule><rule></rule><type>level</type></ruleset><ruleset><range>PUA-2</range><desc>LATIN LETTER SMALL CAPITAL THORN</desc><rule></rule><rule></rule><rule></rule><type>level</type></ruleset></levelrules>
+<?xml version="1.0" encoding="UTF-8"?><levelrules><ruleset><range>PUA-2</range><desc>LATIN LETTER SMALL CAPITAL Q</desc><rule></rule><rule>
+                                            debug
+                                            </rule><rule></rule><type>level</type></ruleset><ruleset><range>PUA-2</range><desc>LATIN LETTER SMALL CAPITAL X</desc><rule></rule><rule>
+                                            debug
+                                            </rule><rule></rule><type>level</type></ruleset><ruleset><range>PUA-2</range><desc>LATIN LETTER SMALL CAPITAL THORN</desc><rule></rule><rule>
+                                            debug
+                                            </rule><rule></rule><type>level</type></ruleset></levelrules>
