@@ -347,9 +347,7 @@
                                                             <crule/>
                                                         </xsl:when>
                                                         <xsl:otherwise>
-                                                            <orule/>
-                                                            <xsl:value-of select="$mufi"/>
-                                                            <crule/>
+                                                            <orule/><crule/>
                                                         </xsl:otherwise>
                                                     </xsl:choose>
                                                 </xsl:when>
@@ -361,7 +359,9 @@
                                                             <crule/>
                                                         </xsl:when>
                                                         <xsl:otherwise>
-                                                            <orule/><crule/>
+                                                            <orule/>
+                                                            <xsl:value-of select="$mufic2"/>
+                                                            <crule/>
                                                         </xsl:otherwise>
                                                     </xsl:choose>
                                                 </xsl:otherwise>
