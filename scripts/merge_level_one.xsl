@@ -48,7 +48,7 @@
                     <xsl:when test="$megadesc = $excep//exception/desc[@t = 'BasLat']"/>
                     <xsl:when test="$megadesc = $excep//exception/desc[@t = 'GenPunct']"/>
                     <xsl:when test="$megadesc = $excep//exception/desc[@t = 'Lat1Suppl']"/>
-                    <xsl:when test="$megadesc = $excep//exception/desc[@t = 'GeomShap']"/>
+                    <!--<xsl:when test="$megadesc = $excep//exception/desc[@t = 'GeomShap']"/>-->
                     <xsl:otherwise>
                         <ruleset>
                             <xsl:copy-of select="range"/>
