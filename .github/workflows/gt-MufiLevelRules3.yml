@@ -1,0 +1,110 @@
+name: gt-MufiLevelRules
+on:
+  push:
+    tags:
+      - 'x[0-9]+.[0-9]+.[0-9]+'
+  workflow_dispatch:
+jobs:
+  cli:
+    name: gt-MufiLevelRules
+    runs-on: ubuntu-latest
+    steps:
+
+    - name: Git checkout
+      uses: actions/checkout@v3
+
+
+    # Instalations Styles
+      
+    - name: install anaylse xsl-styles
+      run: | 
+        git clone https://github.com/tboenig/keyboardGT.git
+        mv keyboardGT/metadata/mufi.json metadata/mufi.json
+        mv keyboardGT/scripts/table_hide.css scripts/table_hide.css
+        mv keyboardGT/scripts/_config.yml scripts/_config.yml
+        cd metadata
+        ls -l
+        cd ..
+        rm -r keyboardGT
+   
+   
+   # Installation and Directories
+
+    - name: Download and install saxon
+      run: |
+       wget https://sourceforge.net/projects/saxon/files/Saxon-HE/11/Java/SaxonHE11-4J.zip/download
+       unzip download
+
+
+    - name: Make gh-pages_out, rules
+      run: |
+        ls -l
+        mkdir ghout
+        mkdir ghout/rules
+        mkdir ghout/rules/characters
+        cp README.md ghout/index.md
+        
+
+   # Transformation and analysis
+
+    - name: Transform MUFI snapshot to rules 
+      run: |
+        java -jar saxon-he-11.4.jar -xsl:scripts/MufiGTLevelRules2.xsl -s:scripts/MufiGTLevelRules.xsl output=characters merge=yes
+      shell: bash
+
+    - name: look
+      run: |
+        cd ghout
+        cd rules
+        cd characters
+        ls -l
+      shell: bash  
+
+   # GH-style
+
+    - name: Copy css styles, config files
+      run:  |
+        cp scripts/table_hide.css ghout/
+        cp scripts/_config.yml ghout/
+        
+
+
+
+    - name: Archive the rules files
+      uses: thedoctor0/zip-release@master
+      with:
+         filename: rules.zip
+         path: 'ghout/rules/characters'
+
+   # GitHub release
+
+   # - name: Create GitHub release
+   #   id: create-new-release
+   #   uses: actions/create-release@v1
+   #   env:
+   #       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+   #   with:
+   #       tag_name: v${{ github.run_number }}_${{ github.ref_name }}
+   #       release_name: OCR-D-Rules-zip-package (Release${{ github.run_number }})
+   #       body_path: CHANGELOG.md
+   #       draft: false
+   #       prerelease: false
+
+
+   # - name: Upload asset to GitHub release
+   #   uses: actions/upload-release-asset@v1
+   #   env:
+   #       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+   #   with:
+   #       upload_url: ${{ steps.create-new-release.outputs.upload_url }}
+   #       asset_path: ./rules.zip
+   #       asset_name: OCR-D-Rules-v${{ github.run_number }}.zip
+   #       asset_content_type: application/zip
+
+
+    - name: Deploy GT-Overview to GitHub Pages
+      uses: JamesIves/github-pages-deploy-action@v4
+      with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          branch: gh-pages # The branch the action should deploy to.
+          folder: ghout # The folder the action should deploy.
