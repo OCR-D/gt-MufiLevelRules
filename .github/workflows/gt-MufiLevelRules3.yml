@@ -75,7 +75,7 @@ jobs:
         cd scripts
         unicruft -D level_one.xml > norm_level_one.xml
         cd ..
-        java -jar saxon-he-11.4.jar -xsl:scripts/merge_level_one.xsl -s:scripts/norm_level_one.xml -o:../ghout/rules/megalevelrules.xml
+        java -jar saxon-he-11.4.jar -xsl:scripts/merge_level_one.xsl -s:scripts/norm_level_one.xml -o:ghout/rules/megalevelrules.xml
       shell: bash  
 
    # GH-style
