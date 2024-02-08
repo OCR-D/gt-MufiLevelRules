@@ -1129,6 +1129,22 @@
    </ruleset>
    <ruleset>
       <range>GenPunct</range>
+      <desc>SINGLE LEFT-POINTING ANGLE QUOTATION MARK</desc>
+      <rule>&lt;</rule>
+      <rule>‹</rule>
+      <rule>‹</rule>
+      <type>level</type>
+   </ruleset>
+   <ruleset>
+      <range>GenPunct</range>
+      <desc>SINGLE RIGHT-POINTING ANGLE QUOTATION MARK</desc>
+      <rule>&gt;</rule>
+      <rule>›</rule>
+      <rule>›</rule>
+      <type>level</type>
+   </ruleset>
+   <ruleset>
+      <range>GenPunct</range>
       <desc>FRACTION SLASH</desc>
       <rule>/</rule>
       <rule>⁄</rule>
