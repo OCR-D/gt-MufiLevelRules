@@ -23,8 +23,8 @@
             <xsl:otherwise>
                 <l1><xsl:attribute name="t"><xsl:value-of select="desc"/></xsl:attribute>
                 <xsl:choose>
-                    <xsl:when test="rule[1] = '&lt;'">&lt;</xsl:when>
-                    <xsl:when test="rule[1] = '>'">&gt;</xsl:when>
+                    <xsl:when test="desc = 'SINGLE LEFT-POINTING ANGLE QUOTATION MARK'">&lt;</xsl:when>
+                    <xsl:when test="desc = 'SINGLE RIGHT-POINTING ANGLE QUOTATION MARK'">&gt;</xsl:when>
                 <xsl:otherwise><xsl:value-of select="rule[1]"/></xsl:otherwise>
                 </xsl:choose></l1>
             </xsl:otherwise>
