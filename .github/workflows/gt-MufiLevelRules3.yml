@@ -74,6 +74,7 @@ jobs:
         java -jar saxon-he-11.4.jar -xsl:scripts/make_level_one.xsl -s:scripts/megalevelrules.xml -o:scripts/level_one.xml
         cd scripts
         unicruft -D level_one.xml > norm_level_one.xml
+        less norm_level_one.xml
         cd ..
         java -jar saxon-he-11.4.jar -xsl:scripts/merge_level_one.xsl -s:scripts/merge_level_one.xsl -o:ghout/rules/megalevelrules.xml
       shell: bash  
