@@ -22,10 +22,10 @@ jobs:
         gunzip *.gz
         tar -xvf *tar
         cd unicruft-0.24
-        sudo ldconfig
-        sudo sh ./configure
-        sudo make
+        sh ./configure
+        make
         sudo make install
+        sudo ldconfig
         unicruft --help
 
     
