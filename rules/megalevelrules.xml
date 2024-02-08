@@ -961,14 +961,6 @@
    </ruleset>
    <ruleset>
       <range>GenPunct</range>
-      <desc>EM QUAD</desc>
-      <rule> </rule>
-      <rule> </rule>
-      <rule> </rule>
-      <type>level</type>
-   </ruleset>
-   <ruleset>
-      <range>GenPunct</range>
       <desc>BULLET</desc>
       <rule>•</rule>
       <rule>•</rule>
@@ -1253,6 +1245,46 @@
       <rule/>
       <rule>⁜</rule>
       <rule>⁜</rule>
+      <type>level</type>
+   </ruleset>
+   <ruleset>
+      <range>GeomShap</range>
+      <desc>BLACK SMALL SQUARE</desc>
+      <rule>▪</rule>
+      <rule>▪</rule>
+      <rule>▪</rule>
+      <type>level</type>
+   </ruleset>
+   <ruleset>
+      <range>GeomShap</range>
+      <desc>WHITE SMALL SQUARE</desc>
+      <rule>▫</rule>
+      <rule>▫</rule>
+      <rule>▫</rule>
+      <type>level</type>
+   </ruleset>
+   <ruleset>
+      <range>GeomShap</range>
+      <desc>WHITE RIGHT-POINTING SMALL TRIANGLE</desc>
+      <rule>▹</rule>
+      <rule>▹</rule>
+      <rule>▹</rule>
+      <type>level</type>
+   </ruleset>
+   <ruleset>
+      <range>GeomShap</range>
+      <desc>WHITE LEFT-POINTING SMALL TRIANGLE</desc>
+      <rule>◃</rule>
+      <rule>◃</rule>
+      <rule>◃</rule>
+      <type>level</type>
+   </ruleset>
+   <ruleset>
+      <range>GeomShap</range>
+      <desc>DOTTED CIRCLE</desc>
+      <rule/>
+      <rule/>
+      <rule/>
       <type>level</type>
    </ruleset>
    <ruleset>
