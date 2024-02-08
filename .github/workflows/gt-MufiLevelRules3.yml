@@ -2,7 +2,7 @@ name: gt-MufiLevelRules
 on:
   push:
     tags:
-      - 'x[0-9]+.[0-9]+.[0-9]+'
+      - 'm[0-9]+.[0-9]+.[0-9]+'
   workflow_dispatch:
 jobs:
   cli:
@@ -14,6 +14,22 @@ jobs:
       uses: actions/checkout@v3
 
 
+    # Instalations Unicruft
+
+    -name: install unicruft
+     run: |
+        cd unicruft
+        gunzip *.gz
+        tar -xvf *tar
+        sudo ldconfig
+        sudo sh ./configure
+        sudo make
+        sudo make install
+        unicruft --help
+
+    
+    
+    
     # Instalations Styles
       
     - name: install anaylse xsl-styles
