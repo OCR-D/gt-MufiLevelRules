@@ -4,9 +4,13 @@
     <!--BasLat-->
     <desc t="BasLat">SPACE</desc>
     <desc t="BasLat">DELETE</desc>
+    
 
+    
 
     <!-- GenPunct -->
+    <desc t="GenPunct">SINGLE LEFT-POINTING ANGLE QUOTATION MARK</desc>
+    <desc t="GenPunct">SINGLE RIGHT-POINTING ANGLE QUOTATION MARK</desc>
     <desc t="GenPunct">EN SPACE</desc>
     <desc t="GenPunct">EM SPACE</desc>
     <desc t="GenPunct">EN QUAD</desc>
