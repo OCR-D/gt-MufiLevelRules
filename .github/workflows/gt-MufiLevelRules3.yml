@@ -26,7 +26,7 @@ jobs:
         make
         sudo make install
         sudo ldconfig
-        unicruft --help
+        
 
     
     
@@ -69,12 +69,13 @@ jobs:
         java -jar saxon-he-11.4.jar -xsl:scripts/MufiGTLevelRules2.xsl -s:scripts/MufiGTLevelRules.xsl output=characters merge=yes
       shell: bash
 
-    - name: look
+    - name: normalize Megarules
       run: |
-        cd ghout
-        cd rules
-        cd characters
-        ls -l
+        java -jar saxon-he-11.4.jar -xsl:scripts/make_level_one.xsl -s:scripts/megalevelrules.xml -o:scripts/level_one.xml
+        cd scripts
+        unicruft -D level_one.xml > norm_level_one.xml
+        cd ..
+        java -jar saxon-he-11.4.jar -xsl:scripts/merge_level_one.xsl -s:scripts/norm_level_one.xml -o:../ghout/rules/megalevelrules.xml
       shell: bash  
 
    # GH-style

@@ -61,7 +61,7 @@
             <xsl:call-template name="char"/>
         </xsl:if>
         <xsl:if test="$merge = 'yes'">
-            <xsl:result-document format="xml_out" href="ghout/rules/megalevelrules.xml">
+            <xsl:result-document format="xml_out" href="scripts/megalevelrules.xml">
                 <xsl:element name="levelrules">
                     <xsl:merge>
                         <xsl:merge-source
