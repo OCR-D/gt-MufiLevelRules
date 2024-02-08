@@ -15,7 +15,7 @@
     <xsl:param name="bagitDumpNum"/>
     <xsl:param name="releaseTag"/>
     <xsl:param name="rulesetxml">megalevelrules.xml</xsl:param>
-    <xsl:param name="levelsetxml">level_one.xml</xsl:param>
+    <xsl:param name="levelsetxml">norm_level_one.xml</xsl:param>
     <xsl:param name="rulesetPath">.</xsl:param>
     <xsl:param name="exception">exception.xml</xsl:param>
 
