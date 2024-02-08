@@ -22,14 +22,11 @@
             <xsl:when test="desc = $excep//exception/desc"/>
             <xsl:otherwise>
                 <l1><xsl:attribute name="t"><xsl:value-of select="desc"/></xsl:attribute>
-<xsl:variable name="deb">
-<xsl:choose>
-    <xsl:when test="rule[1] = '&lt;'">&lt;</xsl:when>
-    <xsl:when test="rule[1] = '>'">&gt;</xsl:when>
-<xsl:otherwise><xsl:value-of select="rule[1]"/></xsl:otherwise>
-</xsl:choose></xsl:variable>
-                    <xsl:message select="$deb"/>
-                    <xsl:value-of select="rule[1]"/></l1>
+                <xsl:choose>
+                    <xsl:when test="rule[1] = '&lt;'">&lt;</xsl:when>
+                    <xsl:when test="rule[1] = '>'">&gt;</xsl:when>
+                <xsl:otherwise><xsl:value-of select="rule[1]"/></xsl:otherwise>
+                </xsl:choose></l1>
             </xsl:otherwise>
         </xsl:choose>
 
