@@ -53,6 +53,9 @@ The script uses:
 
 
 ## Description of the rules
+
+### JSON Format
+
 All JSON files (both the pure MUFI rules and the final result) follow the same schema.
 
 **Example:**
@@ -72,6 +75,37 @@ All JSON files (both the pure MUFI rules and the final result) follow the same s
   - Level 3 is in the third place
 - Additional key-value combinations: ...
 - Character values can be empty to signify there is no definition (representation) at that level.
+
+
+### XML Format
+
+```XML
+<levelrules>
+    <ruleset>
+        <range>AlphPresForm</range>
+        <desc>LATIN SMALL LIGATURE FF</desc>
+        <rule>ff</rule>
+        <rule>ff</rule>
+        <rule>ﬀ</rule>
+        <type>level</type>
+    </ruleset>
+</levelrules>
+```
+ - **Elements**
+  - `<levelrules>` = root element of a gt-MufiLevelRules dataset
+    - `<ruleset>`  = root element of a ruleset
+        - `<range>` = category of characters
+        - `<desc>`  = general description of the sign or symbol
+        - `<rule>`
+          - Level 1: rule[position() = 1]
+          - Level 2: rule[position() = 2]
+          - Level 3: rule[position() = 3]
+
+The category of characters `<range>` and the general description of the sign or symbol `<desc>` were imported from the MUFI dataset. 
+
+The JSONPaths are:
+ - range : `$['..']['range']`
+ - desc  : `$['..']['description']`
 
 ## See Also
 
