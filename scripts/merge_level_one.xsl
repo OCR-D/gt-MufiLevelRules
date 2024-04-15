@@ -35,6 +35,7 @@
 
 
     <xsl:template match="/">
+        <xsl:text>&lt;?xml version="1.0" encoding="UTF-8"?&gt;</xsl:text>
         <levelrules>
 
             <xsl:for-each select="$ruleset//ruleset">
