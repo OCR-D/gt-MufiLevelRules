@@ -7,7 +7,7 @@
     xmlns:in="http://www.intern.de" xmlns:gt="http://www.ocr-d.de/GT/"
     xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
     xmlns:ns3="http://www.loc.gov/METS/" exclude-result-prefixes="#all" version="3.0">
-    <xsl:output indent="yes" omit-xml-declaration="yes" method="xml"/>
+    <xsl:output indent="yes" omit-xml-declaration="no" method="xml"/>
 
 
     <xsl:param name="repoName"/>
