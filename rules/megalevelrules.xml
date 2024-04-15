@@ -1,4 +1,4 @@
-&lt;?xml version="1.0" encoding="UTF-8"?&gt;<levelrules>
+<?xml version="1.0" encoding="UTF-8"?>&lt;?xml version="1.0" encoding="UTF-8"?&gt;<levelrules>
    <ruleset>
       <range>AlphPresForm</range>
       <desc>LATIN SMALL LIGATURE FF</desc>
