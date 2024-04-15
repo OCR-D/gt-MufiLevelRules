@@ -110,6 +110,6 @@ The JSONPaths are:
 ## See Also
 
 - MUFI: The Medieval Unicode Font Initiative https://mufi.info/
-- MUFI's data as JSON export https://mufi.info/m.php?p=mufiexport
+- MUFI's data as JSON export https://gefin.ku.dk/q.php?q=mufiexport
 - OCR-D Ground Truth Transcription Guidelines  https://ocr-d.de/en/gt-guidelines/trans/
 - Ground Truth level overview https://ocr-d.de/en/gt-guidelines/trans/trLevels.html
