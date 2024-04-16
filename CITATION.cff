@@ -12,8 +12,8 @@ repository-code: 'https://github.com/tboenig/gt-MufiLevelRules'
 url: 'https://tboenig.github.io/gt-MufiLevelRules/'
 abstract: >-
   Creates OCR-D Ground-Truth Transcription Level Rules
-  automatically from the encodings published by MUFI: The
-  Medieval Unicode Font Initiative.
+  automatically from the encodings published by the
+  Medieval Unicode Font Initiative (MUFI).
 
   The generated OCR-D level rules conform to the OCR-D
   specification. These rules can be used for substitutions
