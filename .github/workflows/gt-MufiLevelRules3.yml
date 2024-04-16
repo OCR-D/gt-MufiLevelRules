@@ -90,6 +90,8 @@ jobs:
     - name: Copy rules Directory
       run:
           cp -r ghout/rules .   
+    
+    
 
 
     - name: Archive the rules files
@@ -98,7 +100,13 @@ jobs:
         filename: OCR-D-Rules-v${{ github.run_number }}.zip
         path: 'rules'
   
-    
+    - name: view
+      run: |
+         pwd
+         ls
+
+
+
     - name: Upload Release
       uses: ncipollo/release-action@v1
       with:
