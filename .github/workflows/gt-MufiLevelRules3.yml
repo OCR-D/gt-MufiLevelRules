@@ -127,7 +127,7 @@ jobs:
     - name: Upload Release
       uses: ncipollo/release-action@v1
       with:
-          artifacts: 'ocrdzip_out/*.zip'
+          artifacts: 'ghout/rules/*.zip'
           artifactContentType: application/zip
           name: Release ${{ github.run_number }}_${{ github.ref_name }}
           body: |
