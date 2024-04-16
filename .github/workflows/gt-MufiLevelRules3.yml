@@ -92,7 +92,7 @@ jobs:
       uses: thedoctor0/zip-release@master
       with:
         filename: rules.zip
-        path: 'ghout/rules/characters'
+        path: 'ghout/rules'
   
     
   
