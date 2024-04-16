@@ -103,7 +103,7 @@ jobs:
       with:
         cmd: |
           yq -I4 rawCITATION.cff > CITATION2.cff
-          rm rawCITATION.cff    
+             
    
    
       # GH-style
@@ -174,7 +174,7 @@ jobs:
       run: |
           git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add CITATION2.cff
+          git add rawCITATION.cff
           git commit -m "[Automatic] Update CITATION.cff files" || echo "Nothing to update"
           git push origin HEAD:main
    
