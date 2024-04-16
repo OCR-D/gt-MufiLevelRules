@@ -92,7 +92,7 @@ jobs:
       uses: thedoctor0/zip-release@master
       with:
          filename: rules.zip
-         path: 'ghout/rules/characters'
+         path: 'ghout/rules'
 
    # GitHub release
 
@@ -118,6 +118,52 @@ jobs:
    #       asset_path: ./rules.zip
    #       asset_name: OCR-D-Rules-v${{ github.run_number }}.zip
    #       asset_content_type: application/zip
+
+####
+
+
+              
+              
+    - name: Upload Release
+      uses: ncipollo/release-action@v1
+      with:
+          artifacts: 'ocrdzip_out/*.zip'
+          artifactContentType: application/zip
+          name: Release ${{ github.run_number }}_${{ github.ref_name }}
+          body: |
+            <dl>
+            <dt>Version:</dt> 
+            <dd>${{ github.ref_name }}</dd>
+            <dt>Info:</dt>
+            <dd>
+            
+            </dd>
+            </dl>
+            </dl>
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+
+
+
+
+
+                
+
+#####
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
     - name: Deploy GT-Overview to GitHub Pages
