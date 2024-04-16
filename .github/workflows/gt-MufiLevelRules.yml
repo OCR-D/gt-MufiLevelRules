@@ -97,12 +97,12 @@ jobs:
 
 
          
-    - name: formating CITATION.cff
-      id: lookupSdkVersion2
-      uses: mikefarah/yq@master
-      with:
-        cmd: |
-          yq -I4 rawCITATION.cff > CITATION2.cff
+    #- name: formating CITATION.cff
+    #  id: lookupSdkVersion2
+    #  uses: mikefarah/yq@master
+    #  with:
+    #    cmd: |
+    #      yq -I4 rawCITATION.cff > CITATION2.cff
              
    
    
