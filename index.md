@@ -8,7 +8,8 @@ The resulting OCR-D level rules conform to the [OCR-D specification](https://ocr
 These rules can be used for substitutions or level checks, among other things. 
 
 Note:
-- There may not always be a definition for every level, esp. on level 1. OCR-D will try to correct these gaps manually. 
+- There may not always be a definition for every level, esp. on level 1.
+- OCR-D will try to fill in these gaps manually or automatically. The automated completion is based on the [unicruft](https://github.com/tboenig/gt-MufiLevelRules/tree/main/unicruft) program.
 - For this reason, using the rules for automatic character normalization from level 3 or level 2 to level 1
   is currently not recommended before manually checking and correcting the corresponding rules.
 
@@ -53,6 +54,9 @@ The script uses:
 
 
 ## Description of the rules
+
+### JSON Format
+
 All JSON files (both the pure MUFI rules and the final result) follow the same schema.
 
 **Example:**
@@ -73,9 +77,40 @@ All JSON files (both the pure MUFI rules and the final result) follow the same s
 - Additional key-value combinations: ...
 - Character values can be empty to signify there is no definition (representation) at that level.
 
+
+### XML Format
+
+```XML
+<levelrules>
+    <ruleset>
+        <range>AlphPresForm</range>
+        <desc>LATIN SMALL LIGATURE FF</desc>
+        <rule>ff</rule>
+        <rule>ff</rule>
+        <rule>ﬀ</rule>
+        <type>level</type>
+    </ruleset>
+</levelrules>
+```
+ - **Elements**
+  - `<levelrules>` = root element of a gt-MufiLevelRules dataset
+    - `<ruleset>`  = root element of a ruleset
+        - `<range>` = category of characters
+        - `<desc>`  = general description of the sign or symbol
+        - `<rule>`
+          - Level 1: rule[position() = 1]
+          - Level 2: rule[position() = 2]
+          - Level 3: rule[position() = 3]
+
+The category of characters `<range>` and the general description of the sign or symbol `<desc>` were imported from the MUFI dataset. 
+
+The JSONPaths are:
+ - range : `$['..']['range']`
+ - desc  : `$['..']['description']`
+
 ## See Also
 
 - MUFI: The Medieval Unicode Font Initiative https://mufi.info/
-- MUFI's data as JSON export https://mufi.info/m.php?p=mufiexport
+- MUFI's data as JSON export https://gefin.ku.dk/q.php?q=mufiexport
 - OCR-D Ground Truth Transcription Guidelines  https://ocr-d.de/en/gt-guidelines/trans/
 - Ground Truth level overview https://ocr-d.de/en/gt-guidelines/trans/trLevels.html
