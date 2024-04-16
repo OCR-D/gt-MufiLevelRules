@@ -11,9 +11,26 @@ jobs:
     steps:
 
     - name: Git checkout
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
 
 
+    # Instalations Unicruft
+
+    - name: install unicruft
+      run: |
+        cd unicruft
+        gunzip *.gz
+        tar -xvf *tar
+        cd unicruft-0.24
+        sh ./configure
+        make
+        sudo make install
+        sudo ldconfig
+        
+
+    
+    
+    
     # Instalations Styles
       
     - name: install anaylse xsl-styles
@@ -43,21 +60,24 @@ jobs:
         mkdir ghout/rules
         mkdir ghout/rules/characters
         cp README.md ghout/index.md
+
+      
         
 
    # Transformation and analysis
 
     - name: Transform MUFI snapshot to rules 
       run: |
-        java -jar saxon-he-11.4.jar -xsl:scripts/MufiGTLevelRules.xsl -s:scripts/MufiGTLevelRules.xsl output=characters
+        java -jar saxon-he-11.4.jar -xsl:scripts/MufiGTLevelRules2.xsl -s:scripts/MufiGTLevelRules.xsl output=characters merge=yes
       shell: bash
 
-    - name: look
+    - name: normalize Megarules
       run: |
-        cd ghout
-        cd rules
-        cd characters
-        ls -l
+        java -jar saxon-he-11.4.jar -xsl:scripts/make_level_one.xsl -s:scripts/megalevelrules.xml -o:scripts/level_one.xml
+        cd scripts
+        unicruft -D level_one.xml > norm_level_one.xml
+        cd ..
+        java -jar saxon-he-11.4.jar -xsl:scripts/merge_level_one.xsl -s:scripts/merge_level_one.xsl -o:ghout/rules/megalevelrules.xml
       shell: bash  
 
    # GH-style
@@ -67,16 +87,22 @@ jobs:
         cp scripts/table_hide.css ghout/
         cp scripts/_config.yml ghout/
         
-
+    - name: Copy rules Directory
+      run:
+          cp -r ghout/rules .   
+    
+    
 
 
     - name: Archive the rules files
       uses: thedoctor0/zip-release@master
       with:
-         filename: rules.zip
-         path: 'ghout/rules/characters'
+        filename: OCR-D-Rules-v${{ github.run_number }}.zip
+        path: 'rules'
+  
+   
 
-   # GitHub release
+
 
     - name: Create GitHub release
       id: create-new-release
@@ -84,9 +110,24 @@ jobs:
       env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
-          tag_name: v${{ github.run_number }}
+          tag_name: ${{ github.ref_name }}
           release_name: OCR-D-Rules-zip-package (Release${{ github.run_number }})
-          body_path: CHANGELOG.md
+          body: |
+            <dl>
+            <dt>Version:</dt> 
+            <dd>OCR-D-Rules-zip-package (Release${{ github.run_number }}_${{ github.ref_name }})</dd>
+            <dt>Info:</dt>
+            <dd>
+            The file OCR-D-Rules-v${{ github.run_number }}.zip is a zip archive file.<br/>
+            If you wish to use the rules, this file must first be unpacked.<br/><br/>
+            
+            The archive file contains:<br/>
+              <ul><li><b>megarules.xml</b>: This file contains all the Rules in XML format.</li>
+                  <li>In the subdirectory <b>characters</b> of the OCR-D-Rules-v${{ github.run_number }}.zip ZIP archive you will find the corresponding rules divided into character groups or categories.<br/>
+                   The rules are available in JSON or XML format.</li></ul>
+            </dd>
+            </dl>
+            </dl>
           draft: false
           prerelease: false
 
@@ -97,9 +138,17 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
           upload_url: ${{ steps.create-new-release.outputs.upload_url }}
-          asset_path: ./rules.zip
+          asset_path: ./OCR-D-Rules-v${{ github.run_number }}.zip
           asset_name: OCR-D-Rules-v${{ github.run_number }}.zip
           asset_content_type: application/zip
+   
+
+    
+   
+   
+    
+  
+
 
 
     - name: Deploy GT-Overview to GitHub Pages
