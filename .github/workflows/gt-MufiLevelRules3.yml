@@ -60,6 +60,8 @@ jobs:
         mkdir ghout/rules
         mkdir ghout/rules/characters
         cp README.md ghout/index.md
+
+      
         
 
    # Transformation and analysis
@@ -85,20 +87,22 @@ jobs:
         cp scripts/table_hide.css ghout/
         cp scripts/_config.yml ghout/
         
-
+    - name: Copy rules Directory
+      run:
+          cp -r ghout/rules .   
 
 
     - name: Archive the rules files
       uses: thedoctor0/zip-release@master
       with:
         filename: OCR-D-Rules-v${{ github.run_number }}.zip
-        path: 'ghout/rules'
+        path: 'rules'
   
     
     - name: Upload Release
       uses: ncipollo/release-action@v1
       with:
-          artifacts: './*.zip'
+          artifacts: './OCR-D-Rules-v${{ github.run_number }}.zip'
           artifactContentType: application/zip
           name: Release ${{ github.run_number }}_${{ github.ref_name }}
           body: |
