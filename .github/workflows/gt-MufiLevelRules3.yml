@@ -119,11 +119,12 @@ jobs:
             <dt>Info:</dt>
             <dd>
             The file OCR-D-Rules-v${{ github.run_number }}.zip is a zip archive file.<br/>
-            If you wish to use the rules, this file must first be unpacked.<br/>
+            If you wish to use the rules, this file must first be unpacked.<br/><br/>
             
             The archive file contains:<br/>
               <ul><li><b>megarules.xml</b>: This file contains all the Rules in XML format.</li>
-                  <li>In the subdirectory <b>characters</b> of the OCR-D-Rules-v${{ github.run_number }}.zip ZIP archive you will find the corresponding rules divided into character groups or categories. The rules are available in JSON or XML format.</li></ul>
+                  <li>In the subdirectory <b>characters</b> of the OCR-D-Rules-v${{ github.run_number }}.zip ZIP archive you will find the corresponding rules divided into character groups or categories.<br/>
+                   The rules are available in JSON or XML format.</li></ul>
             </dd>
             </dl>
             </dl>
