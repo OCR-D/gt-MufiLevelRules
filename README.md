@@ -8,7 +8,8 @@ The resulting OCR-D level rules conform to the [OCR-D specification](https://ocr
 These rules can be used for substitutions or level checks, among other things. 
 
 Note:
-- There may not always be a definition for every level, esp. on level 1. OCR-D will try to correct these gaps manually. 
+- There may not always be a definition for every level, esp. on level 1.
+- OCR-D will try to fill in these gaps manually or automatically. The automated completion is based on the [unicruft](https://github.com/tboenig/gt-MufiLevelRules/tree/main/unicruft) program.
 - For this reason, using the rules for automatic character normalization from level 3 or level 2 to level 1
   is currently not recommended before manually checking and correcting the corresponding rules.
 
