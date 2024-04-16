@@ -91,7 +91,7 @@ jobs:
     - name: Archive the rules files
       uses: thedoctor0/zip-release@master
       with:
-        filename: rules.zip
+        filename: OCR-D-Rules-v${{ github.run_number }}.zip
         path: 'ghout/rules'
   
     
@@ -115,7 +115,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
           upload_url: ${{ steps.create-new-release.outputs.upload_url }}
-          asset_path: ./rules.zip
+          asset_path: ./OCR-D-Rules-v${{ github.run_number }}.zip
           asset_name: OCR-D-Rules-v${{ github.run_number }}.zip
           asset_content_type: application/zip
   
