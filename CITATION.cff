@@ -5,7 +5,7 @@ type: dataset
 authors:
     - given-names: Matthias
       family-names: Boenig
-      orcid: 'https://orcid.org/https://orcid.org/https://orcid.org/0000-0003-4615-4753'
+      orcid: 'https://orcid.org/0000-0003-4615-4753'
 repository-code: 'https://github.com/OCR-D/gt-MufiLevelRules'
 url: 'https://github.com/OCR-D/gt-MufiLevelRules'
 abstract: Creates OCR-D Ground-Truth Transcription Level Rules automatically from the encodings published by the Medieval Unicode Font Initiative (MUFI). The generated OCR-D level rules conform to the OCR-D specification. These rules can be used for substitutions or level checks, among other things.
