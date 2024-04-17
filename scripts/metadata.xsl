@@ -42,7 +42,7 @@
                 <xsl:if test="fn:string[@key='surname'] | fn:string[@key='family-names'] !=''">
                     family-names: <xsl:value-of select="$combinedValue_surname"/></xsl:if>
                 <xsl:if test="fn:string[@key='orcid'] !=''">
-                    orcid: 'https://orcid.org/<xsl:value-of select="fn:string[@key='orcid']"/>'</xsl:if>
+                    orcid: '<xsl:value-of select="fn:string[@key='orcid']"/>'</xsl:if>
             </xsl:for-each></xsl:if>
     </xsl:variable>cff-version: 1.2.0
 title: <xsl:value-of select="$docMETADATA//fn:map/fn:string[@key='title']"/>
