@@ -15,6 +15,8 @@ keywords:
     - ground-truth
     - level classification
     - level checks
+    - guidelines
+    - transcription
 license: LGPL-3.0
 commit: v1.1.9
 version: 59_v1.1.9
