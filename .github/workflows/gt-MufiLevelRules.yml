@@ -51,8 +51,7 @@ jobs:
    
    # Installation and Directories
 
-    - name: Get SDK Version from config
-      id: lookupSdkVersion
+    - name: transfom yml to json
       uses: mikefarah/yq@master
       with:
         cmd: |
@@ -102,7 +101,6 @@ jobs:
 
          
     - name: formating CITATION.cff
-      id: lookupSdkVersion2
       uses: mikefarah/yq@master
       with:
         cmd: |
@@ -163,8 +161,7 @@ jobs:
             </dd>
             </dl>
             </dl>
-          draft: false
-          prerelease: false
+          
 
 
     
