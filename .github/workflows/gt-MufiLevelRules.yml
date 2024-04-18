@@ -32,6 +32,10 @@ jobs:
     
     
     # Instalations Styles
+
+    - name: install CITATION.cff update
+      run: | 
+          git clone https://github.com/tboenig/CITATIONupdate.git
       
     - name: install anaylse xsl-styles
       run: | 
@@ -90,9 +94,9 @@ jobs:
 
     - name: generate CITATION.cff
       run: |
-        java -jar saxon-he-11.4.jar -xsl:scripts/metadata.xsl \
+        java -jar saxon-he-11.4.jar -xsl:CITATIONupdate/scripts/citationupdate.xsl \
         output=CITATION repoBase=$GITHUB_REF_Name repoName=$GITHUB_REPOSITORY bagitDumpNum=$GITHUB_RUN_NUMBER releaseTag=$GITHUB_REF_NAME \
-        -s:scripts/metadata.xsl -o:rawCITATION.cff
+        -s:CITATIONupdate/scripts/citationupdate.xsl -o:rawCITATION.cff
       shell: bash
 
 
